@@ -1,0 +1,541 @@
+[
+  {
+    "id": 1,
+    "nombre": "EstiloBag",
+    "imagen portada": "/img/08-imagenes-clientes/id01-c1.jpeg",
+    "tipo": "Diseño de Carteras",
+    "categoria": "Moda",
+    "edad permitida": "3+",
+    "precio": "Desde $50",
+    "seguidores": 15000,
+    "comentarios": [
+      "Las carteras personalizadas son únicas.",
+      "Variedad de colores y diseños creativos."
+    ],
+    "imagenes del cliente": [
+      "/img/08-imagenes-clientes/id01-estilobag-1.png",
+      "/img/08-imagenes-clientes/id01-estilobag-2.png",
+      "/img/08-imagenes-clientes/id01-estilobag-3.png",
+      "/img/08-imagenes-clientes/id01-estilobag-4.png"
+    ]
+  },
+  {
+    "id": 2,
+    "nombre": "Zapato",
+    "imagen portada": "/img/08-imagenes-clientes/id02-c2.jpeg",
+    "tipo": "Diseño de Zapatillas",
+    "categoria": "Calzado",
+    "edad permitida": "3+",
+    "precio": "Desde $80",
+    "seguidores": 25000,
+    "comentarios": [
+      "Zapatillas personalizadas a tu estilo.",
+      "Calidad y confort en cada diseño."
+    ],
+    "imagenes del cliente": [
+      "/img/08-imagenes-clientes/id02-zapato-1.png",
+      "/img/08-imagenes-clientes/id02-zapato-2.png",
+      "/img/08-imagenes-clientes/id02-zapato-3.png",
+      "/img/08-imagenes-clientes/id02-zapato-4.png"
+    ]
+  },
+  {
+    "id": 3,
+    "nombre": "CasaCreativa",
+    "imagen portada": "/img/08-imagenes-clientes/id03-c3.jpeg",
+    "tipo": "Decoración del Hogar",
+    "categoria": "Hogar",
+    "edad permitida": "3+",
+    "precio": "Desde $30",
+    "seguidores": 12000,
+    "comentarios": [
+      "Decoración personalizada para tu hogar.",
+      "Textiles únicos y personalizables."
+    ],
+    "imagenes del cliente": [
+      "/img/08-imagenes-clientes/id03-casacreativa-1.png",
+      "/img/08-imagenes-clientes/id03-casacreativa-2.png",
+      "/img/08-imagenes-clientes/id03-casacreativa-3.png",
+      "/img/08-imagenes-clientes/id03-casacreativa-4.png"
+    ]
+  },
+  {
+    "id": 4,
+    "nombre": "TechCase",
+    "imagen portada": "/img/08-imagenes-clientes/id04-c4.jpeg",
+    "tipo": "Accesorios de Tecnología",
+    "categoria": "Accesorios",
+    "edad permitida": "3+",
+    "precio": "Desde $20",
+    "seguidores": 18000,
+    "comentarios": [
+      "Fundas tecnológicas personalizadas.",
+      "Excelente protección y estilo."
+    ],
+    "imagenes del cliente": [
+      "/img/08-imagenes-clientes/id04-techcase-1.png",
+      "/img/08-imagenes-clientes/id04-techcase-2.png",
+      "/img/08-imagenes-clientes/id04-techcase-3.png",
+      "/img/08-imagenes-clientes/id04-techcase-4.png"
+    ]
+  },
+  {
+    "id": 5,
+    "nombre": "GorraTrendy",
+    "imagen portada": "/img/08-imagenes-clientes/id05-c5.jpeg",
+    "tipo": "Accesorios de Moda",
+    "categoria": "Moda",
+    "edad permitida": "3+",
+    "precio": "Desde $25",
+    "seguidores": 9000,
+    "comentarios": [
+      "Gorras y sombreros personalizables.",
+      "Diseños frescos y modernos."
+    ],
+    "imagenes del cliente": [
+      "/img/08-imagenes-clientes/id05-gorratrendy-1.png",
+      "/img/08-imagenes-clientes/id05-gorratrendy-2.png",
+      "/img/08-imagenes-clientes/id05-gorratrendy-3.png",
+      "/img/08-imagenes-clientes/id05-gorratrendy-4.png"
+    ]
+  },
+
+  {
+    "id": 6,
+    "nombre": "EcoDesign",
+    "imagen portada": "/img/08-imagenes-clientes/id06-c6.jpeg",
+    "tipo": "Decoración de Interiores",
+    "categoria": "Hogar",
+    "edad permitida": "Todas las edades",
+    "precio": "Desde $40",
+    "seguidores": 14000,
+    "comentarios": [
+      "Excelente opción para personalizar tu hogar de manera ecológica.",
+      "Los productos son sostenibles y de alta calidad."
+    ],
+    "imagenes del producto": [
+      "/img/08-imagenes-clientes/ecodesign-producto1.jpg",
+      "/img/08-imagenes-clientes/ecodesign-producto2.jpg",
+      "/img/08-imagenes-clientes/ecodesign-producto3.jpg"
+    ]
+  },
+  {
+    "id": 7,
+    "nombre": "SmartCovers",
+    "imagen portada": "/img/08-imagenes-clientes/id07-c7.jpeg",
+    "tipo": "Accesorios para Tecnología",
+    "categoria": "Accesorios",
+    "edad permitida": "Todas las edades",
+    "precio": "Desde $15",
+    "seguidores": 12000,
+    "comentarios": [
+      "Las mejores fundas personalizables para teléfonos y tablets.",
+      "Variedad de diseños y buena protección."
+    ],
+    "imagenes del producto": [
+      "/img/08-imagenes-clientes/smartcovers-producto1.jpg",
+      "/img/08-imagenes-clientes/smartcovers-producto2.jpg",
+      "/img/08-imagenes-clientes/smartcovers-producto3.jpg"
+    ]
+  },
+  {
+    "id": 8,
+    "nombre": "PrintWear",
+    "imagen portada": "/img/08-imagenes-clientes/id08-c8.jpeg",
+    "tipo": "Ropa Personalizada",
+    "categoria": "Moda",
+    "edad permitida": "Todas las edades",
+    "precio": "Desde $25",
+    "seguidores": 18000,
+    "comentarios": [
+      "Estampados increíbles y de alta calidad.",
+      "Excelente atención al cliente para personalizar tu ropa."
+    ],
+    "imagenes del producto": [
+      "/img/08-imagenes-clientes/printwear-producto1.jpg",
+      "/img/08-imagenes-clientes/printwear-producto2.jpg",
+      "/img/08-imagenes-clientes/printwear-producto3.jpg"
+    ]
+  },
+
+  {
+    "id": 9,
+    "nombre": "EcoFootwear",
+    "imagen portada": "/img/08-imagenes-clientes/id09-c9.jpeg",
+    "tipo": "Calzado Ecológico",
+    "categoria": "Calzado",
+    "edad permitida": "Todas las edades",
+    "precio": "Desde $50",
+    "seguidores": 22000,
+    "comentarios": [
+      "Zapatos cómodos y sostenibles.",
+      "Me encanta el concepto ecológico detrás de cada par."
+    ],
+    "imagenes del producto": [
+      "/img/08-imagenes-clientes/ecofootwear-producto1.jpg",
+      "/img/08-imagenes-clientes/ecofootwear-producto2.jpg",
+      "/img/08-imagenes-clientes/ecofootwear-producto3.jpg"
+    ]
+  },
+  {
+    "id": 10,
+    "nombre": "VivaBags",
+    "imagen portada": "/img/08-imagenes-clientes/id10-c10.jpeg",
+    "tipo": "Carteras Personalizadas",
+    "categoria": "Moda",
+    "edad permitida": "Todas las edades",
+    "precio": "Desde $45",
+    "seguidores": 25000,
+    "comentarios": [
+      "Las mejores carteras con diseños únicos.",
+      "Me encantó poder elegir los colores y detalles."
+    ],
+    "imagenes del producto": [
+      "/img/08-imagenes-clientes/vivabags-producto1.jpg",
+      "/img/08-imagenes-clientes/vivabags-producto2.jpg",
+      "/img/08-imagenes-clientes/vivabags-producto3.jpg"
+    ]
+  },
+  {
+    "id": 11,
+    "nombre": "WearableArt",
+    "imagen portada": "/img/08-imagenes-clientes/id11-c11.jpeg",
+    "tipo": "Accesorios de Arte",
+    "categoria": "Moda",
+    "edad permitida": "Todas las edades",
+    "precio": "Desde $30",
+    "seguidores": 16000,
+    "comentarios": [
+      "Accesorios únicos, ideales para expresar mi estilo.",
+      "El arte en cada pieza es impresionante."
+    ],
+    "imagenes del producto": [
+      "/img/08-imagenes-clientes/wearableart-producto1.jpg",
+      "/img/08-imagenes-clientes/wearableart-producto2.jpg",
+      "/img/08-imagenes-clientes/wearableart-producto3.jpg"
+    ]
+  },
+  {
+    "id": 12,
+    "nombre": "TechGuard",
+    "imagen portada": "/img/08-imagenes-clientes/id12-c12.jpeg",
+    "tipo": "Protección para Dispositivos",
+    "categoria": "Tecnología",
+    "edad permitida": "Todas las edades",
+    "precio": "Desde $20",
+    "seguidores": 19000,
+    "comentarios": [
+      "Fundas resistentes y con un diseño increíble.",
+      "Perfectas para proteger mis gadgets."
+    ],
+    "imagenes del producto": [
+      "/img/08-imagenes-clientes/techguard-producto1.jpg",
+      "/img/08-imagenes-clientes/techguard-producto2.jpg",
+      "/img/08-imagenes-clientes/techguard-producto3.jpg"
+    ]
+  },
+  {
+    "id": 13,
+    "nombre": "StylePillows",
+    "imagen portada": "/img/08-imagenes-clientes/id13-c13.jpeg",
+    "tipo": "Decoración de Interiores",
+    "categoria": "Hogar",
+    "edad permitida": "Todas las edades",
+    "precio": "Desde $35",
+    "seguidores": 11000,
+    "comentarios": [
+      "Cojines personalizados para todo tipo de decoración.",
+      "Gran calidad y personalización rápida."
+    ],
+    "imagenes del producto": [
+      "/img/08-imagenes-clientes/stylepillows-producto1.jpg",
+      "/img/08-imagenes-clientes/stylepillows-producto2.jpg",
+      "/img/08-imagenes-clientes/stylepillows-producto3.jpg"
+    ]
+  },
+  {
+    "id": 14,
+    "nombre": "CraftedShoes",
+    "imagen portada": "/img/08-imagenes-clientes/id14-c14.jpeg",
+    "tipo": "Calzado Artesanal",
+    "categoria": "Calzado",
+    "edad permitida": "Todas las edades",
+    "precio": "Desde $60",
+    "seguidores": 13000,
+    "comentarios": [
+      "Zapatos hechos a mano con gran atención a los detalles.",
+      "Cada par es único y cómodo."
+    ],
+    "imagenes del producto": [
+      "/img/08-imagenes-clientes/craftedshoes-producto1.jpg",
+      "/img/08-imagenes-clientes/craftedshoes-producto2.jpg",
+      "/img/08-imagenes-clientes/craftedshoes-producto3.jpg"
+    ]
+  },
+  {
+    "id": 15,
+    "nombre": "NatureFrames",
+    "imagen portada": "/img/08-imagenes-clientes/id15-c15.jpeg",
+    "tipo": "Decoración de Pared",
+    "categoria": "Hogar",
+    "edad permitida": "Todas las edades",
+    "precio": "Desde $25",
+    "seguidores": 10500,
+    "comentarios": [
+      "Cuadros naturales que añaden un toque especial a mi hogar.",
+      "El diseño personalizado es excelente."
+    ],
+    "imagenes del producto": [
+      "/img/08-imagenes-clientes/natureframes-producto1.jpg",
+      "/img/08-imagenes-clientes/natureframes-producto2.jpg",
+      "/img/08-imagenes-clientes/natureframes-producto3.jpg"
+    ]
+  },
+  {
+    "id": 16,
+    "nombre": "PersonalCanvas",
+    "imagen portada": "/img/08-imagenes-clientes/id16-c16.jpeg",
+    "tipo": "Impresión de Lienzos",
+    "categoria": "Arte",
+    "edad permitida": "Todas las edades",
+    "precio": "Desde $45",
+    "seguidores": 17000,
+    "comentarios": [
+      "Lienzos personalizables de gran calidad.",
+      "Perfectos para decorar cualquier espacio."
+    ],
+    "imagenes del producto": [
+      "/img/08-imagenes-clientes/personalcanvas-producto1.jpg",
+      "/img/08-imagenes-clientes/personalcanvas-producto2.jpg",
+      "/img/08-imagenes-clientes/personalcanvas-producto3.jpg"
+    ]
+  },
+  {
+    "id": 17,
+    "nombre": "CustomCaps",
+    "imagen portada": "/img/08-imagenes-clientes/id17-c17.jpeg",
+    "tipo": "Gorras Personalizadas",
+    "categoria": "Moda",
+    "edad permitida": "Todas las edades",
+    "precio": "Desde $20",
+    "seguidores": 8000,
+    "comentarios": [
+      "Las gorras personalizadas tienen diseños increíbles.",
+      "Gran calidad y personalización rápida."
+    ],
+    "imagenes del producto": [
+      "/img/08-imagenes-clientes/customcaps-producto1.jpg",
+      "/img/08-imagenes-clientes/customcaps-producto2.jpg",
+      "/img/08-imagenes-clientes/customcaps-producto3.jpg"
+    ]
+  },
+  {
+    "id": 18,
+    "nombre": "Printify",
+    "imagen portada": "/img/08-imagenes-clientes/id18-c18.jpeg",
+    "tipo": "Impresión Personalizada",
+    "categoria": "Papelería",
+    "edad permitida": "Todas las edades",
+    "precio": "Desde $10",
+    "seguidores": 9500,
+    "comentarios": [
+      "Gran calidad de impresión y personalización.",
+      "Ideal para hacer regalos personalizados."
+    ],
+    "imagenes del producto": [
+      "/img/08-imagenes-clientes/printify-producto1.jpg",
+      "/img/08-imagenes-clientes/printify-producto2.jpg",
+      "/img/08-imagenes-clientes/printify-producto3.jpg"
+    ]
+  },
+  {
+    "id": 19,
+    "nombre": "CreaRopa",
+    "imagen portada": "/img/08-imagenes-clientes/id19-c19.jpeg",
+    "tipo": "Ropa Personalizada",
+    "categoria": "Moda",
+    "edad permitida": "Todas las edades",
+    "precio": "Desde $35",
+    "seguidores": 15000,
+    "comentarios": [
+      "Diseños únicos y personalizados para todas las edades.",
+      "El servicio de personalización es rápido y fácil."
+    ],
+    "imagenes del producto": [
+      "/img/08-imagenes-clientes/crearopa-producto1.jpg",
+      "/img/08-imagenes-clientes/crearopa-producto2.jpg",
+      "/img/08-imagenes-clientes/crearopa-producto3.jpg"
+    ]
+  },
+  {
+    "id": 20,
+    "nombre": "Muralist",
+    "imagen portada": "/img/08-imagenes-clientes/id20-c20.jpeg",
+    "tipo": "Murales Personalizados",
+    "categoria": "Arte",
+    "edad permitida": "Todas las edades",
+    "precio": "Desde $100",
+    "seguidores": 5000,
+    "comentarios": [
+      "Murales impresionantes para interiores y exteriores.",
+      "Gran atención a los detalles y excelente personalización."
+    ],
+    "imagenes del producto": [
+      "/img/08-imagenes-clientes/muralist-producto1.jpg",
+      "/img/08-imagenes-clientes/muralist-producto2.jpg",
+      "/img/08-imagenes-clientes/muralist-producto3.jpg"
+    ]
+  },
+  {
+    "id": 21,
+    "nombre": "DecoVinyl",
+    "imagen portada": "/img/08-imagenes-clientes/id21-c21.jpeg",
+    "tipo": "Vinilos Decorativos",
+    "categoria": "Hogar",
+    "edad permitida": "Todas las edades",
+    "precio": "Desde $20",
+    "seguidores": 12000,
+    "comentarios": [
+      "Vinilos decorativos perfectos para cualquier ambiente.",
+      "Me encantó poder personalizar los diseños."
+    ],
+    "imagenes del producto": [
+      "/img/08-imagenes-clientes/decovinyl-producto1.jpg",
+      "/img/08-imagenes-clientes/decovinyl-producto2.jpg",
+      "/img/08-imagenes-clientes/decovinyl-producto3.jpg"
+    ]
+  },
+  {
+    "id": 22,
+    "nombre": "CustomLamp",
+    "imagen portada": "/img/08-imagenes-clientes/id22-c22.jpeg",
+    "tipo": "Lámparas Personalizadas",
+    "categoria": "Hogar",
+    "edad permitida": "Todas las edades",
+    "precio": "Desde $60",
+    "seguidores": 7000,
+    "comentarios": [
+      "Lámparas originales y personalizadas para cualquier espacio.",
+      "La calidad de los materiales es excelente."
+    ],
+    "imagenes del producto": [
+      "/img/08-imagenes-clientes/customlamp-producto1.jpg",
+      "/img/08-imagenes-clientes/customlamp-producto2.jpg",
+      "/img/08-imagenes-clientes/customlamp-producto3.jpg"
+    ]
+  },
+  {
+    "id": 23,
+    "nombre": "YourGadget",
+    "imagen portada": "/img/08-imagenes-clientes/id23-c23.jpeg",
+    "tipo": "Accesorios para Gadgets",
+    "categoria": "Tecnología",
+    "edad permitida": "Todas las edades",
+    "precio": "Desde $25",
+    "seguidores": 6000,
+    "comentarios": [
+      "Accesorios tecnológicos personalizables de alta calidad.",
+      "Gran variedad y atención a los detalles."
+    ],
+    "imagenes del producto": [
+      "/img/08-imagenes-clientes/yourgadget-producto1.jpg",
+      "/img/08-imagenes-clientes/yourgadget-producto2.jpg",
+      "/img/08-imagenes-clientes/yourgadget-producto3.jpg"
+    ]
+  },
+  {
+    "id": 24,
+    "nombre": "GreenBags",
+    "imagen portada": "/img/08-imagenes-clientes/id24-c24.jpeg",
+    "tipo": "Bolsas Ecológicas",
+    "categoria": "Accesorios",
+    "edad permitida": "Todas las edades",
+    "precio": "Desde $10",
+    "seguidores": 17500,
+    "comentarios": [
+      "Bolsas ecológicas y reutilizables con diseños personalizados.",
+      "El servicio fue rápido y los productos son de alta calidad."
+    ],
+    "imagenes del producto": [
+      "/img/08-imagenes-clientes/greenbags-producto1.jpg",
+      "/img/08-imagenes-clientes/greenbags-producto2.jpg",
+      "/img/08-imagenes-clientes/greenbags-producto3.jpg"
+    ]
+  },
+  {
+    "id": 25,
+    "nombre": "StickerMania",
+    "imagen portada": "/img/08-imagenes-clientes/id25-c25.jpeg",
+    "tipo": "Stickers Personalizados",
+    "categoria": "Papelería",
+    "edad permitida": "Todas las edades",
+    "precio": "Desde $5",
+    "seguidores": 21000,
+    "comentarios": [
+      "Stickers con diseños geniales y personalizables.",
+      "Los stickers tienen una excelente calidad de impresión."
+    ],
+    "imagenes del producto": [
+      "/img/08-imagenes-clientes/stickermania-producto1.jpg",
+      "/img/08-imagenes-clientes/stickermania-producto2.jpg",
+      "/img/08-imagenes-clientes/stickermania-producto3.jpg"
+    ]
+  },
+  {
+    "id": 26,
+    "nombre": "LeatherCraft",
+    "imagen portada": "/img/08-imagenes-clientes/id26-c26.jpeg",
+    "tipo": "Artículos de Cuero",
+    "categoria": "Moda",
+    "edad permitida": "Todas las edades",
+    "precio": "Desde $80",
+    "seguidores": 13000,
+    "comentarios": [
+      "Artículos de cuero de gran calidad y personalizables.",
+      "Gran atención a los detalles en cada producto."
+    ],
+    "imagenes del producto": [
+      "/img/08-imagenes-clientes/leathercraft-producto1.jpg",
+      "/img/08-imagenes-clientes/leathercraft-producto2.jpg",
+      "/img/08-imagenes-clientes/leathercraft-producto3.jpg"
+    ]
+  },
+  {
+    "id": 27,
+    "nombre": "PhotoGift",
+    "imagen portada": "/img/08-imagenes-clientes/id27-c27.jpeg",
+    "tipo": "Regalos Fotográficos",
+    "categoria": "Regalos",
+    "edad permitida": "Todas las edades",
+    "precio": "Desde $15",
+    "seguidores": 8500,
+    "comentarios": [
+      "Regalos personalizados con fotos de gran calidad.",
+      "Perfectos para cualquier ocasión especial."
+    ],
+    "imagenes del producto": [
+      "/img/08-imagenes-clientes/photogift-producto1.jpg",
+      "/img/08-imagenes-clientes/photogift-producto2.jpg",
+      "/img/08-imagenes-clientes/photogift-producto3.jpg"
+    ]
+  },
+  {
+    "id": 28,
+    "nombre": "ArtTee",
+    "imagen portada": "/img/08-imagenes-clientes/id28-c28.jpeg",
+    "tipo": "Camisetas Personalizadas",
+    "categoria": "Moda",
+    "edad permitida": "Todas las edades",
+    "precio": "Desde $25",
+    "seguidores": 14000,
+    "comentarios": [
+      "Camisetas con diseños artísticos únicos.",
+      "Gran calidad de impresión y materiales cómodos."
+    ],
+    "imagenes del producto": [
+      "/img/08-imagenes-clientes/arttee-producto1.jpg",
+      "/img/08-imagenes-clientes/arttee-producto2.jpg",
+      "/img/08-imagenes-clientes/arttee-producto3.jpg"
+    ]
+  }
+]
