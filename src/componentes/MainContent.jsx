@@ -28,32 +28,28 @@ function MainContent() {
 
   return (
     <main className="mainContent">
-   
-
       {/* Sección de Noticias y Artículos */}
       <div className="mainContentContainer">
         <section className="newsSection">
-          <h2 className="h2Titulo">Novedades de nuestros productos</h2>
+          <h2 className="h2Titulo">Últimas Novedades en Moda</h2>
           <div className="newsRow">
             <div className="gridItem newsItem">
               <div className="newsText">
-                <h3 className="newsTitle">Nuevo juego de estrategia lanzado</h3>
+                <h3 className="newsTitle">Lanzamiento de la nueva colección Otoño-Invierno</h3>
                 <img
                   src="../../img/05-img-costados-larga/1.jpeg"
                   alt="Noticia 1"
                 />
                 <p className="newsDescription">
-                  Descubre el último juego de estrategia que está revolucionando
-                  el mundo del gaming. Con innovadoras mecánicas de juego y una
-                  historia inmersiva, este título promete ser el favorito entre
-                  los fanáticos de la estrategia.
+                  Presentamos la nueva colección Otoño-Invierno, con diseños que combinan estilo y comodidad.
+                  Esta temporada trae tejidos cálidos, colores tierra y accesorios únicos.
                 </p>
                 <img
                   src="../../img/05-img-costados-larga/17.jpeg"
                   alt="Noticia 1"
                 />
                 <p className="newsDetails">
-                  Fecha de lanzamiento: Octubre 2024 | Plataforma: PC y Consolas
+                  Fecha de lanzamiento: Octubre 2024 | Disponible en tiendas y online
                 </p>
               </div>
             </div>
@@ -61,16 +57,15 @@ function MainContent() {
             <div className="gridItem newsItem">
               <div className="newsText">
                 <h3 className="newsTitle">
-                  Actualización importante en tu juego favorito
+                  Personalización de prendas: ¡Crea tu propio estilo!
                 </h3>
                 <img
                   src="../../img/05-img-costados-larga/23.jpeg"
                   alt="Noticia 2"
                 />
                 <p className="newsDescription">
-                  La última actualización trae nuevas características y mejoras
-                  de rendimiento, optimizando la experiencia multijugador y
-                  añadiendo contenido exclusivo.
+                  Ahora puedes personalizar tus prendas favoritas con nuestro nuevo servicio online.
+                  Elige colores, estampados y detalles exclusivos para hacerlas únicas.
                 </p>
 
                 <img
@@ -78,40 +73,33 @@ function MainContent() {
                   alt="Noticia 2"
                 />
                 <p className="newsDetails">
-                  Contenido nuevo: mapas, personajes y modos de juego. ¡No te lo
-                  pierdas!
+                  ¡Descubre cómo personalizar tus prendas hoy mismo en nuestra plataforma!
                 </p>
               </div>
             </div>
 
-
-
             <div className="gridItem newsItem">
               <div className="newsText">
-                <h3 className="newsTitle">Evento de Esports en camino</h3>
+                <h3 className="newsTitle">Evento de Moda Exclusivo</h3>
                 <img
                   src="../../img/05-img-costados-larga/24.jpeg"
                   alt="Noticia 3"
                 />
                 <p className="newsDescription">
-                  Grandes torneos de gaming se aproximan este año, con premios
-                  millonarios para los ganadores. Equipos de todo el mundo
-                  competirán por la gloria.
+                  Las marcas más prestigiosas se reúnen en un evento exclusivo para presentar
+                  sus últimas colecciones. Desde alta costura hasta streetwear, ¡no te lo pierdas!
                 </p>
                 <img
                   src="../../img/05-img-costados-larga/4.jpeg"
                   alt="Noticia 3"
                 />
                 <p className="newsDetails">
-                  Sigue la cobertura en vivo y apoya a tus equipos favoritos.
+                  Sigue el evento en vivo y obtén acceso a descuentos y productos exclusivos.
                 </p>
               </div>
             </div>
           </div>
         </section>
-
-
-
 
         {/* Sección de Suscripción */}
         <section className="subscriptionSection">
@@ -119,20 +107,17 @@ function MainContent() {
             <img
               className="imagenSuscripcion"
               src="../../img/05-img-costados-larga/26.jpeg"
-              alt="Casino 2"
+              alt="Moda"
             />
-            <h2 className="h2Titulo">Suscríbete a nuestras novedades</h2>
+            <h2 className="h2Titulo">Suscríbete a nuestras Ofertas y Tendencias</h2>
 
             <button className="botonEnviar">Suscribirse</button>
           </div>
         </section>
 
-
-
-
         {/* Sección de Publicidades */}
         <section className="adSection">
-          <h2 className="h2Titulo">Entretenimiento Infinito</h2>
+          <h2 className="h2Titulo">Ofertas Exclusivas</h2>
           <div className="adRow">
             <div className="gridItem adItem">
               <img
@@ -140,8 +125,8 @@ function MainContent() {
                 alt="Anuncio 1"
               />
               <p className="adDescription">
-                ¡Consigue descuentos en juegos! Hasta un 50% de descuento en los
-                títulos más vendidos del año. Aprovecha la oferta ahora.
+                ¡Hasta un 50% de descuento en nuestra colección de verano! Aprovecha las últimas rebajas
+                y luce las tendencias del año.
               </p>
             </div>
 
@@ -151,8 +136,8 @@ function MainContent() {
                 alt="Anuncio 2"
               />
               <p className="adDescription">
-                Prueba nuestra nueva plataforma de juegos con gráficos
-                impresionantes y una experiencia única en su clase.
+                Descubre nuestra nueva línea de accesorios personalizados: bolsos, carteras y mucho más
+                para completar tu look con estilo.
               </p>
             </div>
 
@@ -162,29 +147,28 @@ function MainContent() {
                 alt="Anuncio 3"
               />
               <p className="adDescription">
-                Ofertas especiales para nuevos jugadores. ¡Regístrate hoy y
-                obtén recompensas exclusivas!
+                ¡Promoción especial para nuevos clientes! Regístrate hoy y recibe un 20% de descuento en tu primera compra.
               </p>
             </div>
           </div>
         </section>
 
-        {/* Sección de Torneos y Jugadores */}
+        {/* Sección de Torneos y Jugadores (adaptada a moda) */}
         <section className="tournamentSection">
-          <h2 className="h2Titulo">Torneos de Gaming y Jugadores</h2>
+          <h2 className="h2Titulo">Desfiles de Moda y Diseñadores</h2>
           <div className="tournamentRow">
             <div className="gridItem tournamentItem">
               <div className="tournamentText">
                 <h3 className="tournamentTitle">
-                  Torneo Internacional de eSports
+                  Semana Internacional de la Moda
                 </h3>
                 <img
                   src="../../img/05-img-costados-larga/2.jpeg"
-                  alt="Torneo 1"
+                  alt="Desfile 1"
                 />
                 <p className="tournamentDescription">
-                  Los mejores equipos del mundo compiten por el gran premio en
-                  este evento de eSports. ¡No te lo pierdas!
+                  Los diseñadores más influyentes presentan sus colecciones en la Semana Internacional de la Moda. 
+                  ¡Prepárate para ver las tendencias del próximo año!
                 </p>
               </div>
             </div>
@@ -192,16 +176,15 @@ function MainContent() {
             <div className="gridItem tournamentItem">
               <div className="tournamentText">
                 <h3 className="tournamentTitle">
-                  Perfil del Jugador: Alex Storm
+                  Perfil del Diseñador: Sarah Lee
                 </h3>
                 <img
                   src="../../img/05-img-costados-larga/9.jpeg"
-                  alt="Jugador 1"
+                  alt="Diseñador"
                 />
                 <p className="tournamentDescription">
-                  Alex, conocido como Storm, ha dominado los torneos de FPS este
-                  año. Conoce su historia y cómo se ha convertido en una leyenda
-                  del gaming.
+                  Sarah Lee ha revolucionado el mundo de la moda con sus diseños atrevidos y sostenibles.
+                  Descubre cómo esta diseñadora emergente está cambiando las reglas del juego.
                 </p>
               </div>
             </div>
@@ -209,35 +192,35 @@ function MainContent() {
             <div className="gridItem tournamentItem">
               <div className="tournamentText">
                 <h3 className="tournamentTitle">
-                  Campeonato de Estrategia 2024
+                  Evento de Moda y Sostenibilidad 2024
                 </h3>
                 <img
                   src="../../img/05-img-costados-larga/10.jpeg"
-                  alt="Torneo 2"
+                  alt="Desfile 2"
                 />
                 <p className="tournamentDescription">
-                  Los jugadores más estratégicos del mundo competirán por el
-                  título. ¡Prepárate para una batalla épica de cerebros!
+                  En este evento, los diseñadores muestran cómo integrar la sostenibilidad en sus colecciones. 
+                  ¡Moda y responsabilidad social van de la mano!
                 </p>
               </div>
             </div>
           </div>
         </section>
 
-        {/* Sección de Casino y Apuestas */}
+        {/* Sección de Casino y Apuestas (adaptada a moda y promociones) */}
         <section className="casinoSection">
-          <h2 className="h2Titulo">Juegos de Casino y Apuestas Deportivas</h2>
+          <h2 className="h2Titulo">Promociones y Descuentos Exclusivos</h2>
           <div className="casinoRow">
             <div className="gridItem casinoItem">
               <div className="casinoText">
-                <h3 className="casinoTitle">Nuevas tragamonedas online</h3>
+                <h3 className="casinoTitle">Nuevas Ofertas en Ropa de Temporada</h3>
                 <img
                   src="../../img/05-img-costados-larga/11.jpeg"
-                  alt="Casino 1"
+                  alt="Oferta 1"
                 />
                 <p className="casinoDescription">
-                  Descubre las tragamonedas más emocionantes del momento. Con
-                  premios increíbles y un diseño visual alucinante.
+                  Descubre las últimas ofertas en ropa de temporada. Desde abrigos hasta accesorios, 
+                  ¡disfruta de descuentos exclusivos por tiempo limitado!
                 </p>
               </div>
             </div>
@@ -245,22 +228,44 @@ function MainContent() {
             <div className="gridItem casinoItem">
               <div className="casinoText">
                 <h3 className="casinoTitle">
-                  Apuestas en vivo para la final de fútbol
+                  Promoción de Fin de Temporada
                 </h3>
                 <img
                   src="../../img/05-img-costados-larga/16.jpeg"
-                  alt="Casino 2"
+                  alt="Oferta 2"
                 />
                 <p className="casinoDescription">
-                  Coloca tus apuestas en el partido del año. ¡Gana grandes
-                  premios mientras disfrutas del fútbol en vivo!
+                  ¡No te pierdas nuestra gran promoción de fin de temporada! Hasta un 70% de descuento en productos seleccionados.
+                </p>
+              </div>
+            </div>
+
+            <div className="gridItem casinoItem">
+              <div className="casinoText">
+                <h3 className="casinoTitle">Premios Especiales para Clientes</h3>
+                <img
+                  src="../../img/05-img-costados-larga/13.jpeg"
+                  alt="Premio"
+                />
+                <p className="casinoDescription">
+                  Participa en nuestras promociones especiales y gana premios exclusivos. ¡Es tu oportunidad de llevarte productos de lujo a un precio increíble!
                 </p>
               </div>
             </div>
           </div>
         </section>
-
       </div>
+
+      {/* Slider de Imágenes */}
+      {/* <div className="carouselContainer">
+        <Slider {...settings}>
+          {images.map((image, index) => (
+            <div key={index} className="carouselItem">
+              <img src={image} alt={`Imagen ${index + 1}`} />
+            </div>
+          ))}
+        </Slider>
+      </div> */}
     </main>
   );
 }
