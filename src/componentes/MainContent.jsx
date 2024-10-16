@@ -184,7 +184,7 @@ function MainContent() {
                 />
                 <p className="tournamentDescription">
                   Sarah Lee ha revolucionado el mundo de la moda con sus diseños atrevidos y sostenibles.
-                  Descubre cómo esta diseñadora emergente está cambiando las reglas del juego.
+                  Descubre cómo esta diseñadora emergente está cambiando las reglas del servicio.
                 </p>
               </div>
             </div>
@@ -207,47 +207,47 @@ function MainContent() {
           </div>
         </section>
 
-        {/* Sección de Casino y Apuestas (adaptada a moda y promociones) */}
-        <section className="casinoSection">
+        {/* Sección de servicio y aplicar (adaptada a moda y promociones) */}
+        <section className="servicioSection">
           <h2 className="h2Titulo">Promociones y Descuentos Exclusivos</h2>
-          <div className="casinoRow">
-            <div className="gridItem casinoItem">
-              <div className="casinoText">
-                <h3 className="casinoTitle">Nuevas Ofertas en Ropa de Temporada</h3>
+          <div className="servicioRow">
+            <div className="gridItem servicioItem">
+              <div className="servicioText">
+                <h3 className="servicioTitle">Nuevas Ofertas en Ropa de Temporada</h3>
                 <img
                   src="../../img/05-img-costados-larga/11.jpeg"
                   alt="Oferta 1"
                 />
-                <p className="casinoDescription">
+                <p className="servicioDescription">
                   Descubre las últimas ofertas en ropa de temporada. Desde abrigos hasta accesorios, 
                   ¡disfruta de descuentos exclusivos por tiempo limitado!
                 </p>
               </div>
             </div>
 
-            <div className="gridItem casinoItem">
-              <div className="casinoText">
-                <h3 className="casinoTitle">
+            <div className="gridItem servicioItem">
+              <div className="servicioText">
+                <h3 className="servicioTitle">
                   Promoción de Fin de Temporada
                 </h3>
                 <img
                   src="../../img/05-img-costados-larga/16.jpeg"
                   alt="Oferta 2"
                 />
-                <p className="casinoDescription">
+                <p className="servicioDescription">
                   ¡No te pierdas nuestra gran promoción de fin de temporada! Hasta un 70% de descuento en productos seleccionados.
                 </p>
               </div>
             </div>
 
-            <div className="gridItem casinoItem">
-              <div className="casinoText">
-                <h3 className="casinoTitle">Premios Especiales para Clientes</h3>
+            <div className="gridItem servicioItem">
+              <div className="servicioText">
+                <h3 className="servicioTitle">Premios Especiales para Clientes</h3>
                 <img
                   src="../../img/05-img-costados-larga/13.jpeg"
                   alt="Premio"
                 />
-                <p className="casinoDescription">
+                <p className="servicioDescription">
                   Participa en nuestras promociones especiales y gana premios exclusivos. ¡Es tu oportunidad de llevarte productos de lujo a un precio increíble!
                 </p>
               </div>

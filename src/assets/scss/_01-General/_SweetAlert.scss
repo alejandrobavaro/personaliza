@@ -1,10 +1,9 @@
 // Estilos globales para los popups de SweetAlert
 .swal2-popup,
 .sweetalert-popup {
-  background-color: #095252ee !important;  // Fondo oscuro
+  background-color: #000000ee !important;  // Fondo oscuro
   border-radius: 15px;  // Bordes más suaves
-  color: #ffffff !important;  // Texto blanco
-  // font-family: 'Montserrat Alternates', sans-serif !important;
+  color: #000000 !important;  // Texto blanco
   padding: 20px;
   box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);  // Sombra más profunda
   transition: transform 0.3s ease, opacity 0.3s ease;  // Transición suave al aparecer/desaparecer
@@ -20,7 +19,7 @@
 // Títulos de los popups
 .swal2-title,
 .sweetalert-title {
-  color: #f8ffb5 !important;  
+  color: #000000 !important;  
 
   font-size: large !important;
   font-weight: bold;
@@ -30,7 +29,7 @@
 // Texto en el contenido del popup
 .swal2-content,
 .sweetalert-text {
-  color: #dddddd !important;  // Texto gris claro
+  color: #000000 !important;  // Texto gris claro
   font-size: 18px;
   line-height: 1.6;
 }
@@ -65,8 +64,8 @@
 
 // Estilo para texto adicional dentro del popup
 .swal-text {
-  color: #cccccc !important;  // Texto gris claro
-  font-size: 16px;
+  color: #000000 !important;  // Texto gris claro
+  font-size: medium;
 }
 
 // Animación de salida

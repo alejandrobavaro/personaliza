@@ -1,4 +1,3 @@
-/*-----------------SASS A CSS------------------------*/
 //------------GENERAL--------------//
 @import "./_01-General/BodyIndexApp";
 @import "./_01-General/AppModoClaroOscuro";
@@ -16,37 +15,35 @@
 // @import "./_02-Diseño/Responsive";
 // @import "./_02-Diseño/Textos";
 
-//----------COMPONENTES------------------------//
 //------------HEADER--------------//
 @import "./_03-Componentes/Header";
 @import "./_03-Componentes/HeaderNotificaciones";
 
-//-----------HOME - MAIN-----------------//
+//-----------HOME-MAIN-----------------//
 @import "./_03-Componentes/MainPublicidadSlider";
 @import "./_03-Componentes/MainContent";
 
-
-//GAMES---------------//
+//------------------CLIENTES--------------//
 @import "./_03-Componentes/Clientes.scss";
 
-@import "./_03-Componentes/GamesJuegoAdivina";
-@import "./_03-Componentes/GamesJuegoBingo";
-@import "./_03-Componentes/GamesJuegoConocimiento";
-@import "./_03-Componentes/GamesJuegoLaRule";
-@import "./_03-Componentes/GamesJuegoTetris";
+//-----------APLICA----------//
+@import "./_03-Componentes/Aplicar";
 
+@import "./_03-Componentes/AplicaPersonaliza1";
+@import "./_03-Componentes/AplicaPersonaliza2";
+@import "./_03-Componentes/AplicaPersonaliza3";
 
+//---------SERVICIO------------//
+@import "./_03-Componentes/Servicio";
+
+//-------CONTACTOS--------//
+@import "./_03-Componentes/ContactoLogoRedes";
+@import "./_03-Componentes/ContactoFormularioSlider";
 
 //----------TIENDA--------------------//
-
-
-
 @import "./_03-Componentes/Tienda";
-
-
 @import "./_03-Componentes/TiendaCarritoCompra";
 @import "./_03-Componentes/TiendaImgAgrandar";
-@import "./_03-Componentes/TiendaCarritoMini1";
 @import "./_03-Componentes/TiendaCarritoMini2";
 @import "./_03-Componentes/TiendaModalInicio";
 @import "./_03-Componentes/TiendaOfertas";
@@ -54,17 +51,8 @@
 @import "./_03-Componentes/TiendaProductoDetalle";
 @import "./_03-Componentes/TiendaProductosLista";
 
-
-//----------------------//
-@import "./_03-Componentes/ApuestasCredito";
-
-@import "./_03-Componentes/CasinoListado";
-
+//----------LOGIN LOG OUT------------//
 @import "./_03-Componentes/SesionLoginRegister";
-
-@import "./_03-Componentes/ContactoLogoRedes";
-@import "./_03-Componentes/ContactoFormularioSlider";
-
 
 //--------------FOOTER----------------//
 @import "./_03-Componentes/Footer";

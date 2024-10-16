@@ -1,0 +1,137 @@
+.aplicar-container {
+    display: flex;
+    justify-content: center; /* Centra el contenido horizontalmente */
+   background-image: url(../../../../img/05-img-costados-larga/17.jpeg);
+    margin: 20px;
+    padding: 50px;
+    border-radius: 50px; /* Esquinas redondeadas */
+    border: 1px solid #ff0000;
+    box-shadow: 0 2px 80px rgba(255, 255, 255, 0.1); /* Sombra sutil para profundidad */
+  
+    .contenido-aplicar {
+      max-width: 600px; /* Ancho máximo para el contenedor */
+      width: 100%; /* Permite que el contenedor se ajuste en pantallas pequeñas */
+      padding: 20px;
+           background-color: #000000c4; /* Fondo blanco para el contenedor */
+           border-radius: 50px; /* Esquinas redondeadas */
+      
+      h2 {
+        font-size: 28px;
+  
+        color: #ffffff;
+      }
+  
+      .publicidad {
+        background-color: #3123016c;
+        padding: 10px;
+        border-radius: 50px;
+        margin-bottom: 20px;
+        font-weight: bold;
+        color: #b19e9e;
+      }
+  
+      .creditos-section {
+        margin-bottom: 20px;
+  
+        .creditos {
+          font-weight: bold;
+          color: #1d1d1d;
+          font-size: 20px;
+        }
+  
+        .solicitar-creditos-btn {
+          padding: 10px 20px;
+          background-color: #36b37e;
+          color: #fff;
+          border: none;
+          border-radius: 5px;
+          cursor: pointer;
+          transition: background-color 0.3s;
+  
+          &:hover {
+            background-color: #2a9d5a;
+          }
+        }
+      }
+  
+      .apuesta-section {
+        margin-bottom: 20px;
+  
+        .apuesta-input {
+          padding: 10px;
+          font-size: 16px;
+          width: 100px;
+          margin-right: 10px;
+          border: 1px solid #ccc;
+          border-radius: 5px;
+        }
+  
+        .realizar-apuesta-btn {
+          padding: 10px 20px;
+          background-color: #ff6f61;
+          color: #fff;
+          border: none;
+          border-radius: 5px;
+          cursor: pointer;
+          transition: background-color 0.3s;
+  
+          &:hover {
+            background-color: #ff4c40;
+          }
+        }
+      }
+  
+      .resultado {
+        margin-top: 20px;
+        font-size: 18px;
+        font-weight: bold;
+      }
+  
+      .carrusel-aplicar {
+        margin-top: 30px;
+        border-top: 1px solid #ccc;
+        padding-top: 20px;
+  
+        h3 {
+          margin-bottom: 10px;
+        }
+  
+        .carrusel-item {
+          margin: 5px;
+          padding: 10px;
+          background-color: #3700ff;
+          border-radius: 5px;
+          display: inline-block;
+        }
+      }
+  
+      .instrucciones-section {
+        margin-top: 30px;
+  
+        h3 {
+          margin-bottom: 10px;
+          color: #b3b3bd;
+        }
+  
+        .instrucciones-img {
+          max-width: 100%;
+          height: auto;
+          margin-bottom: 10px;
+          border-radius: 5px;
+        }
+  
+        .instrucciones-list {
+          list-style-type: none;
+          padding: 0;
+          text-align: left;
+  
+          li {
+            margin: 5px 0;
+            font-size: 16px;
+            color: #ffffff;
+          }
+        }
+      }
+    }
+  }
+  

@@ -18,7 +18,7 @@ const ContactoLogoRedes = () => {
                 <img
                   alt="icono"
                   className="logo-img logo-secondary"
-                  src="/img/05-img-costados-larga/4.png"
+                  src="/img/05-img-costados-larga/3.png"
                 />
               </a>
             </div>
@@ -36,7 +36,7 @@ const ContactoLogoRedes = () => {
             </div>
             <div className="contact-item">
               <a
-                href="https://www.instagram.com/chulusgames/?hl=es"
+                href="https://www.instagram.com/chulusservicios/?hl=es"
                 target="_blank"
                 rel="noopener noreferrer"
               >

@@ -39,68 +39,68 @@ const TiendaCarritoCompra = ({ cart = [], removeFromCart, handlePagar, updatePro
   };
 
   return (
-    <div className="carrito-container">
-      <section className="titulo-container">
-        <h1 className="titulo">
+    <div className="tienda-carrito-container">
+      <section className="tienda-titulo-container">
+        <h1 className="tienda-titulo">
           <i className="bi bi-cart" /> CARRITO DE COMPRAS <i className="bi bi-cart" />
         </h1>
       </section>
 
-      <div className="carrito-content">
-        <div className="resumen-compra">
-          <h3 className="resumen-titulo">RESUMEN DE LA COMPRA:</h3>
-          <section className="pago-section">
-            <h3 className="pago-titulo">
+      <div className="tienda-carrito-content">
+        <div className="tienda-resumen-compra">
+          <h3 className="tienda-resumen-titulo">RESUMEN DE LA COMPRA:</h3>
+          <section className="tienda-pago-section">
+            <h3 className="tienda-pago-titulo">
               <i className="bi bi-activity" /> REALIZA TU PAGO <i className="bi bi-activity" />
             </h3>
           </section>
 
-          <div className="carrito-detalle">
-            <div className="resumen-info">
-              <p className="total-text">Total: ${total.toFixed(2)}</p>
-              <p className="cantidad-text">Cantidad de Productos: {localCart.length}</p>
+          <div className="tienda-carrito-detalle">
+            <div className="tienda-resumen-info">
+              <p className="tienda-total-text">Total: ${total.toFixed(2)}</p>
+              <p className="tienda-cantidad-text">Cantidad de Productos: {localCart.length}</p>
             </div>
 
-            <ul className="producto-list">
+            <ul className="tienda-producto-list">
               {localCart.map((product) => (
-                <li key={product.id} className="producto-item">
+                <li key={product.id} className="tienda-producto-item">
                   <img
                     src={product.imagenes[0]}
                     alt={product.nombre}
-                    className="producto-imagen"
+                    className="tienda-producto-imagen"
                     onError={(e) => {
                       e.target.onerror = null;
                       e.target.src = "/path/to/default/image.jpg"; 
                     }}
                   />
-                  <div className="producto-info">
-                    <span className="producto-nombre">{product.nombre}</span>
-                    <div className="contenedorPrecioCantidad">
-                      <span className="producto-precio">${(product.precio || 0).toFixed(2)}</span>
-                      <div className="producto-cantidad">
+                  <div className="tienda-producto-info">
+                    <span className="tienda-producto-nombre">{product.nombre}</span>
+                    <div className="tienda-contenedorPrecioCantidad">
+                      <span className="tienda-producto-precio">${(product.precio || 0).toFixed(2)}</span>
+                      <div className="tienda-producto-cantidad">
                         <button
-                          className="btn-quantity"
+                          className="tienda-btn-quantity"
                           onClick={() => handleQuantityChange(product.id, -1)}
                         >
                           -
                         </button>
-                        <span className="quantity-display">
+                        <span className="tienda-quantity-display">
                           {product.quantity || 1}
                         </span>
                         <button
-                          className="btn-quantity"
+                          className="tienda-btn-quantity"
                           onClick={() => handleQuantityChange(product.id, 1)}
                         >
                           +
                         </button>
                       </div>
                     </div>
-                    <div className="producto-descripcion">
+                    <div className="tienda-producto-descripcion">
                       {product.descripcion}
                     </div>
                   </div>
                   <button
-                    className="btn-eliminar"
+                    className="tienda-btn-eliminar"
                     onClick={() => {
                       console.log("Eliminando producto con id:", product.id);
                       removeFromCart(product.id);
@@ -112,11 +112,11 @@ const TiendaCarritoCompra = ({ cart = [], removeFromCart, handlePagar, updatePro
               ))}
             </ul>
 
-            <hr className="transparent-hr" />
+            <hr className="tienda-transparent-hr" />
             
-            <section className="acciones">
-              <button onClick={handleComprar} className="btn botonComprar">
-                <h3 className="compra-text">
+            <section className="tienda-acciones">
+              <button onClick={handleComprar} className="tienda-botonComprar">
+                <h3 className="tienda-compra-text">
                   <i className="bi bi-shift-fill" /> Comprar
                 </h3>
               </button>

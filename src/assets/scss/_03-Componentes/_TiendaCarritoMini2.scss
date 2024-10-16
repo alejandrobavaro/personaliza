@@ -1,41 +1,33 @@
-//src\assets\scss\_03-Componentes\_TiendaCarritoMini2.scss//
 .mini-carrito2 {
   position: fixed;
-  top: 10px;
-  right: 5px;
-  background: transparent;
+  top: 10px; // Cambiado a la esquina superior
+  right: 10px; // Asegura que esté en la esquina superior derecha
+  background: rgba(1, 39, 255, 0.39); // Color de fondo semi-transparente
   border: #0127ff62 1px solid;
-  // box-shadow: 0 0 40px rgb(255, 0, 0);
   border-radius: 10px;
-  padding: 20px;
+  padding: 0 20px; // Reduce el padding para que ocupe menos espacio
   z-index: 1000;
   display: flex;
-  flex-direction: column;
-  align-items: center;
+  flex-direction: row; // Cambia a fila
+  align-items: center; // Alinea verticalmente
   transition: all 0.3s ease;
   box-sizing: border-box;
 
   &.minimized {
-    width: 120px;
-    height: 60px;
-    padding: 10px;
-    top: 10px;
-    right: 10px;
+    width: auto; // Permite que el ancho se ajuste automáticamente
+    height: auto; // Permite que la altura se ajuste automáticamente
+    padding: 5px; // Reduce el padding
     overflow: hidden;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    // box-shadow: 0 0 50px rgb(255, 0, 0);
 
     .carrito-acciones {
       flex-direction: row;
 
       .botonComprar1 {
-        padding: 2px 10px;
-        font-size: 0.8rem;
+        padding: 2px 5px; // Reduce el padding
+        font-size: medium; // Reduce el tamaño de fuente
 
         h3 {
-          font-size: 0.8rem;
+          font-size: 0.7rem; // Reduce el tamaño de fuente
         }
       }
     }
@@ -52,13 +44,14 @@
   }
 
   .carrito-header {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
+    display: flex; // Cambia a flex para que se alineen en fila
+    justify-content: space-between; // Distribuye el espacio entre los elementos
+    align-items: center; // Alinea verticalmente
     width: 100%;
-    margin-bottom: 10px;
-    box-sizing: border-box;
+    margin-bottom: 5px; // Reduce el margen inferior
 
-    .header-text, .header-total {
+    .header-text,
+    .header-total {
       display: flex;
       align-items: center;
       justify-content: center;
@@ -83,7 +76,7 @@
         font-size: medium;
         color: #ffffff;
         font-weight: bold;
-        margin-right: 10px;
+        margin-right: 5px; // Reduce el margen derecho
       }
 
       .tituloPrecioCarrito {
@@ -98,7 +91,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 100%;
+    width: auto; // Permite que el ancho se ajuste automáticamente
     box-sizing: border-box;
     padding: 0;
     margin: 0;
@@ -106,8 +99,8 @@
     .botonComprar1 {
       background-color: #01156e7a;
       border: none;
-      color: #fff;
-      padding: 5px 15px;
+      color: #000000;
+      padding: 5px 10px; // Reduce el padding
       border-radius: 5px;
       cursor: pointer;
       transition: background-color 0.3s ease;
@@ -126,18 +119,18 @@
       }
 
       .textoMovimiento {
-        font-weight: bold;
+        color: white !important;
       }
 
       &.minimized {
-        padding: 2px 10px;
+        padding: 2px 5px; // Reduce el padding
         font-size: medium;
         display: flex;
         align-items: center;
         justify-content: center;
 
         h3 {
-          font-size: xx-small;
+          font-size: xx-small; // Reduce el tamaño de fuente
         }
       }
     }
@@ -145,48 +138,59 @@
     .toggle-button {
       background: transparent;
       border: none;
-      color: #fff;
+      color: #ffffff;
       font-size: x-large;
       cursor: pointer;
       margin-left: 10px;
       transition: color 0.3s ease;
 
       &:hover {
-        color: #0127ff;
+        color: #ffd901;
       }
     }
   }
 
+  .tooltip {
+    position: absolute;
+    bottom: 70px; // Posición del tooltip sobre el carrito
+    right: 0;
+    background: rgba(0, 0, 0, 0.8);
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+    transition: opacity 0.3s ease;
+    font-size: small;
+    z-index: 999;
+  }
+
   // Estilos responsivos
   @media (max-width: 768px) { // Para tablet y móvil
-    .mini-carrito2 {
+    width: auto; // Permite que el ancho se ajuste automáticamente
+
+    .carrito-header,
+    .carrito-acciones {
+      flex-direction: row; // Asegura que se alineen en fila
       width: auto; // Permite que el ancho se ajuste automáticamente
+      justify-content: space-between; // Distribuye el espacio entre los elementos
+      align-items: center; // Alinea verticalmente
+    }
 
-      .carrito-header, .carrito-acciones {
-        display: flex;
-        flex-direction: row;
-        width: 100%; // Asegura que el contenido tome el 100% del ancho disponible
-        justify-content: space-between; // Distribuye el espacio entre los elementos
-        align-items: center; // Alinea verticalmente
-      }
+    .flota-carrito-conteiner {
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      justify-content: space-between;
+      width: 100%;
+    }
 
-      .flota-carrito-conteiner {
-        display: flex;
-        flex-direction: row;
-        align-items: center;
-        justify-content: space-between;
-        width: 100%;
-      }
+    .carrito-acciones {
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      justify-content: space-between;
 
-      .carrito-acciones {
-        display: flex;
-        flex-direction: row;
-        align-items: center;
-        justify-content: space-between;
-
-        .toggle-button {
-          display: none; 
-        }
+      .toggle-button {
+        display: none; 
       }
     }
   }

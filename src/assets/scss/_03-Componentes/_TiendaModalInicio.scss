@@ -7,7 +7,7 @@ body.modal-open {
 }
 
 // Estilos para el Modal
-.Modal {
+.tienda-Modal {
   position: fixed;
   top: 0;
   left: 0;
@@ -20,7 +20,7 @@ body.modal-open {
   overflow: hidden; /* Evita el desbordamiento de elementos */
 }
 
-.Overlay {
+.tienda-Overlay {
   position: fixed;
   top: 0;
   left: 0;
@@ -33,7 +33,7 @@ body.modal-open {
   z-index: 2000; /* Asegúrate de que el overlay esté por encima de otros elementos */
 }
 
-.modal-wrapper {
+.tienda-modal-wrapper {
   background: #4300af33;
   padding: 10px;
   border-radius: 20px;
@@ -50,7 +50,7 @@ body.modal-open {
   box-shadow: none;
 }
 
-.modal-content {
+.tienda-modal-content {
   position: relative;
   width: 100%;
   height: 100%;
@@ -58,7 +58,7 @@ body.modal-open {
   text-align: center; /* Centrar el texto dentro del contenido del modal */
 }
 
-.modal-close {
+.tienda-modal-close {
   position: absolute;
   top: 10px;
   right: 10px;
@@ -79,26 +79,26 @@ body.modal-open {
   box-shadow: none;
 }
 
-.modal-close:hover {
+.tienda-modal-close:hover {
   background-color: #ffffff; /* Rosa oscuro al pasar el ratón */
 }
 
-.objetoCentrado1 {
+.tienda-objetoCentrado1 {
   display: flex;
   flex-direction: column;
   align-items: center;
 }
 
-.tituloImportante4 {
+.tienda-tituloImportante {
   font-size: medium; /* Tamaño de fuente más grande */
   color: #ffffff; /* Rosa para el texto */
   margin: 0px;
 }
 
-.promo-list {
+.tienda-promo-list {
   margin: 0px;
 
-  .promo-item {
+  .tienda-promo-item {
     background-color: transparent; /* Fondo transparente para los items de promoción */
     color: #ffffff; /* Texto rosa */
     padding: 10px;
@@ -108,14 +108,14 @@ body.modal-open {
     /* Elimina cualquier sombra */
     box-shadow: none;
   }
-  .detalleBlanco {
+  
+  .tienda-detalleBlanco {
     background-color: rgb(255, 255, 255);
     color: rgb(0, 0, 0);
-    
   }
 }
 
-.btn-primary {
+.tienda-btn-primary {
   background-color: #0130ff50; /* Rosa vibrante */
   border: none;
   color: #fff; /* Color blanco para el texto del botón */
@@ -128,7 +128,7 @@ body.modal-open {
   box-shadow: none;
 }
 
-.btn-primary:hover {
+.tienda-btn-primary:hover {
   background-color: #4a47ff; /* Rosa oscuro al pasar el ratón */
   transform: scale(1.05); /* Escala al pasar el ratón */
 }

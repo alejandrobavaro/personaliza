@@ -1,95 +1,83 @@
-// src/assets/scss/_03-Componentes/_TiendaImgAgrandar.scss
-
-.modal-overlay {
+.TiendaImgAgrandar-modal-overlay {
   position: fixed;
   top: 0;
   left: 0;
   width: 100%;
   height: 100%;
-  background: rgba(255, 255, 255, 0.793); // Fondo lila claro con opacidad para un look más alegre
+  background: rgba(0, 0, 0, 0.89); // Fondo oscuro para un look elegante
   display: flex;
   justify-content: center;
   align-items: center;
   z-index: 1000;
-  animation: fadeIn 0.3s ease; // Animación de 
-  
+  animation: fadeIn 0.3s ease;
 }
 
-.modal-content {
+.TiendaImgAgrandar-modal-content {
   position: relative;
-  // background: #ff0000; // Fondo blanco para el modal
   padding: 20px;
-  border-radius: 12px;
-  box-shadow: 0 10px 20px rgba(0, 47, 255, 0.693); // Sombra suave y difusa
+  border-radius: 15px;
+  box-shadow: 0 10px 30px rgba(255, 255, 255, 0.5); // Sombra más intensa
   max-width: 90%;
   max-height: 90vh;
   display: flex;
   flex-direction: column;
   align-items: center;
   overflow: hidden;
-  transition: transform 0.3s ease, opacity 0.3s ease; // Transiciones suaves
-  animation: scaleUp 0.3s ease; // Animación de escala
+  transition: transform 0.3s ease, opacity 0.3s ease;
+  animation: scaleUp 0.3s ease;
+  background: rgba(255, 255, 255, 0.253); 
 }
 
-.modal-image {
+.TiendaImgAgrandar-modal-image {
   max-width: 100%;
-  max-height: 100%; // Ajuste del área visible de la imagen
-  border-radius: 20px;
-  box-shadow: 0 10px 20px rgb(89, 0, 255);
+  max-height: 80vh; // Ajuste del área visible de la imagen
+  border-radius: 15px;
   object-fit: cover;
-  transition: transform 0.3s ease; // Transición suave
+  transition: transform 0.3s ease;
 }
 
-.modal-image:hover {
-  transform: scale(1.05); // Zoom suave en la imagen al pasar el cursor
-}
 
-.close-button {
+.TiendaImgAgrandar-close-button {
   position: absolute;
-  top: 15px;
-  right: 205px;
-  font-size: xx-large;
-  color: #000000; 
-  border: #000000 2px solid;
-  border-radius: 10px;
-  padding: 5px;
+  top: 20px;
+  right: 40px; // Ajustado para mejor ubicación
+  font-size: 50px; // Tamaño de fuente más grande
+  color: #003cff; // Color vibrante
+  border-radius: 50%;
   cursor: pointer;
-  transition: color 0.3s ease, transform 0.3s ease; // Transiciones suaves
+  transition: color 0.3s ease, transform 0.3s ease;
 }
 
-.close-button:hover {
-  color: #000000; // Rosa más intenso al pasar el cursor
-  transform: rotate(90deg) scale(1.1); // Rotación y escala al pasar el cursor
+.TiendaImgAgrandar-close-button:hover {
+  color: #5a5a5a; // Color más intenso al pasar el cursor
+  transform: scale(1.5); // Escala al pasar el cursor
 }
 
-.prev-button,
-.next-button {
+.TiendaImgAgrandar-prev-button,
+.TiendaImgAgrandar-next-button {
   position: absolute;
-  top: 50%;
-  transform: translateY(-50%);
-  box-shadow: 0 10px 20px rgb(0, 89, 255);
-  background: #ffffffb8; // Fondo rosa brillante
-  color: #008cff; // Texto blanco
+  bottom: 20%;
+  color: #0400ff; 
+  box-shadow: 0 10px 30px rgb(0, 0, 0); // Sombra más intensa
   border: none;
-  border-radius: 20px;
-  padding: 25px;
+  border-radius: 50%;
+  padding: 5px; // Ajuste del padding
   cursor: pointer;
-  font-size: xx-large;
+  font-size: xx-large; // Tamaño de fuente ajustado
   z-index: 10;
-  }
+}
 
-.prev-button {
+.TiendaImgAgrandar-prev-button {
   left: 20px;
 }
 
-.next-button {
+.TiendaImgAgrandar-next-button {
   right: 20px;
 }
 
-.prev-button:hover,
-.next-button:hover {
-  background: #fceef8; // Fondo rosa más intenso al pasar el cursor
-  color: #002fff; // Texto blanco al pasar el cursor
+.TiendaImgAgrandar-prev-button:hover,
+.TiendaImgAgrandar-next-button:hover {
+  color: #010d7c; 
 }
 
 // Animaciones

@@ -19,8 +19,6 @@ const Header = ({ isDarkMode, toggleDarkMode }) => {
     <header className="header encabezado">
       <Navbar expand="lg" className="navbar">
         <Container>
-       
-
           <Navbar.Toggle aria-controls="basic-navbar-nav">
             <BsList className="menu-icon" onClick={handleToggleMobileMenu} />
           </Navbar.Toggle>
@@ -35,7 +33,7 @@ const Header = ({ isDarkMode, toggleDarkMode }) => {
                 to="/"
                 onClick={() => setIsMobileMenuOpen(false)}
               >
-                INICIO
+                HOME
               </Nav.Link>
               <Nav.Link
                 as={Link}
@@ -45,37 +43,37 @@ const Header = ({ isDarkMode, toggleDarkMode }) => {
                 CLIENTES
               </Nav.Link>
 
-              {/* <Nav.Link
+              <Nav.Link
                 as={Link}
-                to="/casino"
+                to="/servicio"
                 onClick={() => setIsMobileMenuOpen(false)}
               >
-                CASINO
-              </Nav.Link> */}
+                SERVICIO
+              </Nav.Link>
 
               <Navbar.Brand as={Link} to="/" className="logo-container">
-            <img
-              src="../../img/02-logos/logo-personalizá-2.png"
-              alt="Logo"
-              className="logoHeader"
-            />
-          </Navbar.Brand>
-
-              {/* <Nav.Link
-                as={Link}
-                to="/apuestas"
-                onClick={() => setIsMobileMenuOpen(false)}
-              >
-                APUESTAS
-              </Nav.Link> */}
+                <img
+                  src="../../img/02-logos/logo-personalizá-2.png"
+                  alt="Logo"
+                  className="logoHeader"
+                />
+              </Navbar.Brand>
 
               <Nav.Link
-  as={Link}
-  to="/tienda"  // Enlace a la tienda
-  onClick={() => setIsMobileMenuOpen(false)}
->
-  TIENDA
-</Nav.Link>
+                as={Link}
+                to="/aplicar"
+                onClick={() => setIsMobileMenuOpen(false)}
+              >
+                APLICAR
+              </Nav.Link>
+
+              <Nav.Link
+                as={Link}
+                to="/tienda"
+                onClick={() => setIsMobileMenuOpen(false)}
+              >
+                TIENDA
+              </Nav.Link>
 
               <Nav.Link
                 as={Link}
@@ -109,7 +107,10 @@ const Header = ({ isDarkMode, toggleDarkMode }) => {
                   <Link className="nav-linkHeader auth-link" to="/login">
                     <BsFillPersonPlusFill className="auth-icon" />
                   </Link>
-                  <Link className="nav-linkHeader auth-link" to="/register"></Link>
+                  <Link
+                    className="nav-linkHeader auth-link"
+                    to="/register"
+                  ></Link>
                 </>
               )}
             </Nav.Item>

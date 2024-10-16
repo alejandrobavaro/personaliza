@@ -3,7 +3,6 @@ import { Link, useLocation } from "react-router-dom";
 import swal from "sweetalert";
 import { BsArrowsCollapse, BsArrowsExpand, BsCart4 } from "react-icons/bs";
 import "../assets/scss/_03-Componentes/_TiendaCarritoMini2.scss";
-import "../assets/scss/_01-General/_SweetAlert.scss";
 
 const TiendaCarritoMini2 = ({ cart, removeFromCart, clearCart, updateProductQuantity }) => {
   const [isMinimized, setIsMinimized] = useState(false);
@@ -22,7 +21,7 @@ const TiendaCarritoMini2 = ({ cart, removeFromCart, clearCart, updateProductQuan
     swal({
       title: "Producto agregado",
       text: "El producto ha sido agregado a tu carrito de compras.",
-      icon: "../../img/02-logos/puchulitamusicainfantil1.png",
+      icon: "../../img/02-logos/logo-personalizá-2.png",
       button: {
         text: "Continuar",
         className: "sweetalert-button",
@@ -56,9 +55,7 @@ const TiendaCarritoMini2 = ({ cart, removeFromCart, clearCart, updateProductQuan
             disabled={localCart.length === 0} // Desactiva el botón si el carrito está vacío
           >
             <h3
-              className={`tituloImportante1 ${
-                isMinimized ? "minimized" : ""
-              } textoMovimiento`}
+              className={`tituloImportante1 ${isMinimized ? "minimized" : ""} textoMovimiento`}
             >
               <i className="bi bi-shift-fill"></i> Comprar
             </h3>
@@ -70,6 +67,9 @@ const TiendaCarritoMini2 = ({ cart, removeFromCart, clearCart, updateProductQuan
         >
           {isMinimized ? <BsArrowsExpand /> : <BsArrowsCollapse />}
         </button>
+      </div>
+      <div className="tooltip" style={{ display: isMinimized ? 'none' : 'block' }}>
+        <span>Total: ${total.toFixed(2)} | Productos: {localCart.length}</span>
       </div>
     </div>
   );

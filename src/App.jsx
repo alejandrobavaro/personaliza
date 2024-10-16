@@ -11,7 +11,6 @@ import "bootstrap-icons/font/bootstrap-icons.css";
 import "./assets/scss/_01-General/_BodyIndexApp.scss";
 import "slick-carousel/slick/slick.css"; 
 import "slick-carousel/slick/slick-theme.css"; 
-
 //------------HEADER--------------//
 import Header from "./componentes/Header";
 //-----------HOME - MAIN-----------------//
@@ -34,14 +33,13 @@ import SesionLogin from "./componentes/SesionLogin";
 import Tienda from './componentes/Tienda';
 import CarritoCompleto from './componentes/TiendaCarritoCompra';
 import { OfertasProvider } from './componentes/TiendaOfertasContext';
-//-------------------GAMES------------------//
-import GamesJuegoAdivina from "./componentes/GamesJuegoAdivina";
-import GamesJuegoBingo from "./componentes/GamesJuegoBingo";
-import GamesJuegoConocimiento from "./componentes/GamesJuegoConocimiento";
-import GamesJuegoTetris from "./componentes/GamesJuegoTetris";
-//---------------------------------------------------------//
-import ApuestasCredito from "./componentes/ApuestasCredito"; // ApuestasCredito importado correctamente
-import CasinoListado from "./componentes/CasinoListado";
+//-------------------APLICA-----------------//
+import Aplicar from "./componentes/Aplicar"; 
+import AplicaPersonaliza1 from "./componentes/AplicaPersonaliza1";
+import AplicaPersonaliza2 from "./componentes/AplicaPersonaliza2";
+import AplicaPersonaliza3 from "./componentes/AplicaPersonaliza3";
+//------------------------SERVICIO----------------------------//
+import Servicio from "./componentes/Servicio";
 
 function App() {
   const [isDarkMode, setIsDarkMode] = useState(true);
@@ -103,17 +101,22 @@ function App() {
                     </>
                   }
                 />
-                <Route path="/clientes" element={<Clientes />} /> {/* Ruta actualizada */}
+                <Route path="/clientes" element={<Clientes />} /> 
 
-                <Route path="/apuestas" element={<ApuestasCredito />} />
-                <Route path="/casino" element={<CasinoListado />} />
+                <Route path="/servicio" element={<Servicio />} />
 
-                {/* Nuevas rutas para los juegos */}
-                <Route path="/juego/adivina" element={<GamesJuegoAdivina />} />
-                <Route path="/juego/bingo" element={<GamesJuegoBingo />} />
-                <Route path="/juego/conocimiento" element={<GamesJuegoConocimiento />} />
-                <Route path="/juego/tetris" element={<GamesJuegoTetris />} />
 
+                <Route path="/aplicar" element={<Aplicar />} />
+
+            
+
+                {/* Nuevas rutas para los servicios*/}
+                <Route path="/aplicar/personaliza3" element={<AplicaPersonaliza1 />} />
+                <Route path="/aplicar/personaliza2" element={<AplicaPersonaliza2 />} />
+                <Route path="/aplicar/personaliza3" element={<AplicaPersonaliza3 />} />
+
+
+             
                 <Route path="/tienda" element={<Tienda 
                   setCart={setProductCart} 
                   cart={productCart} 

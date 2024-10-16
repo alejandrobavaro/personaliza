@@ -8,7 +8,7 @@ html, body {
 /* Estilos del header */
 .header {
   background-color: rgba(63, 11, 63, 0.185);
-  // background-image: url(../../../../public/img/00-fondos/fondo1.jpeg);
+  // background-image: url(../../../../img/00-fondos/fondo1.jpeg);
   padding: 0;
   margin: 0;
   width: 100%;
@@ -22,7 +22,7 @@ html, body {
     justify-content: flex-start;
 
     .logoHeader {
-      max-width: 350px;
+      max-width: 300px;
       transition: transform 0.3s ease;
 
       &:hover {
@@ -44,7 +44,7 @@ html, body {
     align-items: center;
     gap: 20px;
     width: 100%;
-    font-size: x-large;
+    font-size: large;
 
 
     .nav-link {
@@ -83,7 +83,7 @@ html, body {
     display: flex;
     align-items: center;
     color: #ffffff; // Blanco
-    font-size: large;
+    font-size: medium;
 
     }
   }

@@ -1,21 +1,21 @@
-.carrito-container {
+.tienda-carrito-container {
   padding: 1.5rem;
   background-color: rgba(0, 0, 0, 0.342); // Fondo suave para contraste
   box-shadow: 0 4px 80px rgba(255, 255, 255, 0.2);
   display: flex;
   flex-direction: column;
-    align-items: center;
+  align-items: center;
   border-radius: 20px;
 }
 
-.titulo-container {
+.tienda-titulo-container {
   text-align: center;
   margin-bottom: 1.5rem;
 }
 
-.titulo {
+.tienda-titulo {
   font-size: xx-large;
-  color: #ff0000; // Rojo para el título
+  color: #ffffff; // Rojo para el título
   display: flex;
   align-items: center;
   justify-content: center;
@@ -23,7 +23,7 @@
   transition: color 0.3s ease;
 }
 
-.carrito-content {
+.tienda-carrito-content {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -31,70 +31,70 @@
   max-width: auto;
 }
 
-.resumen-compra {
-  background-color: #500000b7; // Azul moderno
+.tienda-resumen-compra {
+  background-color: #0200496b; // Azul moderno
   border-radius: 20px;
-  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+  box-shadow: 0 4px 15px rgba(255, 255, 255, 0.479);
   padding: 1rem;
-    text-align: center;
+  text-align: center;
   width: auto;
   animation: fadeIn 0.5s ease-in-out;
 }
 
-.resumen-titulo {
+.tienda-resumen-titulo {
   font-size: large;
   color: white;
   margin-bottom: 1rem;
 }
 
-.resumen-info {
+.tienda-resumen-info {
   display: flex;
   justify-content: space-between;
   align-items: center;
   padding: 0.5rem 0;
-  border-top: 1px solid #ff0000; // Rojo como acento
-  border-bottom: 1px solid #ff0000; // Rojo como acento
+  border-top: 1px solid #ffffff; // Rojo como acento
+  border-bottom: 1px solid #ffffff; // Rojo como acento
 }
 
-.total-text, .cantidad-text {
+.tienda-total-text, .tienda-cantidad-text {
   font-size: 1.25rem;
   color: #eee; // Texto claro
 }
 
-.carrito-detalle {
-  background-color: #aa000077; // Azul más oscuro
+.tienda-carrito-detalle {
+  background-color: #69048828; // Azul más oscuro
   border-radius: 8px;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  box-shadow: 0 4px 60px rgba(255, 255, 255, 0.753);
   padding: 1rem;
   width: 100%;
 }
 
-.producto-list {
+.tienda-producto-list {
   list-style: none;
   padding: 0;
   margin: 0;
 }
 
-.producto-item {
+.tienda-producto-item {
   display: flex;
   align-items: center;
   justify-content: space-between;
   padding: 0.5rem 0;
-  border-bottom: 1px solid #ff0000; // Rojo como acento
+  border-bottom: 1px solid #ffffff; // Rojo como acento
   transition: background-color 0.3s ease;
 }
 
-.producto-item:hover {
-  background-color: #b30000; // Azul suave al pasar el mouse
+.tienda-producto-item:hover {
+  background-color: #077c8598; // Azul suave al pasar el mouse
 }
 
-.producto-imagen {
+.tienda-producto-imagen {
   border-radius: 4px;
   width: 20%; // Imagen más grande
   height: auto;
 }
 
-.producto-info {
+.tienda-producto-info {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -103,100 +103,83 @@
   color: #ffffff; // Texto blanco
 }
 
-.producto-nombre {
+.tienda-producto-nombre {
   font-size: medium;
   color: #ffffff; // Blanco
 }
 
-.producto-precio {
+.tienda-producto-precio {
   font-size: 1rem;
   color: #ddd; // Texto gris claro
   margin-right: 1rem; // Espacio entre el precio y los botones de cantidad
 }
 
-.contenedorPrecioCantidad {
+.tienda-contenedorPrecioCantidad {
   display: flex;
   align-items: center;
   justify-content: center;
   margin: 0px;
 }
 
-.producto-cantidad {
+.tienda-producto-cantidad {
   display: flex;
   align-items: center;
   color: #ffffff;
 
-  .btn-quantity {
+  .tienda-btn-quantity {
     background-color: transparent;
     border: none;
     color: #ffffff; // Blanco
     padding: 0.25rem 0.5rem;
-    border: 1px solid rgba(255, 0, 0, 0.5);
-    border-radius: 4px;
-    font-size:small;
+    border: 1px solid rgba(255, 255, 255, 0.5);
     cursor: pointer;
-    transition: background-color 0.3s ease;
+    transition: background-color 0.3s;
 
     &:hover {
-      background-color: #ff5100; // Naranja suave al pasar el mouse
+      background-color: rgba(0, 47, 255, 0.5);
+      border: 1px solid #2600ff; // Rojo como acento
     }
   }
 
-  .quantity-display {
-    font-size: 1rem;
+  .tienda-quantity-display {
     margin: 0 0.5rem;
+    color: #ffffff; // Blanco
   }
 }
 
-.btn-eliminar {
-  background-color: #000000; // Rojo para eliminar
+.tienda-btn-eliminar {
+  background-color: transparent;
   border: none;
-  color: white;
-  padding: 0px;
-  border-radius: 4px;
-  transition: background-color 0.3s ease;
-
-  &:hover {
-    background-color: #ff0000; // Rojo al pasar el mouse
-  }
+  color: #ffffff; // Rojo
+  cursor: pointer;
+  font-size: large;
 }
 
-.acciones {
+.tienda-transparent-hr {
+  border: none;
+  border-top: 1px solid #ddd; // Línea clara
+  margin: 1rem 0;
+}
+
+.tienda-acciones {
   display: flex;
   justify-content: center;
 }
 
-.botonComprar {
-  background-color: #000000a6; // Fondo oscuro para contraste
+.tienda-botonComprar {
+  background-color: #4c00ff85; // Rojo
   color: white;
-  padding: 0.75rem 1.5rem; // Ajuste de tamaño para mayor visibilidad
-  font-size: 1.25rem; // Tamaño de fuente más grande para destacar
-  border-radius: 12px; // Bordes más redondeados
-  transition: background-color 0.3s ease, transform 0.2s ease;
+  border: none;
+  border-radius: 4px;
+  padding: 0.5rem 1rem;
   cursor: pointer;
+  transition: background-color 0.3s;
 
   &:hover {
-    background-color: #ff0000b0; // Cambio a rojo vibrante al pasar el mouse
-    transform: translateY(-3px); // Efecto de elevación al pasar el mouse
-  }
-
-  &:active {
-    transform: translateY(1px); // Ligera compresión al hacer clic
+    background-color: rgba(6, 23, 124, 0.685); // Rojo oscuro
   }
 }
 
-
-.transparent-hr {
-  border: none;
-  border-top: 1px dashed rgba(255, 255, 255, 0.5);
-  margin: 1rem 0;
-}
-
-@keyframes fadeIn {
-  from {
-    opacity: 0;
-  }
-  to {
-    opacity: 1;
-  }
+.tienda-compra-text {
+  font-size: 1.25rem; // Texto más grande
 }

@@ -68,7 +68,7 @@ const SesionLogin = () => {
             <img
               className="auth-image bottom-image"
               src="/img/05-img-costados-larga/4.png"
-              alt="Retro Game"
+              alt="Retro servicio"
             />
           </div>
         )}

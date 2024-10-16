@@ -165,20 +165,20 @@
   border-bottom: 3px solid rgb(255, 0, 0);
 }
 
-//---------Estilos de Casino--------------------//
-.casinoSection {
+//---------Estilos de servicio--------------------//
+.servicioSection {
   background-color: rgba(255, 255, 255, 0.1);
   border-radius: 15px;
   padding: 20px;
 }
 
-.casinoRow {
+.servicioRow {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
   gap: 20px;
 }
 
-.casinoItem {
+.servicioItem {
   display: flex;
   flex-direction: column;
   background-color: rgba(0, 0, 0, 0.6);
@@ -186,22 +186,22 @@
   padding: 10px;
 }
 
-.casinoText {
+.servicioText {
   padding: 10px;
 }
 
-.casinoTitle {
+.servicioTitle {
   font-size: 22px;
   color: #fff;
 }
 
-.casinoDescription {
+.servicioDescription {
   font-size: 16px;
   color: #ddd;
   margin-top: 10px;
 }
 
-.casinoItem img {
+.servicioItem img {
   width: 100%;
   height: auto;
   border-bottom: 3px solid #0ff;

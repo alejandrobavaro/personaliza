@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react";
-import Toastify from "toastify-js"; 
+import Toastify from "toastify-js";
 
 import ProductosTienda from "./TiendaProductos";
 import TiendaCarritoMini2 from "./TiendaCarritoMini2";
@@ -42,13 +42,12 @@ function Tienda({ cart, setCart, addToCart, removeFromCart, searchQuery, setSear
     Toastify({
       text: `Añadiste ${producto.nombre} al carrito.`,
       duration: 3000,
-      close: true,
-      gravity: "top",
-      position: "left",
+         gravity: "top",
+      position: "center",  // Centrado en la parte superior
       style: {
-        background: "#ff69b4",
+        // background: "#ff69b4",
       },
-      className: "toastify-tienda",
+      className: "toastify-tienda fade-in",  // Añade la clase de animación
     }).showToast();
   };
 
@@ -57,13 +56,12 @@ function Tienda({ cart, setCart, addToCart, removeFromCart, searchQuery, setSear
     Toastify({
       text: "Carrito vaciado.",
       duration: 3000,
-      close: true,
-      gravity: "top",
-      position: "left",
+        gravity: "top",
+      position: "center",  // Centrado en la parte superior
       style: {
         background: "#000000", 
       },
-      className: "toastify-tienda",
+      className: "toastify-tienda fade-in",  // Añade la clase de animación
     }).showToast();
   };
 

@@ -1,14 +1,14 @@
 import React, { useState, useEffect } from "react";
-import { Link } from "react-router-dom"; 
-import "../assets/scss/_03-Componentes/_Clientes.scss";
+import { Link } from "react-router-dom";
+import "../assets/scss/_03-Componentes/_Aplicar.scss";
 
-const Clientes = () => {
+const Aplicar = () => {
   const [data, setData] = useState([]);
   const [searchTerm, setSearchTerm] = useState("");
   const [selectedCategory, setSelectedCategory] = useState("TODOS");
 
   useEffect(() => {
-    fetch("/clientes1.json")
+    fetch("/servicio.json")
       .then((response) => response.json())
       .then((data) => {
         setData(data);
@@ -36,8 +36,6 @@ const Clientes = () => {
     return matchesCategory && matchesSearchTerm;
   });
 
-
-
   return (
     <div className="data">
       <div className="search-filter-container">
@@ -49,8 +47,6 @@ const Clientes = () => {
             >
               TODOS
             </button> */}
-
-       
           </div>
         </div>
 
@@ -71,34 +67,52 @@ const Clientes = () => {
           {filteredData.map((item) => (
             <div key={item.id} className="data-item">
               <h3>
-                {item.nombre.toLowerCase()}
+                <Link to={`/servicio/${item.nombre.toLowerCase()}`}>
+                  {/* {item.nombre} */}
+                </Link>
               </h3>
-              <img src={item["imagen portada"]} className="servicio-image" alt={item.nombre} />
+              <img
+                src={item["imagen portada"]}
+                className="servicio-image"
+                alt={item.nombre}
+              />
               <table>
                 <tbody>
-                <tr>
-                    <td><strong>Id:</strong></td>
+                  <tr>
+                    <td>
+                      <strong>Id:</strong>
+                    </td>
                     <td>{item.id}</td>
                   </tr>
                   <tr>
-                    <td><strong>Categoría:</strong></td>
+                    <td>
+                      <strong>Categoría:</strong>
+                    </td>
                     <td>{item.categoria}</td>
                   </tr>
                   <tr>
-                    <td><strong>Tipo:</strong></td>
+                    <td>
+                      <strong>Tipo:</strong>
+                    </td>
                     <td>{item.tipo}</td>
                   </tr>
-                 
+
                   <tr>
-                    <td><strong>Precio:</strong></td>
+                    <td>
+                      <strong>Precio:</strong>
+                    </td>
                     <td>{item.precio}</td>
                   </tr>
                   <tr>
-                    <td><strong>Seguidores:</strong></td>
+                    <td>
+                      <strong>Seguidores:</strong>
+                    </td>
                     <td>{item.seguidores}</td>
                   </tr>
                   <tr>
-                    <td><strong>Comentarios:</strong></td>
+                    <td>
+                      <strong>Comentarios:</strong>
+                    </td>
                     <td>
                       <ul>
                         {item.comentarios.map((comentario, index) => (
@@ -117,4 +131,4 @@ const Clientes = () => {
   );
 };
 
-export default Clientes;
+export default Aplicar;
