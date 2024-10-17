@@ -105,18 +105,14 @@ function App() {
 
                 <Route path="/servicio" element={<Servicio />} />
 
-
                 <Route path="/aplicar" element={<Aplicar />} />
 
-            
-
                 {/* Nuevas rutas para los servicios*/}
-                <Route path="/aplicar/personaliza3" element={<AplicaPersonaliza1 />} />
-                <Route path="/aplicar/personaliza2" element={<AplicaPersonaliza2 />} />
-                <Route path="/aplicar/personaliza3" element={<AplicaPersonaliza3 />} />
 
+                <Route path="/aplicar/1" element={<AplicaPersonaliza1 />} />
+                <Route path="/aplicar/2" element={<AplicaPersonaliza2 />} />
+                <Route path="/aplicar/3" element={<AplicaPersonaliza3 />} />
 
-             
                 <Route path="/tienda" element={<Tienda 
                   setCart={setProductCart} 
                   cart={productCart} 

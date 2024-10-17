@@ -38,11 +38,7 @@
       margin-bottom: 5px; // Reducir margen inferior
      }
 
-    .servicio-image {
-      width: 100%; // Ajustar imagen al contenedor
-      border-radius: 8px; // Bordes redondeados
-      margin-bottom: 5px; // Margen inferior
-    }
+
 
     table {
       width: 100%;
@@ -154,4 +150,10 @@
     padding: 5px 10px;
     cursor: pointer;
   }
+}
+
+.clientes-image {
+  width: 100%; // Ajustar imagen al contenedor
+  border-radius: 8px; // Bordes redondeados
+  margin-bottom: 5px; // Margen inferior
 }

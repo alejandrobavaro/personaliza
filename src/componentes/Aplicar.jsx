@@ -8,7 +8,7 @@ const Aplicar = () => {
   const [selectedCategory, setSelectedCategory] = useState("TODOS");
 
   useEffect(() => {
-    fetch("/servicio.json")
+    fetch("/aplicar.json")
       .then((response) => response.json())
       .then((data) => {
         setData(data);
@@ -67,51 +67,49 @@ const Aplicar = () => {
           {filteredData.map((item) => (
             <div key={item.id} className="data-item">
               <h3>
-                <Link to={`/servicio/${item.nombre.toLowerCase()}`}>
-                  {/* {item.nombre} */}
-                </Link>
+                {" "}
+                <strong>{item.id} </strong>
+                <Link to={`/aplicar/${item.id}`}>{item.nombre}</Link>
               </h3>
-              <img
-                src={item["imagen portada"]}
-                className="servicio-image"
-                alt={item.nombre}
-              />
+              {/* <img src={item["imagen portada"]} className="aplicar-image" /> */}
+
               <table>
                 <tbody>
-                  <tr>
-                    <td>
-                      <strong>Id:</strong>
-                    </td>
-                    <td>{item.id}</td>
-                  </tr>
                   <tr>
                     <td>
                       <strong>Categoría:</strong>
                     </td>
                     <td>{item.categoria}</td>
                   </tr>
-                  <tr>
+                                 <tr>
                     <td>
                       <strong>Tipo:</strong>
                     </td>
                     <td>{item.tipo}</td>
                   </tr>
-
                   <tr>
                     <td>
                       <strong>Precio:</strong>
                     </td>
                     <td>{item.precio}</td>
                   </tr>
+
                   <tr>
                     <td>
-                      <strong>Seguidores:</strong>
+                      <strong>Complejidad:</strong>
                     </td>
-                    <td>{item.seguidores}</td>
+                    <td>{item.complejidad}</td>
+                  </tr>
+                  
+                  <tr>
+                    <td>
+                      <strong>Finalizados:</strong>
+                    </td>
+                    <td>{item.finalizados}</td>
                   </tr>
                   <tr>
                     <td>
-                      <strong>Comentarios:</strong>
+                      <strong>Feedback:</strong>
                     </td>
                     <td>
                       <ul>

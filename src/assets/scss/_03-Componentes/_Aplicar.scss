@@ -8,6 +8,7 @@
     border: 1px solid #ff0000;
     box-shadow: 0 2px 80px rgba(255, 255, 255, 0.1); /* Sombra sutil para profundidad */
   
+    
     .contenido-aplicar {
       max-width: 600px; /* Ancho máximo para el contenedor */
       width: 100%; /* Permite que el contenedor se ajuste en pantallas pequeñas */
@@ -20,6 +21,13 @@
   
         color: #ffffff;
       }
+
+      .aplicar-image {
+        width: 100%; // Ajustar imagen al contenedor
+        border-radius: 8px; // Bordes redondeados
+        margin-bottom: 5px; // Margen inferior
+      }
+  
   
       .publicidad {
         background-color: #3123016c;

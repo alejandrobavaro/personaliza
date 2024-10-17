@@ -40,22 +40,26 @@ const Servicio = () => {
           <div key={servicio.id} className="servicio-card">
             <h3 className="servicio-servicio-title">{servicio.nombre}</h3>
             <img src={servicio["imagen portada"]} alt={servicio.nombre} className="servicio-servicio-img" />
-            <div className="servicio-info">
-              <p>{servicio.tipo} | {servicio.categoria}</p>
+<hr />
+            <div className="comments-section">
+              <ul>
+                {Array.isArray(servicio["nuestro servicio"]) && servicio["nuestro servicio"].map((comment, index) => (
+                  <li key={`${servicio.id}-comment-${index}`}>{comment}</li>
+                ))}
+              </ul>
             </div>
+
+            
             <Slider {...settings}>
-              {Array.isArray(servicio["imagenes del servicio"]) && servicio["imagenes del servicio"].map((img, index) => (
+              {Array.isArray(servicio["imagenes del juego"]) && servicio["imagenes del juego"].map((img, index) => (
                 <div key={`${servicio.id}-img-${index}`}>
                   <img src={img} alt={`${servicio.nombre} - ${index + 1}`} className="carousel-image" />
                 </div>
               ))}
             </Slider>
-            <div className="comments-section">
-              <ul>
-                {servicio.comentarios.slice(0, 2).map((comment, index) => (
-                  <li key={`${servicio.id}-comment-${index}`}>{comment}</li>
-                ))}
-              </ul>
+           
+            <div className="servicio-info">
+              <p>{servicio.tipo} | {servicio.categoria}</p>
             </div>
           </div>
         ))}

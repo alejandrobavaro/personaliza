@@ -1,5 +1,4 @@
 import React, { useState, useEffect } from "react";
-import { Link } from "react-router-dom"; 
 import "../assets/scss/_03-Componentes/_Clientes.scss";
 
 const Clientes = () => {
@@ -36,21 +35,12 @@ const Clientes = () => {
     return matchesCategory && matchesSearchTerm;
   });
 
-
-
   return (
     <div className="data">
       <div className="search-filter-container">
         <div className="filters">
           <div className="category-buttons">
-            {/* <button
-              className={selectedCategory === "TODOS" ? "selected" : ""}
-              onClick={() => handleCategoryChange("TODOS")}
-            >
-              TODOS
-            </button> */}
-
-       
+            {/* Si decides agregar los botones de categoría nuevamente */}
           </div>
         </div>
 
@@ -71,15 +61,16 @@ const Clientes = () => {
           {filteredData.map((item) => (
             <div key={item.id} className="data-item">
               <h3>
+                <strong>{item.id} - </strong>
                 {item.nombre.toLowerCase()}
               </h3>
-              <img src={item["imagen portada"]} className="servicio-image" alt={item.nombre} />
+              <img
+                src={item["imagen portada"]}
+                className="clientes-image"
+                alt={item.nombre}
+              />
               <table>
                 <tbody>
-                <tr>
-                    <td><strong>Id:</strong></td>
-                    <td>{item.id}</td>
-                  </tr>
                   <tr>
                     <td><strong>Categoría:</strong></td>
                     <td>{item.categoria}</td>
@@ -88,14 +79,9 @@ const Clientes = () => {
                     <td><strong>Tipo:</strong></td>
                     <td>{item.tipo}</td>
                   </tr>
-                 
                   <tr>
-                    <td><strong>Precio:</strong></td>
-                    <td>{item.precio}</td>
-                  </tr>
-                  <tr>
-                    <td><strong>Seguidores:</strong></td>
-                    <td>{item.seguidores}</td>
+                    <td><strong>Recomendación:</strong></td>
+                    <td>{item.recomendacion}</td>
                   </tr>
                   <tr>
                     <td><strong>Comentarios:</strong></td>
@@ -105,6 +91,14 @@ const Clientes = () => {
                           <li key={index}>{comentario}</li>
                         ))}
                       </ul>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td><strong>Sitio Web:</strong></td>
+                    <td>
+                      <a href={item.sitio_web} target="_blank" rel="noopener noreferrer">
+                        {item.sitio_web}
+                      </a>
                     </td>
                   </tr>
                 </tbody>

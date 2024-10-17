@@ -1,0 +1,352 @@
+[
+
+  // {
+  //   "id": 2,
+  //   "nombre": "Personalización de Aplicaciones Mobile",
+  //   "imagen portada": "/img/10-imagenes-aplicar/personalizacion-apps-mobile.png",
+  //   "tipo": "Mobile",
+  //   "categoria": "Desarrollo",
+  //   "complejidad": "intermedia",
+  //   "precio": "consultar",
+  //   "finalizados": 950,
+  //   "comentarios": [
+  //     "La aplicación ahora es completamente intuitiva.",
+  //     "Nos ayudaron a mejorar la experiencia de usuario.",
+  //     "Funcionalidades adaptadas a nuestro negocio."
+  //   ],
+  //   "imagenes del juego": [
+  //     "/img/10-imagenes-aplicar/personalizacion-apps-mobile-1.png",
+  //     "/img/10-imagenes-aplicar/personalizacion-apps-mobile-2.png",
+  //     "/img/10-imagenes-aplicar/personalizacion-apps-mobile-3.png"
+  //   ]
+  // },
+
+
+    // {
+    //   "id": 6,
+    //   "nombre": "Optimización SEO Personalizada",
+    //   "imagen portada": "/img/10-imagenes-aplicar/seo-personalizado.png",
+    //   "tipo": "Web",
+    //   "categoria": "Marketing Digital",
+    //   "complejidad": "intermedia",
+    //   "precio": "consultar",
+    //   "finalizados": 1800,
+    //   "comentarios": [
+    //     "Nuestro sitio web ha ganado mucha visibilidad.",
+    //     "Resultados rápidos y efectivos.",
+    //     "Ahora somos más visibles en los motores de búsqueda."
+    //   ],
+    //   "imagenes del juego": [
+    //     "/img/10-imagenes-aplicar/seo-personalizado-1.png",
+    //     "/img/10-imagenes-aplicar/seo-personalizado-2.png",
+    //     "/img/10-imagenes-aplicar/seo-personalizado-3.png"
+    //   ]
+    // },
+
+    // {
+    //   "id": 8,
+    //   "nombre": "Impresión de Productos Personalizados",
+    //   "imagen portada": "/img/10-imagenes-aplicar/impresion-productos-personalizados.png",
+    //   "tipo": "Físico",
+    //   "categoria": "Impresión",
+    //   "complejidad": "intermedia",
+    //   "precio": "varía según producto",
+    //   "finalizados": 1950,
+    //   "comentarios": [
+    //     "Productos impresos con gran calidad.",
+    //     "El proceso de personalización fue rápido y sencillo.",
+    //     "Muy satisfechos con la atención al cliente."
+    //   ],
+    //   "imagenes del juego": [
+    //     "/img/10-imagenes-aplicar/impresion-productos-personalizados-1.png",
+    //     "/img/10-imagenes-aplicar/impresion-productos-personalizados-2.png",
+    //     "/img/10-imagenes-aplicar/impresion-productos-personalizados-3.png"
+    //   ]
+    // },
+
+    // {
+    //   "id": 11,
+    //   "nombre": "Desarrollo de Interfaces Personalizadas",
+    //   "imagen portada": "/img/10-imagenes-aplicar/desarrollo-interfaces-personalizadas.png",
+    //   "tipo": "Web",
+    //   "categoria": "Desarrollo",
+    //   "complejidad": "intermedia",
+    //   "precio": "consultar",
+    //   "finalizados": 2100,
+    //   "comentarios": [
+    //     "La interfaz es moderna y fácil de usar.",
+    //     "Mejoramos notablemente la interacción de los usuarios.",
+    //     "Excelente trabajo en el desarrollo personalizado."
+    //   ],
+    //   "imagenes del juego": [
+    //     "/img/10-imagenes-aplicar/desarrollo-interfaces-personalizadas-1.png",
+    //     "/img/10-imagenes-aplicar/desarrollo-interfaces-personalizadas-2.png",
+    //     "/img/10-imagenes-aplicar/desarrollo-interfaces-personalizadas-3.png"
+    //   ]
+    // },
+    // {
+    //   "id": 12,
+    //   "nombre": "Marketing Digital para Productos Personalizados",
+    //   "imagen portada": "/img/10-imagenes-aplicar/marketing-digital-personalizado.png",
+    //   "tipo": "Web",
+    //   "categoria": "Marketing",
+    //   "complejidad": "intermedia",
+    //   "precio": "consultar",
+    //   "finalizados": 4000,
+    //   "comentarios": [
+    //     "Hemos alcanzado una audiencia más amplia.",
+    //     "El marketing se adaptó perfectamente a nuestros productos personalizados.",
+    //     "Obtuvimos un gran retorno de inversión."
+    //   ],
+    //   "imagenes del juego": [
+    //     "/img/10-imagenes-aplicar/marketing-digital-personalizado-1.png",
+    //     "/img/10-imagenes-aplicar/marketing-digital-personalizado-2.png",
+    //     "/img/10-imagenes-aplicar/marketing-digital-personalizado-3.png"
+    //   ]
+    // },
+    // {
+    //   "id": 13,
+    //   "nombre": "Personalización de Empaques",
+    //   "imagen portada": "/img/10-imagenes-aplicar/personalizacion-empaques.png",
+    //   "tipo": "Físico",
+    //   "categoria": "Diseño de Productos",
+    //   "complejidad": "intermedia",
+    //   "precio": "consultar",
+    //   "finalizados": 1350,
+    //   "comentarios": [
+    //     "Los empaques personalizados nos ayudan a destacarnos.",
+    //     "Diseños únicos que encantaron a nuestros clientes.",
+    //     "Excelente calidad en los materiales y diseño."
+    //   ],
+    //   "imagenes del juego": [
+    //     "/img/10-imagenes-aplicar/personalizacion-empaques-1.png",
+    //     "/img/10-imagenes-aplicar/personalizacion-empaques-2.png",
+    //     "/img/10-imagenes-aplicar/personalizacion-empaques-3.png"
+    //   ]
+    // },
+
+    // {
+    //   "id": 15,
+    //   "nombre": "Desarrollo de Blogs Personalizados",
+    //   "imagen portada": "/img/10-imagenes-aplicar/desarrollo-blogs-personalizados.png",
+    //   "tipo": "Web",
+    //   "categoria": "Desarrollo",
+    //   "complejidad": "intermedia",
+    //   "precio": "consultar",
+    //   "finalizados": 1650,
+    //   "comentarios": [
+    //     "Nuestro blog se personalizó para reflejar nuestra marca.",
+    //     "Muy intuitivo y fácil de gestionar.",
+    //     "Funcionalidades modernas y un diseño atractivo."
+    //   ],
+    //   "imagenes del juego": [
+    //     "/img/10-imagenes-aplicar/desarrollo-blogs-personalizados-1.png",
+    //     "/img/10-imagenes-aplicar/desarrollo-blogs-personalizados-2.png",
+    //     "/img/10-imagenes-aplicar/desarrollo-blogs-personalizados-3.png"
+    //   ]
+    // },
+    // {
+    //   "id": 16,
+    //   "nombre": "Consultoría en Branding Personalizado",
+    //   "imagen portada": "/img/10-imagenes-aplicar/branding-personalizado.png",
+    //   "tipo": "Web",
+    //   "categoria": "Consultoría",
+    //   "complejidad": "intermedia",
+    //   "precio": "consultar",
+    //   "finalizados": 1800,
+    //   "comentarios": [
+    //     "Nuestra marca ha sido reimaginada con gran creatividad.",
+    //     "Nos ayudaron a construir una identidad sólida.",
+    //     "El proceso fue profesional y rápido."
+    //   ],
+    //   "imagenes del juego": [
+    //     "/img/10-imagenes-aplicar/branding-personalizado-1.png",
+    //     "/img/10-imagenes-aplicar/branding-personalizado-2.png",
+    //     "/img/10-imagenes-aplicar/branding-personalizado-3.png"
+    //   ]
+    // },
+    // {
+    //   "id": 17,
+    //   "nombre": "Personalización de Ropa y Accesorios",
+    //   "imagen portada": "/img/10-imagenes-aplicar/personalizacion-ropa.png",
+    //   "tipo": "Físico",
+    //   "categoria": "Productos",
+    //   "complejidad": "intermedia",
+    //   "precio": "varía según producto",
+    //   "finalizados": 3200,
+    //   "comentarios": [
+    //     "La ropa personalizada nos permitió diferenciarnos.",
+    //     "Gran calidad en los materiales y diseños únicos.",
+    //     "Nuestros clientes están encantados con la personalización."
+    //   ],
+    //   "imagenes del juego": [
+    //     "/img/10-imagenes-aplicar/personalizacion-ropa-1.png",
+    //     "/img/10-imagenes-aplicar/personalizacion-ropa-2.png",
+    //     "/img/10-imagenes-aplicar/personalizacion-ropa-3.png"
+    //   ]
+    // },
+    // {
+    //   "id": 18,
+    //   "nombre": "Impresión de Merchandising Personalizado",
+    //   "imagen portada": "/img/10-imagenes-aplicar/impresion-merchandising.png",
+    //   "tipo": "Físico",
+    //   "categoria": "Productos",
+    //   "complejidad": "intermedia",
+    //   "precio": "consultar",
+    //   "finalizados": 2700,
+    //   "comentarios": [
+    //     "Productos de alta calidad que representan nuestra marca.",
+    //     "Excelente servicio de personalización.",
+    //     "El merchandising personalizado ha sido un gran éxito."
+    //   ],
+    //   "imagenes del juego": [
+    //     "/img/10-imagenes-aplicar/impresion-merchandising-1.png",
+    //     "/img/10-imagenes-aplicar/impresion-merchandising-2.png",
+    //     "/img/10-imagenes-aplicar/impresion-merchandising-3.png"
+    //   ]
+    // },
+    // {
+    //   "id": 19,
+    //   "nombre": "Desarrollo de Plugins Personalizados",
+    //   "imagen portada": "/img/10-imagenes-aplicar/desarrollo-plugins.png",
+    //   "tipo": "Web",
+    //   "categoria": "Desarrollo",
+    //   "complejidad": "intermedia",
+    //   "precio": "consultar",
+    //   "finalizados": 1850,
+    //   "comentarios": [
+    //     "Desarrollaron plugins a medida que mejoran nuestras funcionalidades.",
+    //     "Gran soporte y facilidad de integración.",
+    //     "Nuestros sistemas ahora son más eficientes."
+    //   ],
+    //   "imagenes del juego": [
+    //     "/img/10-imagenes-aplicar/desarrollo-plugins-1.png",
+    //     "/img/10-imagenes-aplicar/desarrollo-plugins-2.png",
+    //     "/img/10-imagenes-aplicar/desarrollo-plugins-3.png"
+    //   ]
+    // },
+    // {
+    //   "id": 20,
+    //   "nombre": "Consultoría en Estrategia Digital",
+    //   "imagen portada": "/img/10-imagenes-aplicar/consultoria-estrategia-digital.png",
+    //   "tipo": "Web",
+    //   "categoria": "Marketing",
+    //   "complejidad": "intermedia",
+    //   "precio": "consultar",
+    //   "finalizados": 2150,
+    //   "comentarios": [
+    //     "Nos ayudaron a mejorar nuestra presencia digital.",
+    //     "Estrategias innovadoras que han dado resultados.",
+    //     "Profesionales con gran conocimiento del sector digital."
+    //   ],
+    //   "imagenes del juego": [
+    //     "/img/10-imagenes-aplicar/consultoria-estrategia-digital-1.png",
+    //     "/img/10-imagenes-aplicar/consultoria-estrategia-digital-2.png",
+    //     "/img/10-imagenes-aplicar/consultoria-estrategia-digital-3.png"
+    //   ]
+    // },
+
+    // {
+    //   "id": 22,
+    //   "nombre": "Personalización de Tarjetas de Presentación",
+    //   "imagen portada": "/img/10-imagenes-aplicar/personalizacion-tarjetas-presentacion.png",
+    //   "tipo": "Físico",
+    //   "categoria": "Productos",
+    //   "complejidad": "intermedia",
+    //   "precio": "varía según producto",
+    //   "finalizados": 1300,
+    //   "comentarios": [
+    //     "Tarjetas de presentación que reflejan nuestra marca.",
+    //     "Diseños únicos que llaman la atención.",
+    //     "Materiales de alta calidad y excelente impresión."
+    //   ],
+    //   "imagenes del juego": [
+    //     "/img/10-imagenes-aplicar/personalizacion-tarjetas-presentacion-1.png",
+    //     "/img/10-imagenes-aplicar/personalizacion-tarjetas-presentacion-2.png",
+    //     "/img/10-imagenes-aplicar/personalizacion-tarjetas-presentacion-3.png"
+    //   ]
+    // },
+    // {
+    //   "id": 23,
+    //   "nombre": "Personalización de Campañas Publicitarias",
+    //   "imagen portada": "/img/10-imagenes-aplicar/personalizacion-campañas-publicitarias.png",
+    //   "tipo": "Web",
+    //   "categoria": "Marketing",
+    //   "complejidad": "intermedia",
+    //   "precio": "consultar",
+    //   "finalizados": 3500,
+    //   "comentarios": [
+    //     "Nuestras campañas publicitarias han sido un éxito.",
+    //     "El enfoque personalizado aumentó nuestra visibilidad.",
+    //     "Resultados tangibles y de gran impacto."
+    //   ],
+    //   "imagenes del juego": [
+    //     "/img/10-imagenes-aplicar/personalizacion-campañas-publicitarias-1.png",
+    //     "/img/10-imagenes-aplicar/personalizacion-campañas-publicitarias-2.png",
+    //     "/img/10-imagenes-aplicar/personalizacion-campañas-publicitarias-3.png"
+    //   ]
+    // },
+
+    // {
+    //   "id": 27,
+    //   "nombre": "Asesoría en Personalización de Productos",
+    //   "imagen portada": "/img/10-imagenes-aplicar/asesoria-personalizacion-productos.png",
+    //   "tipo": "Físico",
+    //   "categoria": "Consultoría",
+    //   "complejidad": "intermedia",
+    //   "precio": "consultar",
+    //   "finalizados": 1100,
+    //   "comentarios": [
+    //     "Nos ayudaron a crear productos personalizados de alta calidad.",
+    //     "Excelente asesoría que nos dio nuevas ideas de personalización.",
+    //     "Ahora ofrecemos productos que encantan a nuestros clientes."
+    //   ],
+    //   "imagenes del juego": [
+    //     "/img/10-imagenes-aplicar/asesoria-personalizacion-productos-1.png",
+    //     "/img/10-imagenes-aplicar/asesoria-personalizacion-productos-2.png",
+    //     "/img/10-imagenes-aplicar/asesoria-personalizacion-productos-3.png"
+    //   ]
+    // },
+    // {
+    //   "id": 28,
+    //   "nombre": "Desarrollo de Apps Personalizadas",
+    //   "imagen portada": "/img/10-imagenes-aplicar/desarrollo-apps-personalizadas.png",
+    //   "tipo": "Web",
+    //   "categoria": "Desarrollo",
+    //   "complejidad": "intermedia",
+    //   "precio": "consultar",
+    //   "finalizados": 2000,
+    //   "comentarios": [
+    //     "Nuestra app personalizada ha mejorado la experiencia de nuestros clientes.",
+    //     "Desarrollo profesional y a la medida de nuestras necesidades.",
+    //     "Facilitaron todo el proceso de desarrollo y lanzamiento."
+    //   ],
+    //   "imagenes del juego": [
+    //     "/img/10-imagenes-aplicar/desarrollo-apps-personalizadas-1.png",
+    //     "/img/10-imagenes-aplicar/desarrollo-apps-personalizadas-2.png",
+    //     "/img/10-imagenes-aplicar/desarrollo-apps-personalizadas-3.png"
+    //   ]
+    // },
+    // {
+    //   "id": 29,
+    //   "nombre": "Impresión 3D de Productos Personalizados",
+    //   "imagen portada": "/img/10-imagenes-aplicar/impresion-3d-productos.png",
+    //   "tipo": "Físico",
+    //   "categoria": "Productos",
+    //   "complejidad": "intermedia",
+    //   "precio": "consultar",
+    //   "finalizados": 1450,
+    //   "comentarios": [
+    //     "Productos impresos en 3D con acabados sorprendentes.",
+    //     "La personalización de nuestros productos ha sido todo un éxito.",
+    //     "Gran calidad en la impresión y rapidez en la entrega."
+    //   ],
+    //   "imagenes del juego": [
+    //     "/img/10-imagenes-aplicar/impresion-3d-productos-1.png",
+    //     "/img/10-imagenes-aplicar/impresion-3d-productos-2.png",
+    //     "/img/10-imagenes-aplicar/impresion-3d-productos-3.png"
+    //   ]
+    // },
+
+  ]
+  
