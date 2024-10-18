@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from "react";
 import { Link } from "react-router-dom";
+import Slider from "react-slick"; // Importa Slider
 import "../assets/scss/_03-Componentes/_Aplicar.scss";
 
 const Aplicar = () => {
@@ -36,21 +37,20 @@ const Aplicar = () => {
     return matchesCategory && matchesSearchTerm;
   });
 
+  const sliderSettings = {
+    dots: true,
+    infinite: true,
+    speed: 300, // Aumentar el valor para hacer la transición más lenta o disminuir para hacerla más rápida.
+    slidesToShow: 1,
+    slidesToScroll: 1,
+    autoplay: true, // Para activar el autoplay
+    autoplaySpeed: 2000, // Tiempo en milisegundos entre cada cambio (2 segundos)
+  };
+  
   return (
-    <div className="data">
-      <div className="search-filter-container">
-        <div className="filters">
-          <div className="category-buttons">
-            {/* <button
-              className={selectedCategory === "TODOS" ? "selected" : ""}
-              onClick={() => handleCategoryChange("TODOS")}
-            >
-              TODOS
-            </button> */}
-          </div>
-        </div>
-
-        <div className="search-barClientes">
+    <div className="aplica-data">
+      <div className="aplica-search-filter-container">
+        <div className="aplica-search-bar">
           <input
             type="text"
             placeholder="Buscar..."
@@ -63,54 +63,48 @@ const Aplicar = () => {
       {filteredData.length === 0 ? (
         <h4>No se encontraron resultados en la búsqueda. Verifique.</h4>
       ) : (
-        <div className="data-container">
+        <div className="aplica-data-container">
           {filteredData.map((item) => (
-            <div key={item.id} className="data-item">
+            <div key={item.id} className="aplica-data-item">
               <h3>
-                {" "}
-                <strong>{item.id} </strong>
+                <strong>{item.id} - </strong>
                 <Link to={`/aplicar/${item.id}`}>{item.nombre}</Link>
               </h3>
-              {/* <img src={item["imagen portada"]} className="aplicar-image" /> */}
-
+              <Slider {...sliderSettings}>
+                {item["imagenes slider"].map((imagen, index) => (
+                  <div key={index}>
+                    <img
+                      src={imagen}
+                      className="aplica-image"
+                      alt={`${item.nombre} ${index + 1}`}
+                    />
+                  </div>
+                ))}
+              </Slider>
               <table>
                 <tbody>
                   <tr>
-                    <td>
-                      <strong>Categoría:</strong>
-                    </td>
+                    <td><strong>Categoría:</strong></td>
                     <td>{item.categoria}</td>
                   </tr>
-                                 <tr>
-                    <td>
-                      <strong>Tipo:</strong>
-                    </td>
+                  <tr>
+                    <td><strong>Tipo:</strong></td>
                     <td>{item.tipo}</td>
                   </tr>
                   <tr>
-                    <td>
-                      <strong>Precio:</strong>
-                    </td>
+                    <td><strong>Precio:</strong></td>
                     <td>{item.precio}</td>
                   </tr>
-
                   <tr>
-                    <td>
-                      <strong>Complejidad:</strong>
-                    </td>
+                    <td><strong>Complejidad:</strong></td>
                     <td>{item.complejidad}</td>
                   </tr>
-                  
                   <tr>
-                    <td>
-                      <strong>Finalizados:</strong>
-                    </td>
+                    <td><strong>Finalizados:</strong></td>
                     <td>{item.finalizados}</td>
                   </tr>
                   <tr>
-                    <td>
-                      <strong>Feedback:</strong>
-                    </td>
+                    <td><strong>Comentarios:</strong></td>
                     <td>
                       <ul>
                         {item.comentarios.map((comentario, index) => (

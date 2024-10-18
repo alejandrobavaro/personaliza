@@ -51,7 +51,7 @@ const Servicio = () => {
 
             
             <Slider {...settings}>
-              {Array.isArray(servicio["imagenes del juego"]) && servicio["imagenes del juego"].map((img, index) => (
+              {Array.isArray(servicio["imagenes"]) && servicio["imagenes"].map((img, index) => (
                 <div key={`${servicio.id}-img-${index}`}>
                   <img src={img} alt={`${servicio.nombre} - ${index + 1}`} className="carousel-image" />
                 </div>

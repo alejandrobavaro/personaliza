@@ -36,15 +36,15 @@ const Clientes = () => {
   });
 
   return (
-    <div className="data">
-      <div className="search-filter-container">
-        <div className="filters">
-          <div className="category-buttons">
+    <div className="clientes-data">
+      <div className="clientes-search-filter-container">
+        <div className="clientes-filters">
+          <div className="clientes-category-buttons">
             {/* Si decides agregar los botones de categoría nuevamente */}
           </div>
         </div>
 
-        <div className="search-barClientes">
+        <div className="clientes-search-bar">
           <input
             type="text"
             placeholder="Buscar..."
@@ -57,9 +57,9 @@ const Clientes = () => {
       {filteredData.length === 0 ? (
         <h4>No se encontraron resultados en la búsqueda. Verifique.</h4>
       ) : (
-        <div className="data-container">
+        <div className="clientes-data-container">
           {filteredData.map((item) => (
-            <div key={item.id} className="data-item">
+            <div key={item.id} className="clientes-data-item">
               <h3>
                 <strong>{item.id} - </strong>
                 {item.nombre.toLowerCase()}
