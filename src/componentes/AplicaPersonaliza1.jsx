@@ -12,15 +12,15 @@ const AplicaPersonaliza1 = () => {
   const [forro, setForro] = useState('forro1');
   const [material, setMaterial] = useState('cuero');
 
-  const bases = ['base1', 'base2'];
-  const colores = ['color1', 'color2'];
-  const texturas = ['textura1', 'textura2'];
-  const accesoriosOptions = ['accesorio1', 'accesorio2'];
+  const bases = ['base1', 'base2', 'base3', 'base4', 'base5'];
+  const texturas = ['textura1', 'textura2', 'textura3'];
+  const colores = ['color1', 'color2', 'color3', 'color4'];
+    const accesoriosOptions = ['accesorio1', 'accesorio2', 'accesorio3'];
   const tamaños = ['pequeña', 'mediana', 'grande'];
-  const diseños = ['rayas', 'puntos', 'flores'];
+  const diseños = ['elegante', 'sport', 'multiuso'];
   const cierres = ['cremallera', 'botón', 'magnético'];
-  const forros = ['forro1', 'forro2'];
-  const materiales = ['cuero', 'sintético', 'tela'];
+  const forros = ['forro1', 'forro2', 'forro3', 'forro4'];
+  const materiales = ['cuero', 'sintético', 'tela', 'nylon'];
 
   const renderOption = (options, selected, setSelected) => {
     return options.map(option => (
@@ -45,7 +45,7 @@ const AplicaPersonaliza1 = () => {
             <hr />
             <div className={`cartera ${base} ${color} ${textura} ${accesorios} ${tamaño} ${diseño} ${cierre} ${forro} ${material}`}>
               <img
-                src={`/img/11-imagenes-personaliza1/${base}-${color}-${textura}.png`}
+                src={`/img/11-imagenes-personaliza1/${base}-${color}-${textura}.jpeg`}
                 alt="Cartera"
                 className="cartera-img"
               />
@@ -75,6 +75,7 @@ const AplicaPersonaliza1 = () => {
                 <td><h5>Material</h5></td>
                 <td>{renderOption(materiales, material, setMaterial)}</td>
               </tr>
+            
               <tr>
                 <td><h5>Accesorios</h5></td>
                 <td>{renderOption(accesoriosOptions, accesorios, setAccesorios)}</td>
