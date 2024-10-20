@@ -15,7 +15,7 @@ const AplicaPersonaliza1 = () => {
   const bases = ['base1', 'base2', 'base3', 'base4', 'base5'];
   const texturas = ['textura1', 'textura2', 'textura3'];
   const colores = ['color1', 'color2', 'color3', 'color4'];
-    const accesoriosOptions = ['accesorio1', 'accesorio2', 'accesorio3'];
+  const accesoriosOptions = ['accesorio1', 'accesorio2', 'accesorio3'];
   const tamaños = ['pequeña', 'mediana', 'grande'];
   const diseños = ['elegante', 'sport', 'multiuso'];
   const cierres = ['cremallera', 'botón', 'magnético'];
@@ -38,20 +38,27 @@ const AplicaPersonaliza1 = () => {
     <div className="aplica-personaliza1-container">
       <h1 className="aplica-personaliza1-title">Aplica - Personaliza</h1>
 
+
       <div className="content-container">
         <div className="left-section">
           <div className="visualizacion">
             <h2>Vista Previa de la Cartera</h2>
             <hr />
+
             <div className={`cartera ${base} ${color} ${textura} ${accesorios} ${tamaño} ${diseño} ${cierre} ${forro} ${material}`}>
               <img
                 src={`/img/11-imagenes-personaliza1/${base}-${color}-${textura}.jpeg`}
+
+                // src={`/img/11-imagenes-personaliza1/${base}-${color}-${textura}-${material}.jpeg`}
+
                 alt="Cartera"
                 className="cartera-img"
               />
             </div>
           </div>
         </div>
+
+    
 
         <div className="right-section">
          
@@ -75,7 +82,6 @@ const AplicaPersonaliza1 = () => {
                 <td><h5>Material</h5></td>
                 <td>{renderOption(materiales, material, setMaterial)}</td>
               </tr>
-            
               <tr>
                 <td><h5>Accesorios</h5></td>
                 <td>{renderOption(accesoriosOptions, accesorios, setAccesorios)}</td>

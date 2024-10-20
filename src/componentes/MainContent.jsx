@@ -31,11 +31,11 @@ function MainContent() {
       {/* Sección de Noticias y Artículos */}
       <div className="mainContentContainer">
         <section className="newsSection">
-          <h2 className="h2Titulo">Últimas Novedades en Moda</h2>
+          <h2 className="h2Titulo">Últimas Novedades</h2>
           <div className="newsRow">
             <div className="gridItem newsItem">
               <div className="newsText">
-                <h3 className="newsTitle">Lanzamiento de la nueva colección Otoño-Invierno</h3>
+                <h3 className="newsTitle">Nueva colección</h3>
                 <img
                   src="../../img/05-img-costados-larga/1.jpeg"
                   alt="Noticia 1"
@@ -57,7 +57,7 @@ function MainContent() {
             <div className="gridItem newsItem">
               <div className="newsText">
                 <h3 className="newsTitle">
-                  Personalización de prendas: ¡Crea tu propio estilo!
+                  Crea tu propio estilo
                 </h3>
                 <img
                   src="../../img/05-img-costados-larga/23.jpeg"
@@ -80,7 +80,7 @@ function MainContent() {
 
             <div className="gridItem newsItem">
               <div className="newsText">
-                <h3 className="newsTitle">Evento de Moda Exclusivo</h3>
+                <h3 className="newsTitle">Eventos Exclusivos</h3>
                 <img
                   src="../../img/05-img-costados-larga/24.jpeg"
                   alt="Noticia 3"
@@ -155,7 +155,7 @@ function MainContent() {
 
         {/* Sección de Torneos y Jugadores (adaptada a moda) */}
         <section className="tournamentSection">
-          <h2 className="h2Titulo">Desfiles de Moda y Diseñadores</h2>
+          <h2 className="h2Titulo">Perfiles de Diseñadores</h2>
           <div className="tournamentRow">
             <div className="gridItem tournamentItem">
               <div className="tournamentText">
@@ -192,7 +192,7 @@ function MainContent() {
             <div className="gridItem tournamentItem">
               <div className="tournamentText">
                 <h3 className="tournamentTitle">
-                  Evento de Moda y Sostenibilidad 2024
+                  Evento de Diseño y Arte 2024
                 </h3>
                 <img
                   src="../../img/05-img-costados-larga/10.jpeg"
@@ -213,7 +213,7 @@ function MainContent() {
           <div className="servicioRow">
             <div className="gridItem servicioItem">
               <div className="servicioText">
-                <h3 className="servicioTitle">Nuevas Ofertas en Ropa de Temporada</h3>
+                <h3 className="servicioTitle">Nuevas Ideas</h3>
                 <img
                   src="../../img/05-img-costados-larga/11.jpeg"
                   alt="Oferta 1"
@@ -228,7 +228,7 @@ function MainContent() {
             <div className="gridItem servicioItem">
               <div className="servicioText">
                 <h3 className="servicioTitle">
-                  Promoción de Fin de Temporada
+                  Promoción Arte Alternativo
                 </h3>
                 <img
                   src="../../img/05-img-costados-larga/16.jpeg"

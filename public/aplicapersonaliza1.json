@@ -1,0 +1,126 @@
+{
+    "productos": [
+      {
+        "base": "base1",
+        "color": "color1",
+        "textura": "textura1",
+        "materiales": [
+          {
+            "material": "cuero",
+            "imagen": "base1-color1-textura1-cuero.jpeg"
+          },
+          {
+            "material": "sintético",
+            "imagen": "base1-color1-textura1-sintetico.jpeg"
+          },
+          {
+            "material": "tela",
+            "imagen": "base1-color1-textura1-tela.jpeg"
+          },
+          {
+            "material": "nylon",
+            "imagen": "base1-color1-textura1-nylon.jpeg"
+          }
+        ]
+      },
+      {
+        "base": "base1",
+        "color": "color1",
+        "textura": "textura2",
+        "materiales": [
+          {
+            "material": "cuero",
+            "imagen": "base1-color1-textura2-cuero.jpeg"
+          },
+          {
+            "material": "sintético",
+            "imagen": "base1-color1-textura2-sintetico.jpeg"
+          },
+          {
+            "material": "tela",
+            "imagen": "base1-color1-textura2-tela.jpeg"
+          },
+          {
+            "material": "nylon",
+            "imagen": "base1-color1-textura2-nylon.jpeg"
+          }
+        ]
+      },
+      {
+        "base": "base1",
+        "color": "color1",
+        "textura": "textura3",
+        "materiales": [
+          {
+            "material": "cuero",
+            "imagen": "base1-color1-textura3-cuero.jpeg"
+          },
+          {
+            "material": "sintético",
+            "imagen": "base1-color1-textura3-sintetico.jpeg"
+          },
+          {
+            "material": "tela",
+            "imagen": "base1-color1-textura3-tela.jpeg"
+          },
+          {
+            "material": "nylon",
+            "imagen": "base1-color1-textura3-nylon.jpeg"
+          }
+        ]
+      },
+      {
+        "base": "base1",
+        "color": "color2",
+        "textura": "textura1",
+        "materiales": [
+          {
+            "material": "cuero",
+            "imagen": "base1-color2-textura1-cuero.jpeg"
+          },
+          {
+            "material": "sintético",
+            "imagen": "base1-color2-textura1-sintetico.jpeg"
+          },
+          {
+            "material": "tela",
+            "imagen": "base1-color2-textura1-tela.jpeg"
+          },
+          {
+            "material": "nylon",
+            "imagen": "base1-color2-textura1-nylon.jpeg"
+          }
+        ]
+      },
+      {
+        "base": "base2",
+        "color": "color1",
+        "textura": "textura1",
+        "materiales": [
+          {
+            "material": "cuero",
+            "imagen": "base2-color1-textura1-cuero.jpeg"
+          },
+          {
+            "material": "sintético",
+            "imagen": "base2-color1-textura1-sintetico.jpeg"
+          },
+          {
+            "material": "tela",
+            "imagen": "base2-color1-textura1-tela.jpeg"
+          },
+          {
+            "material": "nylon",
+            "imagen": "base2-color1-textura1-nylon.jpeg"
+          }
+        ]
+      }
+
+
+
+
+
+      
+    ]
+  }
+  

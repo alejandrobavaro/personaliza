@@ -34,9 +34,9 @@
   width: 100%;
   overflow: hidden; // Previene que el contenido se desborde
 
-  &:hover {
-    transform: scale(1.02); // Animación sutil en hover
-  }
+  // &:hover {
+  //   transform: scale(1.02); // Animación sutil en hover
+  // }
 
   h3 {
     font-size: medium;

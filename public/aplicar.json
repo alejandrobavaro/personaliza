@@ -1,6 +1,27 @@
 [
   {
     "id": 1,
+    "nombre": "Personalización de Productos Físicos",
+    "imagenes portada": "/img/10-imagenes-aplicar/id2.png",
+    "tipo": "Físico",
+    "categoria": "Productos",
+    "complejidad": "intermedia",
+    "precio": "consultar",
+    "finalizados": 1500,
+    "comentarios": [
+      "Excelente calidad en la personalización.",
+      "Nuestros productos destacan más en el mercado.",
+      "Recibimos mucha más atención de nuestros clientes."
+    ],
+    "imagenes slider": [
+      "/img/10-imagenes-aplicar/id2-1.png",
+      "/img/10-imagenes-aplicar/id2-2.png",
+      "/img/10-imagenes-aplicar/id2-3.png"
+    ]
+  },
+
+  {
+    "id": 2,
     "nombre": "Personaliza tu sitio Web",
     "imagenes portada": "/img/10-imagenes-aplicar/id1.png",
     "tipo": "Web",
@@ -17,28 +38,6 @@
       "/img/10-imagenes-aplicar/id1-1.png",
       "/img/10-imagenes-aplicar/id1-2.png",
       "/img/10-imagenes-aplicar/id1-3.png"
-    ] 
-  },  
-  
-  
-  {
-    "id": 2,
-    "nombre": "Personalización de Productos Físicos",
-    "imagenes portada": "/img/10-imagenes-aplicar/id2.png",
-    "tipo": "Físico",
-    "categoria": "Productos",
-    "complejidad": "intermedia",
-      "precio": "consultar",
-    "finalizados": 1500,
-    "comentarios": [
-      "Excelente calidad en la personalización.",
-      "Nuestros productos destacan más en el mercado.",
-      "Recibimos mucha más atención de nuestros clientes."
-    ],
-    "imagenes slider": [
-      "/img/10-imagenes-aplicar/id2-1.png",
-      "/img/10-imagenes-aplicar/id2-2.png",
-      "/img/10-imagenes-aplicar/id2-3.png"
     ]
   },
   {
@@ -82,172 +81,167 @@
     ]
   },
 
-
-   
-    {
-      "id": 5,
-      "nombre": "Desarrollo de Apps Personalizadas",
-      "imagenes portada": "/img/10-imagenes-aplicar/id5.png",
-      "tipo": "Mobile",
-      "categoria": "Desarrollo",
-      "complejidad": "intermedia",
-      "precio": "consultar",
-      "finalizados": 2900,
-      "comentarios": [
-        "Nuestra app se ve profesional y funcional.",
-        "Nos ayudaron a desarrollar exactamente lo que necesitábamos.",
-        "Gran soporte durante todo el proceso."
-      ],
-      "imagenes slider": [
-        "/img/10-imagenes-aplicar/id5-1.png",
-        "/img/10-imagenes-aplicar/id5-2.png",
-        "/img/10-imagenes-aplicar/id5-3.png"
-      ]
-    },
-    {
-      "id": 6,
-      "nombre": "Consultoría de UX/UI Personalizada",
+  {
+    "id": 5,
+    "nombre": "Desarrollo de Apps Personalizadas",
+    "imagenes portada": "/img/10-imagenes-aplicar/id5.png",
+    "tipo": "Mobile",
+    "categoria": "Desarrollo",
+    "complejidad": "intermedia",
+    "precio": "consultar",
+    "finalizados": 2900,
+    "comentarios": [
+      "Nuestra app se ve profesional y funcional.",
+      "Nos ayudaron a desarrollar exactamente lo que necesitábamos.",
+      "Gran soporte durante todo el proceso."
+    ],
+    "imagenes slider": [
+      "/img/10-imagenes-aplicar/id5-1.png",
+      "/img/10-imagenes-aplicar/id5-2.png",
+      "/img/10-imagenes-aplicar/id5-3.png"
+    ]
+  },
+  {
+    "id": 6,
+    "nombre": "Consultoría de UX/UI Personalizada",
     "imagenes portada": "/img/10-imagenes-aplicar/id6.png",
-      "tipo": "Web",
-      "categoria": "Diseño",
-      "complejidad": "intermedia",
-      "precio": "consultar",
-      "finalizados": 1800,
-      "comentarios": [
-        "Nos ayudaron a mejorar la experiencia de usuario.",
-        "Gran enfoque en la funcionalidad y estética.",
-        "Resultados muy profesionales y eficientes."
-      ],
-      "imagenes slider": [
-        "/img/10-imagenes-aplicar/id6-1.png",
-        "/img/10-imagenes-aplicar/id6-2.png",
-        "/img/10-imagenes-aplicar/id6-3.png"
-      ]
-    },
-   
-    {
-      "id": 7,
-      "nombre": "Producción de Videos Personalizados",
-      "imagenes portada": "/img/10-imagenes-aplicar/id7.png",
-      "tipo": "Video",
-      "categoria": "Marketing",
-      "complejidad": "intermedia",
-      "precio": "consultar",
-      "finalizados": 2500,
-      "comentarios": [
-        "Los videos personalizados han mejorado nuestra promoción.",
-        "Gran equipo de producción, resultados de alta calidad.",
-        "Nos ayudaron a contar nuestra historia de manera efectiva."
-      ],
-      "imagenes slider": [
-        "/img/10-imagenes-aplicar/id7-1.png",
-        "/img/10-imagenes-aplicar/id7-2.png",
-        "/img/10-imagenes-aplicar/id7-3.png"
-      ]
-    },
-    
-    {
-      "id": 8,
-      "nombre": "Diseño de Landing Pages Personalizadas",
-      "imagenes portada": "/img/10-imagenes-aplicar/id8.png",
-      "tipo": "Web",
-      "categoria": "Diseño",
-      "complejidad": "intermedia",
-      "precio": "consultar",
-      "finalizados": 1750,
-      "comentarios": [
-        "Nuestras landing pages son ahora mucho más efectivas.",
-        "Gran atención a los detalles en el diseño.",
-        "Las tasas de conversión han mejorado notablemente."
-      ],
-      "imagenes slider": [
-        "/img/10-imagenes-aplicar/id8-1.png",
-        "/img/10-imagenes-aplicar/id8-2.png",
-        "/img/10-imagenes-aplicar/id8-3.png"
-      ]
-    },
-  
-    {
-      "id": 9,
-      "nombre": "Desarrollo de eCommerce Personalizado",
-      "imagenes portada": "/img/10-imagenes-aplicar/id9.png",
-      "tipo": "Web",
-      "categoria": "Desarrollo",
-      "complejidad": "intermedia",
-      "precio": "consultar",
-      "finalizados": 3000,
-      "comentarios": [
-        "Nuestro eCommerce está totalmente adaptado a nuestras necesidades.",
-        "Integraciones personalizadas que facilitan la gestión.",
-        "El diseño es atractivo y las funcionalidades son excelentes."
-      ],
-      "imagenes slider": [
-        "/img/10-imagenes-aplicar/id9-1.png",
-        "/img/10-imagenes-aplicar/id9-2.png",
-        "/img/10-imagenes-aplicar/id9-3.png"
-      ]
-    },
-    {
-      "id": 10,
-      "nombre": "Personalización de Folletos y Flyers",
-      "imagenes portada": "/img/10-imagenes-aplicar/id10.png",
-      "tipo": "Físico",
-      "categoria": "Productos",
-      "complejidad": "intermedia",
-      "precio": "consultar",
-      "finalizados": 1600,
-      "comentarios": [
-        "Folletos que reflejan perfectamente nuestra imagen.",
-        "Diseños personalizados que impactan a los clientes.",
-        "Muy satisfechos con la calidad de impresión y diseño."
-      ],
-      "imagenes slider": [
-        "/img/10-imagenes-aplicar/id10-1.png",
-        "/img/10-imagenes-aplicar/id10-2.png",
-        "/img/10-imagenes-aplicar/id10-3.png"
-      ]
-    },
-    {
-      "id": 11,
-      "nombre": "Gestión de Redes Sociales Personalizada",
-      "imagenes portada": "/img/10-imagenes-aplicar/id11.png",
-      "tipo": "Web",
-      "categoria": "Marketing",
-      "complejidad": "intermedia",
-      "precio": "consultar",
-      "finalizados": 4500,
-      "comentarios": [
-        "Nuestra presencia en redes ha mejorado notablemente.",
-        "Gestionaron nuestras cuentas de forma profesional y personalizada.",
-        "Gran impacto en nuestro alcance y visibilidad."
-      ],
-      "imagenes slider": [
-        "/img/10-imagenes-aplicar/id11-1.png",
-        "/img/10-imagenes-aplicar/id11-2.png",
-        "/img/10-imagenes-aplicar/id11-3.png"
-      ]
-    },
-    {
-      "id": 12,
-      "nombre": "Diseño de Logos Personalizados",
-      "imagenes portada": "/img/10-imagenes-aplicar/id12.png",
-      "tipo": "Gráfico",
-      "categoria": "Diseño",
-      "complejidad": "intermedia",
-      "precio": "consultar",
-      "finalizados": 2400,
-      "comentarios": [
-        "El logotipo refleja perfectamente nuestra identidad.",
-        "Gran creatividad y atención a los detalles.",
-        "Totalmente satisfechos con el resultado final."
-      ],
-      "imagenes slider": [
-        "/img/10-imagenes-aplicar/id12-1.png",
-        "/img/10-imagenes-aplicar/id12-2.png",
-        "/img/10-imagenes-aplicar/id12-3.png"
-      ]
-    }
-    
+    "tipo": "Web",
+    "categoria": "Diseño",
+    "complejidad": "intermedia",
+    "precio": "consultar",
+    "finalizados": 1800,
+    "comentarios": [
+      "Nos ayudaron a mejorar la experiencia de usuario.",
+      "Gran enfoque en la funcionalidad y estética.",
+      "Resultados muy profesionales y eficientes."
+    ],
+    "imagenes slider": [
+      "/img/10-imagenes-aplicar/id6-1.png",
+      "/img/10-imagenes-aplicar/id6-2.png",
+      "/img/10-imagenes-aplicar/id6-3.png"
+    ]
+  },
 
-  ]
-  
+  {
+    "id": 7,
+    "nombre": "Producción de Videos Personalizados",
+    "imagenes portada": "/img/10-imagenes-aplicar/id7.png",
+    "tipo": "Video",
+    "categoria": "Marketing",
+    "complejidad": "intermedia",
+    "precio": "consultar",
+    "finalizados": 2500,
+    "comentarios": [
+      "Los videos personalizados han mejorado nuestra promoción.",
+      "Gran equipo de producción, resultados de alta calidad.",
+      "Nos ayudaron a contar nuestra historia de manera efectiva."
+    ],
+    "imagenes slider": [
+      "/img/10-imagenes-aplicar/id7-1.png",
+      "/img/10-imagenes-aplicar/id7-2.png",
+      "/img/10-imagenes-aplicar/id7-3.png"
+    ]
+  },
+
+  {
+    "id": 8,
+    "nombre": "Diseño de Landing Pages Personalizadas",
+    "imagenes portada": "/img/10-imagenes-aplicar/id8.png",
+    "tipo": "Web",
+    "categoria": "Diseño",
+    "complejidad": "intermedia",
+    "precio": "consultar",
+    "finalizados": 1750,
+    "comentarios": [
+      "Nuestras landing pages son ahora mucho más efectivas.",
+      "Gran atención a los detalles en el diseño.",
+      "Las tasas de conversión han mejorado notablemente."
+    ],
+    "imagenes slider": [
+      "/img/10-imagenes-aplicar/id8-1.png",
+      "/img/10-imagenes-aplicar/id8-2.png",
+      "/img/10-imagenes-aplicar/id8-3.png"
+    ]
+  },
+
+  {
+    "id": 9,
+    "nombre": "Desarrollo de eCommerce Personalizado",
+    "imagenes portada": "/img/10-imagenes-aplicar/id9.png",
+    "tipo": "Web",
+    "categoria": "Desarrollo",
+    "complejidad": "intermedia",
+    "precio": "consultar",
+    "finalizados": 3000,
+    "comentarios": [
+      "Nuestro eCommerce está totalmente adaptado a nuestras necesidades.",
+      "Integraciones personalizadas que facilitan la gestión.",
+      "El diseño es atractivo y las funcionalidades son excelentes."
+    ],
+    "imagenes slider": [
+      "/img/10-imagenes-aplicar/id9-1.png",
+      "/img/10-imagenes-aplicar/id9-2.png",
+      "/img/10-imagenes-aplicar/id9-3.png"
+    ]
+  },
+  {
+    "id": 10,
+    "nombre": "Personalización de Folletos y Flyers",
+    "imagenes portada": "/img/10-imagenes-aplicar/id10.png",
+    "tipo": "Físico",
+    "categoria": "Productos",
+    "complejidad": "intermedia",
+    "precio": "consultar",
+    "finalizados": 1600,
+    "comentarios": [
+      "Folletos que reflejan perfectamente nuestra imagen.",
+      "Diseños personalizados que impactan a los clientes.",
+      "Muy satisfechos con la calidad de impresión y diseño."
+    ],
+    "imagenes slider": [
+      "/img/10-imagenes-aplicar/id10-1.png",
+      "/img/10-imagenes-aplicar/id10-2.png",
+      "/img/10-imagenes-aplicar/id10-3.png"
+    ]
+  },
+  {
+    "id": 11,
+    "nombre": "Gestión de Redes Sociales Personalizada",
+    "imagenes portada": "/img/10-imagenes-aplicar/id11.png",
+    "tipo": "Web",
+    "categoria": "Marketing",
+    "complejidad": "intermedia",
+    "precio": "consultar",
+    "finalizados": 4500,
+    "comentarios": [
+      "Nuestra presencia en redes ha mejorado notablemente.",
+      "Gestionaron nuestras cuentas de forma profesional y personalizada.",
+      "Gran impacto en nuestro alcance y visibilidad."
+    ],
+    "imagenes slider": [
+      "/img/10-imagenes-aplicar/id11-1.png",
+      "/img/10-imagenes-aplicar/id11-2.png",
+      "/img/10-imagenes-aplicar/id11-3.png"
+    ]
+  },
+  {
+    "id": 12,
+    "nombre": "Diseño de Logos Personalizados",
+    "imagenes portada": "/img/10-imagenes-aplicar/id12.png",
+    "tipo": "Gráfico",
+    "categoria": "Diseño",
+    "complejidad": "intermedia",
+    "precio": "consultar",
+    "finalizados": 2400,
+    "comentarios": [
+      "El logotipo refleja perfectamente nuestra identidad.",
+      "Gran creatividad y atención a los detalles.",
+      "Totalmente satisfechos con el resultado final."
+    ],
+    "imagenes slider": [
+      "/img/10-imagenes-aplicar/id12-1.png",
+      "/img/10-imagenes-aplicar/id12-2.png",
+      "/img/10-imagenes-aplicar/id12-3.png"
+    ]
+  }
+]
