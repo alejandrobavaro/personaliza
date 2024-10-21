@@ -11,11 +11,20 @@
     display: flex;
     justify-content: space-between;
     align-items: flex-start;
+
+    @media (max-width: 1024px) { // Estilo para tabletas
+      flex-direction: column;
+    }
   }
 
   .left-section {
     flex: 1.5;
     margin-right: 20px;
+
+    @media (max-width: 1024px) {
+      margin-right: 0;
+      margin-bottom: 20px;
+    }
 
     .visualizacion {
       h2 {
@@ -72,14 +81,13 @@
       width: 100%;
       table-layout: auto;
       border-collapse: collapse;
-      margin-bottom: 0px;
-      
+      margin-bottom: 0;
 
       td {
-        padding: 2px; /* Menor padding para hacer la tabla más compacta */
+        padding: 2px;
         color: #0700648c;
         font-size: small;
-        border: 1px solid #ccc; /* Línea divisoria */
+        border: 1px solid #ccc;
 
         h5 {
           margin: 0;
@@ -93,9 +101,9 @@
         background-color: #ffffff;
         color: #000;
         border: none;
-        padding: 4px 8px; /* Botones más pequeños */
+        padding: 4px 8px;
         margin: 2px;
-        border-radius: 5px; /* Bordes redondeados */
+        border-radius: 5px;
         cursor: pointer;
         transition: background-color 0.3s;
 
@@ -106,52 +114,6 @@
         &.selected {
           background-color: #8806068f;
           color: #ffffff;
-        }
-      }
-    }
-
-    .text-grabado {
-      margin-top: 10px;
-      h5 {
-        color: #ffffff;
-        font-size: small;
-      }
-
-      input {
-        width: calc(100% - 10px);
-        padding: 0px;
-        border: 1px solid #ccc;
-        border-radius: 5px;
-        font-size: small;
-      }
-    }
-
-    .stickers {
-      margin-top: 10px;
-
-      .sticker-options {
-        display: flex;
-        flex-wrap: wrap;
-
-        .sticker-button {
-          background-color: #ffffff;
-          color: #000;
-          border: none;
-          font-size: small;
-          padding: 4px 8px; /* Botones más pequeños */
-          margin: 2px;
-          border-radius: 5px; /* Bordes redondeados */
-          cursor: pointer;
-          transition: background-color 0.3s;
-
-          &:hover {
-            background-color: #eeeeee;
-          }
-
-          &.selected {
-            background-color: #ff00007e;
-            color: #ffffff;
-          }
         }
       }
     }
@@ -173,6 +135,51 @@
         &:hover {
           background-color: #ff00009a;
         }
+      }
+    }
+  }
+
+  @media (max-width: 768px) { // Estilo para móviles
+    padding: 10px;
+
+    .content-container {
+      flex-direction: column;
+    }
+
+    .left-section,
+    .right-section {
+      width: 100%;
+      margin-right: 0;
+    }
+
+    .visualizacion {
+      .cartera {
+        width: 100%;
+        margin: 0 auto;
+      }
+    }
+
+    .options-table {
+      td {
+        padding: 4px;
+        font-size: x-small;
+
+        h5 {
+          font-size: x-small;
+        }
+      }
+
+      .option-button {
+        padding: 3px 6px;
+        font-size: x-small;
+      }
+    }
+
+    .save-share-buttons {
+      .save-button,
+      .share-button {
+        font-size: x-small;
+        padding: 0px 10px;
       }
     }
   }

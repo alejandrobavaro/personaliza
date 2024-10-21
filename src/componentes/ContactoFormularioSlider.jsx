@@ -106,10 +106,10 @@ const ContactoFormularioSlider = () => {
         </div>
         <div className="slider-column box-shadow">
           <h2 className="slider-title">
-            <i className="bi bi-person-arms-up" /> GANA DINERO JUGANDO{""}
+            <i className="bi bi-person-arms-up" />Contactanos{""}
             <i className="bi bi-person-arms-up" />
           </h2>
-         <img className="gifTamaño" src="../../img/05-gif/dinero-animado.gif" alt="" />
+         <img className="gifTamaño" src="../../img/05-gif/contactfree-contactless.gif" alt="" />
         </div>
       </div>
     </div>

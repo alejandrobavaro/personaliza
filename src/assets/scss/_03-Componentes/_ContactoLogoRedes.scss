@@ -66,6 +66,8 @@
   @media (max-width: 480px) {
     gap: 5px;
     padding: 10px;
+    flex-direction: column; // Cambiamos a disposición columna en mobile
+    align-items: center; // Centramos los elementos en mobile
   }
 }
 
@@ -105,6 +107,13 @@
   display: flex;
   gap: 20px;
   justify-content: center;
+
+  @media (max-width: 480px) {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%; // Aseguramos que ocupe todo el espacio
+  }
 }
 
 .logo-secondary {
@@ -120,7 +129,9 @@
   }
 
   @media (max-width: 480px) {
-    width: 60px;
+    width: 100%; // Ocupar el espacio disponible en mobile
+    max-width: 200px; // Limitar el tamaño máximo en mobile
+    margin: 0 auto; // Centrar el logo en mobile
   }
 }
 
@@ -188,6 +199,19 @@
   a {
     color: inherit;
     text-decoration: none;
+  }
+}
+
+// Ocultar otras imágenes en modo mobile
+@media (max-width: 480px) {
+  // Ocultar todos los logos principales en mobile
+  .logo-column .logo-main {
+    display: none;
+  }
+
+  // Si hay otras imágenes en la sección de contacto, las ocultamos
+  .contact-icons img.logo-img {
+    display: none;
   }
 }
 
