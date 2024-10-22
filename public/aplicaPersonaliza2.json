@@ -3,12 +3,12 @@
       {
         "id": 1,
         "nombre": "Imagen 3D 1",
-        "url": "/imagenes/cartera1.jpg"
+        "url": "/img/11-imagenes-personaliza1/base1-color1-textura2-cuero.jpeg"
       },
       {
         "id": 2,
         "nombre": "Imagen 3D 2",
-        "url": "/imagenes/cartera2.jpg"
+        "url": "/img/11-imagenes-personaliza1/base1-color1-textura1-cuero.jpeg"
       }
     ]
   }
