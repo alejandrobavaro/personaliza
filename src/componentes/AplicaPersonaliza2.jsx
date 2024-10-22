@@ -12,11 +12,13 @@ const AplicaPersonaliza2 = () => {
     // Cargar las imágenes del JSON
     const fetchImagenes = async () => {
       try {
-        const response = await fetch('/aplicaPersonaliza2.json');
+        const response = await fetch('/aplicaPersonaliza2.json'); // Asegúrate de que este archivo está en public
         const data = await response.json();
         setImagenes(data.imagenes);
-        if (data.imagenes.length > 0) {
-          setImagenSeleccionada(data.imagenes[0].url); // Selecciona la primera imagen por defecto
+
+        // Verifica si hay imágenes en el JSON y selecciona la primera
+        if (data.imagenes && data.imagenes.length > 0) {
+          setImagenSeleccionada(data.imagenes[0].url);
         }
       } catch (error) {
         console.error('Error al cargar las imágenes:', error);
@@ -36,13 +38,15 @@ const AplicaPersonaliza2 = () => {
             <ambientLight intensity={0.5} />
             <directionalLight position={[0, 0, 5]} />
 
-            {/* Cargar la textura de la imagen seleccionada */}
-            <mesh rotation={[0, 0.5, 0]}>
-              <boxGeometry args={[3, 3, 3]} />
-              <meshStandardMaterial map={new THREE.TextureLoader().load(imagenSeleccionada)} />
-            </mesh>
+            {/* Malla y textura de la imagen seleccionada */}
+            {imagenSeleccionada && (
+              <mesh rotation={[0, 0.5, 0]}>
+                <boxGeometry args={[3, 3, 3]} />
+                <meshStandardMaterial map={new THREE.TextureLoader().load(imagenSeleccionada)} />
+              </mesh>
+            )}
 
-            {/* Controles para rotar la escena */}
+            {/* Controles de rotación */}
             <OrbitControls enableZoom={false} />
           </Canvas>
         </div>
