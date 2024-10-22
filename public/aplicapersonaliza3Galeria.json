@@ -1,0 +1,410 @@
+
+
+
+{
+  "componentes": {
+    "flap": {
+      "titulo": "Elige el material y color para el componente Flap de tu cartera.",
+      "opciones": [
+        {
+          "material": "Tumbled Leather",
+          "colores": [
+            {"nombre": "Negro", "imagen": "../public/img/13-imagenes-personaliza3/base1-color1-textura1-cuero.png"},
+            {"nombre": "Bone", "imagen": "url_a_la_imagen/bone.png"},
+            {"nombre": "Buff", "imagen": "url_a_la_imagen/buff.png"},
+            {"nombre": "Coral", "imagen": "url_a_la_imagen/coral.png"},
+            {"nombre": "Cornflower", "imagen": "url_a_la_imagen/cornflower.png"},
+            {"nombre": "Dark Olive", "imagen": "url_a_la_imagen/dark_olive.png"},
+            {"nombre": "Elderberry", "imagen": "url_a_la_imagen/elderberry.png"},
+            {"nombre": "Espresso", "imagen": "url_a_la_imagen/espresso.png"},
+            {"nombre": "Fog", "imagen": "url_a_la_imagen/fog.png"},
+            {"nombre": "Garnet", "imagen": "url_a_la_imagen/garnet.png"},
+            {"nombre": "Luggage", "imagen": "url_a_la_imagen/luggage.png"},
+            {"nombre": "Navy", "imagen": "url_a_la_imagen/navy.png"},
+            {"nombre": "Orchid", "imagen": "url_a_la_imagen/orchid.png"},
+            {"nombre": "Portobello", "imagen": "url_a_la_imagen/portobello.png"},
+            {"nombre": "Ruby", "imagen": "url_a_la_imagen/ruby.png"},
+            {"nombre": "Saddle", "imagen": "url_a_la_imagen/saddle.png"},
+            {"nombre": "Saffron", "imagen": "url_a_la_imagen/saffron.png"},
+            {"nombre": "Blanco", "imagen": "url_a_la_imagen/blanco.png"}
+          ]
+        },
+        {
+          "material": "Suede Leather",
+          "colores": [
+            {"nombre": "Negro", "imagen": "url_a_la_imagen/negro.png"},
+            {"nombre": "Caramel", "imagen": "url_a_la_imagen/caramel.png"},
+            {"nombre": "Espresso", "imagen": "url_a_la_imagen/espresso.png"},
+            {"nombre": "Navy", "imagen": "url_a_la_imagen/navy.png"},
+            {"nombre": "Rojo", "imagen": "url_a_la_imagen/rojo.png"},
+            {"nombre": "Slate", "imagen": "url_a_la_imagen/slate.png"}
+          ]
+        },
+        {
+          "material": "Nappa",
+          "colores": [
+            {"nombre": "Bleu Marine", "imagen": "url_a_la_imagen/bleu_marine.png"},
+            {"nombre": "Chameau", "imagen": "url_a_la_imagen/chameau.png"},
+            {"nombre": "Gris", "imagen": "url_a_la_imagen/gris.png"},
+            {"nombre": "Marron Fonce", "imagen": "url_a_la_imagen/marron_fonce.png"},
+            {"nombre": "Noir", "imagen": "url_a_la_imagen/noir.png"},
+            {"nombre": "Rouge", "imagen": "url_a_la_imagen/rouge.png"}
+          ]
+        },
+        {
+          "material": "Metallic Nappa",
+          "colores": [
+            {"nombre": "Anthracite", "imagen": "url_a_la_imagen/anthracite.png"},
+            {"nombre": "Gold", "imagen": "url_a_la_imagen/gold.png"}
+          ]
+        },
+        {
+          "material": "Hair Calf",
+          "colores": [
+            {"nombre": "Negro", "imagen": "url_a_la_imagen/negro.png"},
+            {"nombre": "Cherry", "imagen": "url_a_la_imagen/cherry.png"},
+            {"nombre": "Cognac", "imagen": "url_a_la_imagen/cognac.png"},
+            {"nombre": "Mali", "imagen": "url_a_la_imagen/mali.png"}
+          ]
+        },
+        {
+          "material": "Python",
+          "colores": [
+            {"nombre": "Anthracite", "imagen": "url_a_la_imagen/anthracite.png"},
+            {"nombre": "Negro", "imagen": "url_a_la_imagen/negro.png"},
+            {"nombre": "Champagne", "imagen": "url_a_la_imagen/champagne.png"},
+            {"nombre": "Citrus Multi", "imagen": "url_a_la_imagen/citrus_multi.png"},
+            {"nombre": "Dusk Blue", "imagen": "url_a_la_imagen/dusk_blue.png"},
+            {"nombre": "Marble", "imagen": "url_a_la_imagen/marble.png"},
+            {"nombre": "Natural", "imagen": "url_a_la_imagen/natural.png"},
+            {"nombre": "Truffle", "imagen": "url_a_la_imagen/truffle.png"},
+            {"nombre": "Blanco", "imagen": "url_a_la_imagen/blanco.png"}
+          ]
+        },
+        {
+          "material": "American Alligator",
+          "colores": [
+            {"nombre": "Negro", "imagen": "url_a_la_imagen/negro.png"},
+            {"nombre": "Marrón", "imagen": "url_a_la_imagen/marron.png"},
+            {"nombre": "Poppy", "imagen": "url_a_la_imagen/poppy.png"}
+          ]
+        }
+      ]
+    },
+    "body": {
+      "titulo": "Elige el material y color para el componente Body de tu cartera.",
+      "opciones": [
+        {
+          "material": "Tumbled Leather",
+          "colores": [
+            {"nombre": "Negro", "imagen": "url_a_la_imagen/negro.png"},
+            {"nombre": "Bone", "imagen": "url_a_la_imagen/bone.png"},
+            {"nombre": "Buff", "imagen": "url_a_la_imagen/buff.png"},
+            {"nombre": "Coral", "imagen": "url_a_la_imagen/coral.png"},
+            {"nombre": "Cornflower", "imagen": "url_a_la_imagen/cornflower.png"},
+            {"nombre": "Dark Olive", "imagen": "url_a_la_imagen/dark_olive.png"},
+            {"nombre": "Elderberry", "imagen": "url_a_la_imagen/elderberry.png"},
+            {"nombre": "Espresso", "imagen": "url_a_la_imagen/espresso.png"},
+            {"nombre": "Fog", "imagen": "url_a_la_imagen/fog.png"},
+            {"nombre": "Garnet", "imagen": "url_a_la_imagen/garnet.png"},
+            {"nombre": "Luggage", "imagen": "url_a_la_imagen/luggage.png"},
+            {"nombre": "Navy", "imagen": "url_a_la_imagen/navy.png"},
+            {"nombre": "Orchid", "imagen": "url_a_la_imagen/orchid.png"},
+            {"nombre": "Portobello", "imagen": "url_a_la_imagen/portobello.png"},
+            {"nombre": "Ruby", "imagen": "url_a_la_imagen/ruby.png"},
+            {"nombre": "Saddle", "imagen": "url_a_la_imagen/saddle.png"},
+            {"nombre": "Saffron", "imagen": "url_a_la_imagen/saffron.png"},
+            {"nombre": "Blanco", "imagen": "url_a_la_imagen/blanco.png"}
+          ]
+        },
+        {
+          "material": "Suede Leather",
+          "colores": [
+            {"nombre": "Negro", "imagen": "url_a_la_imagen/negro.png"},
+            {"nombre": "Caramel", "imagen": "url_a_la_imagen/caramel.png"},
+            {"nombre": "Espresso", "imagen": "url_a_la_imagen/espresso.png"},
+            {"nombre": "Navy", "imagen": "url_a_la_imagen/navy.png"},
+            {"nombre": "Rojo", "imagen": "url_a_la_imagen/rojo.png"},
+            {"nombre": "Slate", "imagen": "url_a_la_imagen/slate.png"}
+          ]
+        },
+        {
+          "material": "Nappa",
+          "colores": [
+            {"nombre": "Bleu Marine", "imagen": "url_a_la_imagen/bleu_marine.png"},
+            {"nombre": "Chameau", "imagen": "url_a_la_imagen/chameau.png"},
+            {"nombre": "Gris", "imagen": "url_a_la_imagen/gris.png"},
+            {"nombre": "Marron Fonce", "imagen": "url_a_la_imagen/marron_fonce.png"},
+            {"nombre": "Noir", "imagen": "url_a_la_imagen/noir.png"},
+            {"nombre": "Rouge", "imagen": "url_a_la_imagen/rouge.png"}
+          ]
+        },
+        {
+          "material": "Metallic Nappa",
+          "colores": [
+            {"nombre": "Anthracite", "imagen": "url_a_la_imagen/anthracite.png"},
+            {"nombre": "Gold", "imagen": "url_a_la_imagen/gold.png"}
+          ]
+        },
+        {
+          "material": "Hair Calf",
+          "colores": [
+            {"nombre": "Negro", "imagen": "url_a_la_imagen/negro.png"},
+            {"nombre": "Cherry", "imagen": "url_a_la_imagen/cherry.png"},
+            {"nombre": "Cognac", "imagen": "url_a_la_imagen/cognac.png"},
+            {"nombre": "Mali", "imagen": "url_a_la_imagen/mali.png"}
+          ]
+        },
+        {
+          "material": "Python",
+          "colores": [
+            {"nombre": "Anthracite", "imagen": "url_a_la_imagen/anthracite.png"},
+            {"nombre": "Negro", "imagen": "url_a_la_imagen/negro.png"},
+            {"nombre": "Champagne", "imagen": "url_a_la_imagen/champagne.png"},
+            {"nombre": "Citrus Multi", "imagen": "url_a_la_imagen/citrus_multi.png"},
+            {"nombre": "Dusk Blue", "imagen": "url_a_la_imagen/dusk_blue.png"},
+            {"nombre": "Marble", "imagen": "url_a_la_imagen/marble.png"},
+            {"nombre": "Natural", "imagen": "url_a_la_imagen/natural.png"},
+            {"nombre": "Truffle", "imagen": "url_a_la_imagen/truffle.png"},
+            {"nombre": "Blanco", "imagen": "url_a_la_imagen/blanco.png"}
+          ]
+        },
+        {
+          "material": "American Alligator",
+          "colores": [
+            {"nombre": "Negro", "imagen": "url_a_la_imagen/negro.png"},
+            {"nombre": "Marrón", "imagen": "url_a_la_imagen/marron.png"},
+            {"nombre": "Poppy", "imagen": "url_a_la_imagen/poppy.png"}
+          ]
+        }
+      ]
+    },
+    "gusset": {
+      "titulo": "Elige el material y color para el componente Gusset de tu cartera.",
+      "opciones": [
+        {
+          "material": "Tumbled Leather",
+          "colores": [
+            {"nombre": "Negro", "imagen": "url_a_la_imagen/negro.png"},
+            {"nombre": "Bone", "imagen": "url_a_la_imagen/bone.png"},
+            {"nombre": "Buff", "imagen": "url_a_la_imagen/buff.png"},
+            {"nombre": "Coral", "imagen": "url_a_la_imagen/coral.png"},
+            {"nombre": "Cornflower", "imagen": "url_a_la_imagen/cornflower.png"},
+            {"nombre": "Dark Olive", "imagen": "url_a_la_imagen/dark_olive.png"},
+            {"nombre": "Elderberry", "imagen": "url_a_la_imagen/elderberry.png"},
+            {"nombre": "Espresso", "imagen": "url_a_la_imagen/espresso.png"},
+            {"nombre": "Fog", "imagen": "url_a_la_imagen/fog.png"},
+            {"nombre": "Garnet", "imagen": "url_a_la_imagen/garnet.png"},
+            {"nombre": "Luggage", "imagen": "url_a_la_imagen/luggage.png"},
+            {"nombre": "Navy", "imagen": "url_a_la_imagen/navy.png"},
+            {"nombre": "Orchid", "imagen": "url_a_la_imagen/orchid.png"},
+            {"nombre": "Portobello", "imagen": "url_a_la_imagen/portobello.png"},
+            {"nombre": "Ruby", "imagen": "url_a_la_imagen/ruby.png"},
+            {"nombre": "Saddle", "imagen": "url_a_la_imagen/saddle.png"},
+            {"nombre": "Saffron", "imagen": "url_a_la_imagen/saffron.png"},
+            {"nombre": "Blanco", "imagen": "url_a_la_imagen/blanco.png"}
+          ]
+        },
+        {
+          "material": "Suede Leather",
+          "colores": [
+            {"nombre": "Negro", "imagen": "url_a_la_imagen/negro.png"},
+            {"nombre": "Caramel", "imagen": "url_a_la_imagen/caramel.png"},
+            {"nombre": "Espresso", "imagen": "url_a_la_imagen/espresso.png"},
+            {"nombre": "Navy", "imagen": "url_a_la_imagen/navy.png"},
+            {"nombre": "Rojo", "imagen": "url_a_la_imagen/rojo.png"},
+            {"nombre": "Slate", "imagen": "url_a_la_imagen/slate.png"}
+          ]
+        },
+        {
+          "material": "Nappa",
+          "colores": [
+            {"nombre": "Bleu Marine", "imagen": "url_a_la_imagen/bleu_marine.png"},
+            {"nombre": "Chameau", "imagen": "url_a_la_imagen/chameau.png"},
+            {"nombre": "Gris", "imagen": "url_a_la_imagen/gris.png"},
+            {"nombre": "Marron Fonce", "imagen": "url_a_la_imagen/marron_fonce.png"},
+            {"nombre": "Noir", "imagen": "url_a_la_imagen/noir.png"},
+            {"nombre": "Rouge", "imagen": "url_a_la_imagen/rouge.png"}
+          ]
+        },
+        {
+          "material": "Metallic Nappa",
+          "colores": [
+            {"nombre": "Anthracite", "imagen": "url_a_la_imagen/anthracite.png"},
+            {"nombre": "Gold", "imagen": "url_a_la_imagen/gold.png"}
+          ]
+        },
+        {
+          "material": "Hair Calf",
+          "colores": [
+            {"nombre": "Negro", "imagen": "url_a_la_imagen/negro.png"},
+            {"nombre": "Cherry", "imagen": "url_a_la_imagen/cherry.png"},
+            {"nombre": "Cognac", "imagen": "url_a_la_imagen/cognac.png"},
+            {"nombre": "Mali", "imagen": "url_a_la_imagen/mali.png"}
+          ]
+        },
+        {
+          "material": "Python",
+          "colores": [
+            {"nombre": "Anthracite", "imagen": "url_a_la_imagen/anthracite.png"},
+            {"nombre": "Negro", "imagen": "url_a_la_imagen/negro.png"},
+            {"nombre": "Champagne", "imagen": "url_a_la_imagen/champagne.png"},
+            {"nombre": "Citrus Multi", "imagen": "url_a_la_imagen/citrus_multi.png"},
+            {"nombre": "Dusk Blue", "imagen": "url_a_la_imagen/dusk_blue.png"},
+            {"nombre": "Marble", "imagen": "url_a_la_imagen/marble.png"},
+            {"nombre": "Natural", "imagen": "url_a_la_imagen/natural.png"},
+            {"nombre": "Truffle", "imagen": "url_a_la_imagen/truffle.png"},
+            {"nombre": "Blanco", "imagen": "url_a_la_imagen/blanco.png"}
+          ]
+        },
+        {
+          "material": "American Alligator",
+          "colores": [
+            {"nombre": "Negro", "imagen": "url_a_la_imagen/negro.png"},
+            {"nombre": "Marrón", "imagen": "url_a_la_imagen/marron.png"},
+            {"nombre": "Poppy", "imagen": "url_a_la_imagen/poppy.png"}
+          ]
+        }
+      ]
+    },
+    "piping": {
+      "titulo": "Elige el material y color para el componente Piping de tu cartera.",
+      "opciones": [
+        {
+          "material": "Tumbled Leather",
+          "colores": [
+            {"nombre": "Negro", "imagen": "url_a_la_imagen/negro.png"},
+            {"nombre": "Bone", "imagen": "url_a_la_imagen/bone.png"},
+            {"nombre": "Buff", "imagen": "url_a_la_imagen/buff.png"},
+            {"nombre": "Coral", "imagen": "url_a_la_imagen/coral.png"},
+            {"nombre": "Cornflower", "imagen": "url_a_la_imagen/cornflower.png"},
+            {"nombre": "Dark Olive", "imagen": "url_a_la_imagen/dark_olive.png"},
+            {"nombre": "Elderberry", "imagen": "url_a_la_imagen/elderberry.png"},
+            {"nombre": "Espresso", "imagen": "url_a_la_imagen/espresso.png"},
+            {"nombre": "Fog", "imagen": "url_a_la_imagen/fog.png"},
+            {"nombre": "Garnet", "imagen": "url_a_la_imagen/garnet.png"},
+            {"nombre": "Luggage", "imagen": "url_a_la_imagen/luggage.png"},
+            {"nombre": "Navy", "imagen": "url_a_la_imagen/navy.png"},
+            {"nombre": "Orchid", "imagen": "url_a_la_imagen/orchid.png"},
+            {"nombre": "Portobello", "imagen": "url_a_la_imagen/portobello.png"},
+            {"nombre": "Ruby", "imagen": "url_a_la_imagen/ruby.png"},
+            {"nombre": "Saddle", "imagen": "url_a_la_imagen/saddle.png"},
+            {"nombre": "Saffron", "imagen": "url_a_la_imagen/saffron.png"},
+            {"nombre": "Blanco", "imagen": "url_a_la_imagen/blanco.png"}
+          ]
+        },
+        {
+          "material": "Nappa",
+          "colores": [
+            {"nombre": "Bleu Marine", "imagen": "url_a_la_imagen/bleu_marine.png"},
+            {"nombre": "Chameau", "imagen": "url_a_la_imagen/chameau.png"},
+            {"nombre": "Gris", "imagen": "url_a_la_imagen/gris.png"},
+            {"nombre": "Marron Fonce", "imagen": "url_a_la_imagen/marron_fonce.png"},
+            {"nombre": "Noir", "imagen": "url_a_la_imagen/noir.png"},
+            {"nombre": "Rouge", "imagen": "url_a_la_imagen/rouge.png"}
+          ]
+        },
+        {
+          "material": "Metallic Nappa",
+          "colores": [
+            {"nombre": "Anthracite", "imagen": "url_a_la_imagen/anthracite.png"},
+            {"nombre": "Gold", "imagen": "url_a_la_imagen/gold.png"}
+          ]
+        }
+      ]
+    },
+    "strap": {
+      "titulo": "Elige una de las opciones a continuación.",
+      "opciones": [
+        {
+          "tipo": "Crossbody Strap",
+          "longitud": "22\" de caída",
+          "material": "Tumbled Leather",
+          "colores": [
+            {"nombre": "Negro", "imagen": "url_a_la_imagen/negro.png"},
+            {"nombre": "Bone", "imagen": "url_a_la_imagen/bone.png"},
+            {"nombre": "Buff", "imagen": "url_a_la_imagen/buff.png"},
+            {"nombre": "Coral", "imagen": "url_a_la_imagen/coral.png"},
+            {"nombre": "Cornflower", "imagen": "url_a_la_imagen/cornflower.png"},
+            {"nombre": "Dark Olive", "imagen": "url_a_la_imagen/dark_olive.png"},
+            {"nombre": "Elderberry", "imagen": "url_a_la_imagen/elderberry.png"},
+            {"nombre": "Espresso", "imagen": "url_a_la_imagen/espresso.png"},
+            {"nombre": "Fog", "imagen": "url_a_la_imagen/fog.png"},
+            {"nombre": "Garnet", "imagen": "url_a_la_imagen/garnet.png"},
+            {"nombre": "Luggage", "imagen": "url_a_la_imagen/luggage.png"},
+            {"nombre": "Navy", "imagen": "url_a_la_imagen/navy.png"},
+            {"nombre": "Orchid", "imagen": "url_a_la_imagen/orchid.png"},
+            {"nombre": "Portobello", "imagen": "url_a_la_imagen/portobello.png"},
+            {"nombre": "Ruby", "imagen": "url_a_la_imagen/ruby.png"},
+            {"nombre": "Saddle", "imagen": "url_a_la_imagen/saddle.png"},
+            {"nombre": "Saffron", "imagen": "url_a_la_imagen/saffron.png"},
+            {"nombre": "Blanco", "imagen": "url_a_la_imagen/blanco.png"}
+          ]
+        },
+        {
+          "tipo": "Shoulder Strap",
+          "longitud": "16\" de caída",
+          "material": "Nappa",
+          "colores": [
+            {"nombre": "Bleu Marine", "imagen": "url_a_la_imagen/bleu_marine.png"},
+            {"nombre": "Chameau", "imagen": "url_a_la_imagen/chameau.png"},
+            {"nombre": "Gris", "imagen": "url_a_la_imagen/gris.png"},
+            {"nombre": "Marron Fonce", "imagen": "url_a_la_imagen/marron_fonce.png"},
+            {"nombre": "Noir", "imagen": "url_a_la_imagen/noir.png"},
+            {"nombre": "Rouge", "imagen": "url_a_la_imagen/rouge.png"}
+          ]
+        },
+        {
+          "tipo": "Metallic Nappa",
+          "longitud": "255",
+          "colores": [
+            {"nombre": "Anthracite", "imagen": "url_a_la_imagen/anthracite.png"},
+            {"nombre": "Gold", "imagen": "url_a_la_imagen/gold.png"}
+          ]
+        }
+      ]
+    },
+    "hardware": {
+      "titulo": "Elige el acabado del hardware para el componente de tu cartera.",
+      "opciones": [
+        {
+          "tipo": "Rhodium",
+          "precio": "$55",
+          "acabados": ["Pulido", "Satinado"]
+        },
+        {
+          "tipo": "Warm Gold",
+          "precio": "$60",
+          "acabados": ["Pulido", "Satinado"]
+        }
+      ]
+    },
+    "lining": {
+      "titulo": "Elige el material y color para el forro de tu cartera.",
+      "opciones": [
+        {
+          "material": "Suede Lining",
+          "colores": [
+            {"nombre": "Negro", "imagen": "url_a_la_imagen/negro.png"},
+            {"nombre": "Clementine", "imagen": "url_a_la_imagen/clementine.png"},
+            {"nombre": "Elderberry", "imagen": "url_a_la_imagen/elderberry.png"},
+            {"nombre": "Espresso", "imagen": "url_a_la_imagen/espresso.png"},
+            {"nombre": "Fawn", "imagen": "url_a_la_imagen/fawn.png"},
+            {"nombre": "Fuchsia", "imagen": "url_a_la_imagen/fuchsia.png"},
+            {"nombre": "Garnet", "imagen": "url_a_la_imagen/garnet.png"},
+            {"nombre": "Gray", "imagen": "url_a_la_imagen/gray.png"},
+            {"nombre": "Navy", "imagen": "url_a_la_imagen/navy.png"}
+          ]
+        }
+      ]
+    },
+    "personalizacion": {
+      "titulo": "Personalización: Agregado de texto en la cartera, iniciales, emojis, logos, etc.",
+      "campos": [
+        {"nombre": "Nombre", "placeholder": "Ingresa tu nombre"},
+        {"nombre": "Iniciales", "placeholder": "Ingresa tus iniciales"},
+        {"nombre": "Emojis", "placeholder": "Ingresa emojis"}
+      ]
+    }
+  }
+}

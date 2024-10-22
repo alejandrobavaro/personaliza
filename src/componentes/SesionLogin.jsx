@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import { useNavigate, Navigate } from "react-router-dom";
-import { useAuth } from "./SesionAuthContext";
+import { useAuth } from "../context/SesionAuthContext";
 import LoadingSpinner from "./SesionLoadingSpinner";
 import "../assets/scss/_03-Componentes/_SesionLoginRegister.scss";
 

@@ -1,53 +1,46 @@
-// import React from 'react';
-// import "../assets/scss/_03-Componentes/_AplicaPersonaliza3.scss";
-
-// const AplicaPersonaliza3 = () => {
-//   return (
-//     <div className="aplica-personaliza3-container">
-//       <h1 className="aplica-personaliza3-title">Este es el AplicaPersonaliza3</h1>
-//     </div>
-//   );
-// };
-
-// export default AplicaPersonaliza3;
-
-
-import React from 'react';
+import React, { useState, useEffect } from "react";
+import { Link } from "react-router-dom";
+import "../assets/scss/_03-Componentes/_AplicaPersonaliza3.scss";
 
 const AplicaPersonaliza3 = () => {
-  const bases = ['base1', 'base2', 'base3', 'base4', 'base5'];
-  const colores = ['color1', 'color2', 'color3', 'color4'];
-  const texturas = ['textura1', 'textura2', 'textura3'];
-  const materiales = ['cuero', 'sintético', 'tela', 'nylon'];
+  const [productos, setProductos] = useState([]);
 
-  const generarNombresImagenes = () => {
-    const nombres = [];
+  useEffect(() => {
+    // Cargar productos desde el JSON
+    const fetchProductos = async () => {
+      try {
+        const response = await fetch('/aplicapersonaliza3.json');
+        const data = await response.json();
+        setProductos(data.productos);
+      } catch (error) {
+        console.error('Error al cargar los productos:', error);
+      }
+    };
 
-    bases.forEach(base => {
-      colores.forEach(color => {
-        texturas.forEach(textura => {
-          materiales.forEach(material => {
-            nombres.push(`${base}-${color}-${textura}-${material}.jpeg`);
-          });
-        });
-      });
-    });
-
-    // Crear un archivo de texto con los nombres
-    const blob = new Blob([nombres.join('\n')], { type: 'text/plain' });
-    const url = URL.createObjectURL(blob);
-    const a = document.createElement('a');
-    a.href = url;
-    a.download = 'nombres_imagenes.txt';
-    document.body.appendChild(a);
-    a.click();
-    document.body.removeChild(a);
-  };
+    fetchProductos();
+  }, []);
 
   return (
-    <div>
-      <h1>Generador de Nombres de Imágenes</h1>
-      <button onClick={generarNombresImagenes}>Generar Nombres</button>
+    <div className="aplica-personaliza3-container">
+      <h1 className="aplica-personaliza3-title">Galería de Productos Personalizados</h1>
+
+      <div className="galeria-productos">
+        {productos.length > 0 ? (
+          productos.map((producto) => (
+            <div key={producto.id} className="producto-card">
+              <img src={producto.imagenUrl} alt={producto.nombre} className="producto-imagen" />
+              <h3>{producto.nombre}</h3>
+              <p>{producto.descripcion}</p>
+              {/* Link para personalizar el producto seleccionado, pasando el ID */}
+              <Link to={`/aplicar/3/${producto.id}`} className="personalizar-btn">
+                Personaliza este diseño
+              </Link>
+            </div>
+          ))
+        ) : (
+          <p>Cargando productos...</p>
+        )}
+      </div>
     </div>
   );
 };

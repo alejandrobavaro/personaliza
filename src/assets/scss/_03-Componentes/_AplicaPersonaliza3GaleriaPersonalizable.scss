@@ -1,0 +1,129 @@
+.personaliza-producto-container {
+  padding: 10px;
+  text-align: center;
+  color: #ffffff;
+  box-shadow: 0 2px 80px rgba(255, 0, 0, 0.5);
+  border-radius: 20px;
+
+  .producto-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 5px;
+    border-radius: 20px;
+    overflow: hidden;
+    background-color: rgba(0, 0, 0, 0.411);
+    box-shadow: 0 2px 80px rgba(255, 0, 0, 0.5);
+
+    .producto-preview {
+      img {
+        border: 4px solid;
+        border-radius: 20px;
+        width: 90%;
+        height: auto;
+        transition: border-color 0.3s ease;
+      }
+    }
+
+    .personalizacion-capas {
+      display: flex;
+      flex-direction: column;
+      justify-content: flex-start;
+      align-items: center;
+
+      .material-color-table {
+        width: 100%;
+        border-collapse: collapse;
+        margin-top: 10px;
+
+        th, td {
+          border: 1px solid #fff;
+          padding: 8px;
+          text-align: center;
+        }
+
+        th {
+          background-color: #444;
+          color: #fff;
+        }
+
+        td {
+          background-color: rgba(255, 255, 255, 0.1);
+        }
+
+        .color-option {
+          width: 30px;
+          height: 30px;
+          border: none;
+          border-radius: 50%;
+          cursor: pointer;
+          outline: none;
+          display: inline-flex;
+          justify-content: center;
+          align-items: center;
+          margin: 2px;
+          transition: transform 0.2s;
+
+          &:hover {
+            transform: scale(1.1);
+          }
+
+          img {
+            width: 20px;
+            height: 20px;
+            border-radius: 50%;
+          }
+        }
+      }
+
+      .personalizar-acciones {
+        margin-top: 20px;
+
+        .guardar-btn, .previsualizar-btn {
+          padding: 8px 15px;
+          margin: 5px;
+          border: none;
+          border-radius: 5px;
+          cursor: pointer;
+          font-size: 12px;
+          transition: background-color 0.3s ease;
+
+          &:hover {
+            opacity: 0.9; // Para un efecto de hover sutil
+          }
+        }
+
+        .guardar-btn {
+          background-color: #28a745;
+          color: white;
+
+          &:hover {
+            background-color: #218838;
+          }
+        }
+
+        .previsualizar-btn {
+          background-color: #007bff;
+          color: white;
+
+          &:hover {
+            background-color: #0056b3;
+          }
+        }
+      }
+    }
+  }
+
+  @media (max-width: 768px) {
+    .producto-grid {
+      grid-template-columns: 1fr;
+    }
+  }
+
+  @media (max-width: 480px) {
+    padding: 5px;
+
+    h1 {
+      font-size: 1.2em;
+    }
+  }
+}

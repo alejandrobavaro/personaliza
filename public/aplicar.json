@@ -43,22 +43,22 @@
   },
   {
     "id": 3,
-    "nombre": "Personaliza tu sitio Web",
-    "imagenes portada": "/img/10-imagenes-aplicar/id1.png",
+    "nombre": "Galeria de Productos Personalizados por Clientes",
+    "imagenes portada": "/img/10-imagenes-aplicar/id9.png",
     "tipo": "Web",
-    "categoria": "Diseño",
+    "categoria": "Desarrollo",
     "complejidad": "intermedia",
     "precio": "consultar",
-    "finalizados": 1200,
+    "finalizados": 3000,
     "comentarios": [
-      "Un diseño único y adaptado a nuestras necesidades.",
-      "Gran atención a los detalles y a la estética.",
-      "Nuestro sitio ahora refleja perfectamente nuestra marca."
+      "Nuestro Producto me encanta está totalmente adaptado a nuestras necesidades.",
+      "Siento que yo misma cree mi producto.",
+      "Soy el creador de mi propio producto."
     ],
     "imagenes slider": [
-      "/img/10-imagenes-aplicar/id1-1.png",
-      "/img/10-imagenes-aplicar/id1-2.png",
-      "/img/10-imagenes-aplicar/id1-3.png"
+      "/img/10-imagenes-aplicar/id9-1.png",
+      "/img/10-imagenes-aplicar/id9-2.png",
+      "/img/10-imagenes-aplicar/id9-3.png"
     ]
   },
   {
@@ -167,22 +167,22 @@
 
   {
     "id": 9,
-    "nombre": "Desarrollo de eCommerce Personalizado",
-    "imagenes portada": "/img/10-imagenes-aplicar/id9.png",
+    "nombre": "Personaliza tu sitio Web",
+    "imagenes portada": "/img/10-imagenes-aplicar/id1.png",
     "tipo": "Web",
-    "categoria": "Desarrollo",
+    "categoria": "Diseño",
     "complejidad": "intermedia",
     "precio": "consultar",
-    "finalizados": 3000,
+    "finalizados": 1200,
     "comentarios": [
-      "Nuestro eCommerce está totalmente adaptado a nuestras necesidades.",
-      "Integraciones personalizadas que facilitan la gestión.",
-      "El diseño es atractivo y las funcionalidades son excelentes."
+      "Un diseño único y adaptado a nuestras necesidades.",
+      "Gran atención a los detalles y a la estética.",
+      "Nuestro sitio ahora refleja perfectamente nuestra marca."
     ],
     "imagenes slider": [
-      "/img/10-imagenes-aplicar/id9-1.png",
-      "/img/10-imagenes-aplicar/id9-2.png",
-      "/img/10-imagenes-aplicar/id9-3.png"
+      "/img/10-imagenes-aplicar/id1-1.png",
+      "/img/10-imagenes-aplicar/id1-2.png",
+      "/img/10-imagenes-aplicar/id1-3.png"
     ]
   },
   {

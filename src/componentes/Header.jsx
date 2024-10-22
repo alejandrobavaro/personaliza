@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
 import { Link } from "react-router-dom";
-import { useAuth } from "./SesionAuthContext";
+import { useAuth } from "../context/SesionAuthContext";
 import { BsFillPersonPlusFill, BsBoxArrowRight, BsList } from "react-icons/bs";
 import { Navbar, Nav, Container } from "react-bootstrap";
 import "../assets/scss/_03-Componentes/_Header.scss";

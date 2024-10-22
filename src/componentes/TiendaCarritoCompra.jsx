@@ -1,7 +1,6 @@
 import React, { useState, useEffect } from "react";
-import Swal from "sweetalert2";
+import { toast } from "react-toastify"; // Importa Toastify
 import "../assets/scss/_03-Componentes/_TiendaCarritoCompra.scss";
-import "../assets/scss/_01-General/_SweetAlert.scss";
 
 const TiendaCarritoCompra = ({ cart = [], removeFromCart, handlePagar, updateProductQuantity }) => {
   const [localCart, setLocalCart] = useState(cart);
@@ -13,17 +12,11 @@ const TiendaCarritoCompra = ({ cart = [], removeFromCart, handlePagar, updatePro
   const total = localCart.reduce((sum, product) => sum + (product.precio * (product.quantity || 1)), 0);
 
   const handleComprar = () => {
-    handlePagar();
-    Swal.fire({
-      title: "Compra realizada!",
-      text: "Tu compra ha sido procesada exitosamente.",
-      icon: "success",
-      confirmButtonText: "OK",
-      customClass: {
-        popup: "sweetalert-popup",
-        title: "sweetalert-title",
-        confirmButton: "sweetalert-button",
-      },
+    handlePagar(); // Llama a la función que maneja el pago
+
+    // Muestra la notificación de éxito con Toastify
+    toast.success("¡Compra realizada! Tu compra ha sido procesada exitosamente.", {
+      position: toast.POSITION.TOP_CENTER,
     });
   };
 
