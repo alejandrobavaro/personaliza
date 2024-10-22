@@ -22,6 +22,27 @@
 
   {
     "id": 2,
+    "nombre": "Modela tu producto a 3D",
+    "imagenes portada": "/img/10-imagenes-aplicar/id3.png",
+    "tipo": "Gráfico",
+    "categoria": "Diseño",
+    "complejidad": "intermedia",
+    "precio": "consultar",
+    "finalizados": 2200,
+    "comentarios": [
+      "Nos ayudaron a crear una identidad visual impactante.",
+      "Trabajo rápido y muy profesional.",
+      "Logotipos y banners personalizados que destacan."
+    ],
+    "imagenes slider": [
+      "/img/10-imagenes-aplicar/id3-1.png",
+      "/img/10-imagenes-aplicar/id3-2.png",
+      "/img/10-imagenes-aplicar/id3-3.png"
+    ]
+
+  },
+  {
+    "id": 3,
     "nombre": "Personaliza tu sitio Web",
     "imagenes portada": "/img/10-imagenes-aplicar/id1.png",
     "tipo": "Web",
@@ -38,26 +59,6 @@
       "/img/10-imagenes-aplicar/id1-1.png",
       "/img/10-imagenes-aplicar/id1-2.png",
       "/img/10-imagenes-aplicar/id1-3.png"
-    ]
-  },
-  {
-    "id": 3,
-    "nombre": "Diseño Gráfico a Medida",
-    "imagenes portada": "/img/10-imagenes-aplicar/id3.png",
-    "tipo": "Gráfico",
-    "categoria": "Diseño",
-    "complejidad": "intermedia",
-    "precio": "consultar",
-    "finalizados": 2200,
-    "comentarios": [
-      "Nos ayudaron a crear una identidad visual impactante.",
-      "Trabajo rápido y muy profesional.",
-      "Logotipos y banners personalizados que destacan."
-    ],
-    "imagenes slider": [
-      "/img/10-imagenes-aplicar/id3-1.png",
-      "/img/10-imagenes-aplicar/id3-2.png",
-      "/img/10-imagenes-aplicar/id3-3.png"
     ]
   },
   {

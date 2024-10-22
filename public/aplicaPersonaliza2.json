@@ -1,0 +1,15 @@
+{
+    "imagenes": [
+      {
+        "id": 1,
+        "nombre": "Imagen 3D 1",
+        "url": "/imagenes/cartera1.jpg"
+      },
+      {
+        "id": 2,
+        "nombre": "Imagen 3D 2",
+        "url": "/imagenes/cartera2.jpg"
+      }
+    ]
+  }
+  
