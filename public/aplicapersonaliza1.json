@@ -1,1398 +1,198 @@
 {
   "productos": [
     {
-      "base": "base1",
-      "color": "color1",
-      "textura": "textura1",
-      "materiales": [
-        {
-          "material": "cuero",
-          "imagen": "/img/11-imagenes-personaliza1/base1-color1-textura1-cuero.jpeg"
-        },
-        {
-          "material": "sintético",
-          "imagen": "/img/11-imagenes-personaliza1/base1-color1-textura1-sintetico.jpeg"
-        },
-        {
-          "material": "tela",
-          "imagen": "/img/11-imagenes-personaliza1/base1-color1-textura1-tela.jpeg"
-        },
-        {
-          "material": "nylon",
-          "imagen": "/img/11-imagenes-personaliza1/base1-color1-textura1-nylon.jpeg"
-        }
-      ]
+      "tipo": "boceto_inicial",
+      "id": "boceto-1",
+      "imagen": "/img/13-imagenes-personaliza3/00-boceto-inicial-final-1.png"
     },
     {
-      "base": "base1",
-      "color": "color1",
-      "textura": "textura2",
-      "materiales": [
-        {
-          "material": "cuero",
-          "imagen": "/img/11-imagenes-personaliza1/base1-color1-textura2-cuero.jpeg"
-        },
-        {
-          "material": "sintético",
-          "imagen": "/img/11-imagenes-personaliza1/base1-color1-textura2-sintetico.jpeg"
-        },
-        {
-          "material": "tela",
-          "imagen": "/img/11-imagenes-personaliza1/base1-color1-textura2-tela.jpeg"
-        },
-        {
-          "material": "nylon",
-          "imagen": "/img/11-imagenes-personaliza1/base1-color1-textura2-nylon.jpeg"
-        }
-      ]
+      "tipo": "boceto_inicial",
+      "id": "boceto-2",
+      "imagen": "/img/13-imagenes-personaliza3/00-boceto-inicial-final-2.png"
     },
     {
-      "base": "base1",
-      "color": "color1",
-      "textura": "textura3",
-      "materiales": [
-        {
-          "material": "cuero",
-          "imagen": "/img/11-imagenes-personaliza1/base1-color1-textura3-cuero.jpeg"
-        },
-        {
-          "material": "sintético",
-          "imagen": "/img/11-imagenes-personaliza1/base1-color1-textura3-sintetico.jpeg"
-        },
-        {
-          "material": "tela",
-          "imagen": "/img/11-imagenes-personaliza1/base1-color1-textura3-tela.jpeg"
-        },
-        {
-          "material": "nylon",
-          "imagen": "/img/11-imagenes-personaliza1/base1-color1-textura3-nylon.jpeg"
-        }
-      ]
+      "tipo": "boceto_inicial",
+      "id": "boceto-3",
+      "imagen": "/img/13-imagenes-personaliza3/00-boceto-inicial-final-3.png"
     },
     {
-      "base": "base1",
-      "color": "color2",
-      "textura": "textura1",
-      "materiales": [
-        {
-          "material": "cuero",
-          "imagen": "/img/11-imagenes-personaliza1/base1-color2-textura1-cuero.jpeg"
-        },
-        {
-          "material": "sintético",
-          "imagen": "/img/11-imagenes-personaliza1/base1-color2-textura1-sintetico.jpeg"
-        },
-        {
-          "material": "tela",
-          "imagen": "/img/11-imagenes-personaliza1/base1-color2-textura1-tela.jpeg"
-        },
-        {
-          "material": "nylon",
-          "imagen": "/img/11-imagenes-personaliza1/base1-color2-textura1-nylon.jpeg"
-        }
-      ]
+      "tipo": "boceto_inicial",
+      "id": "boceto-4",
+      "imagen": "/img/13-imagenes-personaliza3/00-boceto-inicial-final-4.png"
     },
     {
-      "base": "base1",
-      "color": "color2",
-      "textura": "textura2",
-      "materiales": [
-        {
-          "material": "cuero",
-          "imagen": "/img/11-imagenes-personaliza1/base1-color2-textura2-cuero.jpeg"
-        },
-        {
-          "material": "sintético",
-          "imagen": "/img/11-imagenes-personaliza1/base1-color2-textura2-sintetico.jpeg"
-        },
-        {
-          "material": "tela",
-          "imagen": "/img/11-imagenes-personaliza1/base1-color2-textura2-tela.jpeg"
-        },
-        {
-          "material": "nylon",
-          "imagen": "/img/11-imagenes-personaliza1/base1-color2-textura2-nylon.jpeg"
-        }
-      ]
+      "tipo": "solapa",
+      "id": "solapa-1",
+      "nombre": "Azul Serpiente",
+      "imagen": "/img/13-imagenes-personaliza3/01-solapa-azul-serpiente.png"
     },
     {
-      "base": "base1",
-      "color": "color2",
-      "textura": "textura3",
-      "materiales": [
-        {
-          "material": "cuero",
-          "imagen": "/img/11-imagenes-personaliza1/base1-color2-textura3-cuero.jpeg"
-        },
-        {
-          "material": "sintético",
-          "imagen": "/img/11-imagenes-personaliza1/base1-color2-textura3-sintetico.jpeg"
-        },
-        {
-          "material": "tela",
-          "imagen": "/img/11-imagenes-personaliza1/base1-color2-textura3-tela.jpeg"
-        },
-        {
-          "material": "nylon",
-          "imagen": "/img/11-imagenes-personaliza1/base1-color2-textura3-nylon.jpeg"
-        }
-      ]
+      "tipo": "solapa",
+      "id": "solapa-2",
+      "nombre": "Blanco Liso",
+      "imagen": "/img/13-imagenes-personaliza3/01-solapa-blanco-liso.png"
     },
     {
-      "base": "base1",
-      "color": "color3",
-      "textura": "textura1",
-      "materiales": [
-        {
-          "material": "cuero",
-          "imagen": "/img/11-imagenes-personaliza1/base1-color3-textura1-cuero.jpeg"
-        },
-        {
-          "material": "sintético",
-          "imagen": "/img/11-imagenes-personaliza1/base1-color3-textura1-sintetico.jpeg"
-        },
-        {
-          "material": "tela",
-          "imagen": "/img/11-imagenes-personaliza1/base1-color3-textura1-tela.jpeg"
-        },
-        {
-          "material": "nylon",
-          "imagen": "/img/11-imagenes-personaliza1/base1-color3-textura1-nylon.jpeg"
-        }
-      ]
+      "tipo": "solapa",
+      "id": "solapa-3",
+      "nombre": "Blanco Tramado",
+      "imagen": "/img/13-imagenes-personaliza3/01-solapa-blanco-tramado.png"
     },
     {
-      "base": "base1",
-      "color": "color3",
-      "textura": "textura2",
-      "materiales": [
-        {
-          "material": "cuero",
-          "imagen": "/img/11-imagenes-personaliza1/base1-color3-textura2-cuero.jpeg"
-        },
-        {
-          "material": "sintético",
-          "imagen": "/img/11-imagenes-personaliza1/base1-color3-textura2-sintetico.jpeg"
-        },
-        {
-          "material": "tela",
-          "imagen": "/img/11-imagenes-personaliza1/base1-color3-textura2-tela.jpeg"
-        },
-        {
-          "material": "nylon",
-          "imagen": "/img/11-imagenes-personaliza1/base1-color3-textura2-nylon.jpeg"
-        }
-      ]
+      "tipo": "solapa",
+      "id": "solapa-4",
+      "nombre": "Negro Floather",
+      "imagen": "/img/13-imagenes-personaliza3/01-solapa-negro-floather.png"
     },
     {
-      "base": "base1",
-      "color": "color3",
-      "textura": "textura3",
-      "materiales": [
-        {
-          "material": "cuero",
-          "imagen": "/img/11-imagenes-personaliza1/base1-color3-textura3-cuero.jpeg"
-        },
-        {
-          "material": "sintético",
-          "imagen": "/img/11-imagenes-personaliza1/base1-color3-textura3-sintetico.jpeg"
-        },
-        {
-          "material": "tela",
-          "imagen": "/img/11-imagenes-personaliza1/base1-color3-textura3-tela.jpeg"
-        },
-        {
-          "material": "nylon",
-          "imagen": "/img/11-imagenes-personaliza1/base1-color3-textura3-nylon.jpeg"
-        }
-      ]
+      "tipo": "solapa",
+      "id": "solapa-5",
+      "nombre": "Negro Lagarto Transfer",
+      "imagen": "/img/13-imagenes-personaliza3/01-solapa-negro-lagarto-transfer.png"
     },
     {
-      "base": "base1",
-      "color": "color4",
-      "textura": "textura1",
-      "materiales": [
-        {
-          "material": "cuero",
-          "imagen": "/img/11-imagenes-personaliza1/base1-color4-textura1-cuero.jpeg"
-        },
-        {
-          "material": "sintético",
-          "imagen": "/img/11-imagenes-personaliza1/base1-color4-textura1-sintetico.jpeg"
-        },
-        {
-          "material": "tela",
-          "imagen": "/img/11-imagenes-personaliza1/base1-color4-textura1-tela.jpeg"
-        },
-        {
-          "material": "nylon",
-          "imagen": "/img/11-imagenes-personaliza1/base1-color4-textura1-nylon.jpeg"
-        }
-      ]
+      "tipo": "solapa",
+      "id": "solapa-6",
+      "nombre": "Negro Serpiente",
+      "imagen": "/img/13-imagenes-personaliza3/13-imagenes-personaliza3/01-solapa-negro-serpiente.png"
     },
     {
-      "base": "base1",
-      "color": "color4",
-      "textura": "textura2",
-      "materiales": [
-        {
-          "material": "cuero",
-          "imagen": "/img/11-imagenes-personaliza1/base1-color4-textura2-cuero.jpeg"
-        },
-        {
-          "material": "sintético",
-          "imagen": "/img/11-imagenes-personaliza1/base1-color4-textura2-sintetico.jpeg"
-        },
-        {
-          "material": "tela",
-          "imagen": "/img/11-imagenes-personaliza1/base1-color4-textura2-tela.jpeg"
-        },
-        {
-          "material": "nylon",
-          "imagen": "/img/11-imagenes-personaliza1/base1-color4-textura2-nylon.jpeg"
-        }
-      ]
+      "tipo": "cuerpo",
+      "id": "cuerpo-1",
+      "nombre": "Azul Serpiente",
+      "imagen": "/img/13-imagenes-personaliza3/02-cuerpo-azul-serpiente.png"
     },
     {
-      "base": "base1",
-      "color": "color4",
-      "textura": "textura3",
-      "materiales": [
-        {
-          "material": "cuero",
-          "imagen": "/img/11-imagenes-personaliza1/base1-color4-textura3-cuero.jpeg"
-        },
-        {
-          "material": "sintético",
-          "imagen": "/img/11-imagenes-personaliza1/base1-color4-textura3-sintetico.jpeg"
-        },
-        {
-          "material": "tela",
-          "imagen": "/img/11-imagenes-personaliza1/base1-color4-textura3-tela.jpeg"
-        },
-        {
-          "material": "nylon",
-          "imagen": "/img/11-imagenes-personaliza1/base1-color4-textura3-nylon.jpeg"
-        }
-      ]
-    },
-
-
-
-
-    {
-      "base": "base2",
-      "color": "color1",
-      "textura": "textura1",
-      "materiales": [
-        {
-          "material": "cuero",
-          "imagen": "/img/11-imagenes-personaliza1/base2-color1-textura1-cuero.jpeg"
-        },
-        {
-          "material": "sintético",
-          "imagen": "/img/11-imagenes-personaliza1/base2-color1-textura1-sintetico.jpeg"
-        },
-        {
-          "material": "tela",
-          "imagen": "/img/11-imagenes-personaliza1/base2-color1-textura1-tela.jpeg"
-        },
-        {
-          "material": "nylon",
-          "imagen": "/img/11-imagenes-personaliza1/base2-color1-textura1-nylon.jpeg"
-        }
-      ]
+      "tipo": "cuerpo",
+      "id": "cuerpo-2",
+      "nombre": "Blanco Liso",
+      "imagen": "/img/13-imagenes-personaliza3/02-cuerpo-blanco-liso.png"
     },
     {
-      "base": "base2",
-      "color": "color1",
-      "textura": "textura2",
-      "materiales": [
-        {
-          "material": "cuero",
-          "imagen": "/img/11-imagenes-personaliza1/base2-color1-textura2-cuero.jpeg"
-        },
-        {
-          "material": "sintético",
-          "imagen": "/img/11-imagenes-personaliza1/base2-color1-textura2-sintetico.jpeg"
-        },
-        {
-          "material": "tela",
-          "imagen": "/img/11-imagenes-personaliza1/base2-color1-textura2-tela.jpeg"
-        },
-        {
-          "material": "nylon",
-          "imagen": "/img/11-imagenes-personaliza1/base2-color1-textura2-nylon.jpeg"
-        }
-      ]
+      "tipo": "cuerpo",
+      "id": "cuerpo-3",
+      "nombre": "Lila Senna Figure",
+      "imagen": "/img/13-imagenes-personaliza3/02-cuerpo-lila-senna-figure.png"
     },
     {
-      "base": "base2",
-      "color": "color1",
-      "textura": "textura3",
-      "materiales": [
-        {
-          "material": "cuero",
-          "imagen": "/img/11-imagenes-personaliza1/base2-color1-textura3-cuero.jpeg"
-        },
-        {
-          "material": "sintético",
-          "imagen": "/img/11-imagenes-personaliza1/base2-color1-textura3-sintetico.jpeg"
-        },
-        {
-          "material": "tela",
-          "imagen": "/img/11-imagenes-personaliza1/base2-color1-textura3-tela.jpeg"
-        },
-        {
-          "material": "nylon",
-          "imagen": "/img/11-imagenes-personaliza1/base2-color1-textura3-nylon.jpeg"
-        }
-      ]
+      "tipo": "cuerpo",
+      "id": "cuerpo-4",
+      "nombre": "Negro Lagarto Transfer",
+      "imagen": "/img/13-imagenes-personaliza3/02-cuerpo-negro-lagarto-transfer.png"
     },
     {
-      "base": "base2",
-      "color": "color2",
-      "textura": "textura1",
-      "materiales": [
-        {
-          "material": "cuero",
-          "imagen": "/img/11-imagenes-personaliza1/base2-color2-textura1-cuero.jpeg"
-        },
-        {
-          "material": "sintético",
-          "imagen": "/img/11-imagenes-personaliza1/base2-color2-textura1-sintetico.jpeg"
-        },
-        {
-          "material": "tela",
-          "imagen": "/img/11-imagenes-personaliza1/base2-color2-textura1-tela.jpeg"
-        },
-        {
-          "material": "nylon",
-          "imagen": "/img/11-imagenes-personaliza1/base2-color2-textura1-nylon.jpeg"
-        }
-      ]
+      "tipo": "cuerpo",
+      "id": "cuerpo-5",
+      "nombre": "Negro Listo",
+      "imagen": "/img/13-imagenes-personaliza3/02-cuerpo-negro-listo.png"
     },
     {
-      "base": "base2",
-      "color": "color2",
-      "textura": "textura2",
-      "materiales": [
-        {
-          "material": "cuero",
-          "imagen": "/img/11-imagenes-personaliza1/base2-color2-textura2-cuero.jpeg"
-        },
-        {
-          "material": "sintético",
-          "imagen": "/img/11-imagenes-personaliza1/base2-color2-textura2-sintetico.jpeg"
-        },
-        {
-          "material": "tela",
-          "imagen": "/img/11-imagenes-personaliza1/base2-color2-textura2-tela.jpeg"
-        },
-        {
-          "material": "nylon",
-          "imagen": "/img/11-imagenes-personaliza1/base2-color2-textura2-nylon.jpeg"
-        }
-      ]
+      "tipo": "cuerpo",
+      "id": "cuerpo-6",
+      "nombre": "Rojo Liso",
+      "imagen": "/img/13-imagenes-personaliza3/02-cuerpo-rojo-liso.png"
     },
     {
-      "base": "base2",
-      "color": "color2",
-      "textura": "textura3",
-      "materiales": [
-        {
-          "material": "cuero",
-          "imagen": "/img/11-imagenes-personaliza1/base2-color2-textura3-cuero.jpeg"
-        },
-        {
-          "material": "sintético",
-          "imagen": "/img/11-imagenes-personaliza1/base2-color2-textura3-sintetico.jpeg"
-        },
-        {
-          "material": "tela",
-          "imagen": "/img/11-imagenes-personaliza1/base2-color2-textura3-tela.jpeg"
-        },
-        {
-          "material": "nylon",
-          "imagen": "/img/11-imagenes-personaliza1/base2-color2-textura3-nylon.jpeg"
-        }
-      ]
+      "tipo": "cuerpo",
+      "id": "cuerpo-7",
+      "nombre": "Verde Liso",
+      "imagen": "/img/13-imagenes-personaliza3/02-cuerpo-verde-liso.png"
     },
     {
-      "base": "base2",
-      "color": "color3",
-      "textura": "textura1",
-      "materiales": [
-        {
-          "material": "cuero",
-          "imagen": "/img/11-imagenes-personaliza1/base2-color3-textura1-cuero.jpeg"
-        },
-        {
-          "material": "sintético",
-          "imagen": "/img/11-imagenes-personaliza1/base2-color3-textura1-sintetico.jpeg"
-        },
-        {
-          "material": "tela",
-          "imagen": "/img/11-imagenes-personaliza1/base2-color3-textura1-tela.jpeg"
-        },
-        {
-          "material": "nylon",
-          "imagen": "/img/11-imagenes-personaliza1/base2-color3-textura1-nylon.jpeg"
-        }
-      ]
+      "tipo": "fuelle",
+      "id": "fuelle-1",
+      "nombre": "Azul Gamuzado",
+      "imagen": "/img/13-imagenes-personaliza3/03-fuelle-azul-gamuzado.png"
     },
     {
-      "base": "base2",
-      "color": "color3",
-      "textura": "textura2",
-      "materiales": [
-        {
-          "material": "cuero",
-          "imagen": "/img/11-imagenes-personaliza1/base2-color3-textura2-cuero.jpeg"
-        },
-        {
-          "material": "sintético",
-          "imagen": "/img/11-imagenes-personaliza1/base2-color3-textura2-sintetico.jpeg"
-        },
-        {
-          "material": "tela",
-          "imagen": "/img/11-imagenes-personaliza1/base2-color3-textura2-tela.jpeg"
-        },
-        {
-          "material": "nylon",
-          "imagen": "/img/11-imagenes-personaliza1/base2-color3-textura2-nylon.jpeg"
-        }
-      ]
+      "tipo": "fuelle",
+      "id": "fuelle-2",
+      "nombre": "Negro Gamuzado",
+      "imagen": "/img/13-imagenes-personaliza3/03-fuelle-negro-gamuzado.png"
     },
     {
-      "base": "base2",
-      "color": "color3",
-      "textura": "textura3",
-      "materiales": [
-        {
-          "material": "cuero",
-          "imagen": "/img/11-imagenes-personaliza1/base2-color3-textura3-cuero.jpeg"
-        },
-        {
-          "material": "sintético",
-          "imagen": "/img/11-imagenes-personaliza1/base2-color3-textura3-sintetico.jpeg"
-        },
-        {
-          "material": "tela",
-          "imagen": "/img/11-imagenes-personaliza1/base2-color3-textura3-tela.jpeg"
-        },
-        {
-          "material": "nylon",
-          "imagen": "/img/11-imagenes-personaliza1/base2-color3-textura3-nylon.jpeg"
-        }
-      ]
+      "tipo": "fuelle",
+      "id": "fuelle-3",
+      "nombre": "Rojo Gamuzado",
+      "imagen": "/img/13-imagenes-personaliza3/03-fuelle-rojo-gamuzado.png"
     },
     {
-      "base": "base2",
-      "color": "color4",
-      "textura": "textura1",
-      "materiales": [
-        {
-          "material": "cuero",
-          "imagen": "/img/11-imagenes-personaliza1/base2-color4-textura1-cuero.jpeg"
-        },
-        {
-          "material": "sintético",
-          "imagen": "/img/11-imagenes-personaliza1/base2-color4-textura1-sintetico.jpeg"
-        },
-        {
-          "material": "tela",
-          "imagen": "/img/11-imagenes-personaliza1/base2-color4-textura1-tela.jpeg"
-        },
-        {
-          "material": "nylon",
-          "imagen": "/img/11-imagenes-personaliza1/base2-color4-textura1-nylon.jpeg"
-        }
-      ]
+      "tipo": "fuelle",
+      "id": "fuelle-4",
+      "nombre": "Verde Gamuzado",
+      "imagen": "/img/13-imagenes-personaliza3/03-fuelle-verde-gamuzado.png"
     },
     {
-      "base": "base2",
-      "color": "color4",
-      "textura": "textura2",
-      "materiales": [
-        {
-          "material": "cuero",
-          "imagen": "/img/11-imagenes-personaliza1/base2-color4-textura2-cuero.jpeg"
-        },
-        {
-          "material": "sintético",
-          "imagen": "/img/11-imagenes-personaliza1/base2-color4-textura2-sintetico.jpeg"
-        },
-        {
-          "material": "tela",
-          "imagen": "/img/11-imagenes-personaliza1/base2-color4-textura2-tela.jpeg"
-        },
-        {
-          "material": "nylon",
-          "imagen": "/img/11-imagenes-personaliza1/base2-color4-textura2-nylon.jpeg"
-        }
-      ]
+      "tipo": "fuelle",
+      "id": "fuelle-5",
+      "nombre": "Violeta Gamuzado",
+      "imagen": "/img/13-imagenes-personaliza3/03-fuelle-violeta-gamuzado.png"
     },
     {
-      "base": "base2",
-      "color": "color4",
-      "textura": "textura3",
-      "materiales": [
-        {
-          "material": "cuero",
-          "imagen": "/img/11-imagenes-personaliza1/base2-color4-textura3-cuero.jpeg"
-        },
-        {
-          "material": "sintético",
-          "imagen": "/img/11-imagenes-personaliza1/base2-color4-textura3-sintetico.jpeg"
-        },
-        {
-          "material": "tela",
-          "imagen": "/img/11-imagenes-personaliza1/base2-color4-textura3-tela.jpeg"
-        },
-        {
-          "material": "nylon",
-          "imagen": "/img/11-imagenes-personaliza1/base2-color4-textura3-nylon.jpeg"
-        }
-      ]
-    },
-
-
-
-    {
-      "base": "base3",
-      "color": "color1",
-      "textura": "textura1",
-      "materiales": [
-        {
-          "material": "cuero",
-          "imagen": "/img/11-imagenes-personaliza1/base3-color1-textura1-cuero.jpeg"
-        },
-        {
-          "material": "sintético",
-          "imagen": "/img/11-imagenes-personaliza1/base3-color1-textura1-sintetico.jpeg"
-        },
-        {
-          "material": "tela",
-          "imagen": "/img/11-imagenes-personaliza1/base3-color1-textura1-tela.jpeg"
-        },
-        {
-          "material": "nylon",
-          "imagen": "/img/11-imagenes-personaliza1/base3-color1-textura1-nylon.jpeg"
-        }
-      ]
+      "tipo": "correa",
+      "id": "correa-1",
+      "nombre": "Amarillo Liso",
+      "imagen": "/img/13-imagenes-personaliza3/04-correa-amarillo-liso.png"
     },
     {
-      "base": "base3",
-      "color": "color1",
-      "textura": "textura2",
-      "materiales": [
-        {
-          "material": "cuero",
-          "imagen": "/img/11-imagenes-personaliza1/base3-color1-textura2-cuero.jpeg"
-        },
-        {
-          "material": "sintético",
-          "imagen": "/img/11-imagenes-personaliza1/base3-color1-textura2-sintetico.jpeg"
-        },
-        {
-          "material": "tela",
-          "imagen": "/img/11-imagenes-personaliza1/base3-color1-textura2-tela.jpeg"
-        },
-        {
-          "material": "nylon",
-          "imagen": "/img/11-imagenes-personaliza1/base3-color1-textura2-nylon.jpeg"
-        }
-      ]
+      "tipo": "correa",
+      "id": "correa-2",
+      "nombre": "Azul Liso",
+      "imagen": "/img/13-imagenes-personaliza3/04-correa-azul-liso.png"
     },
     {
-      "base": "base3",
-      "color": "color1",
-      "textura": "textura3",
-      "materiales": [
-        {
-          "material": "cuero",
-          "imagen": "/img/11-imagenes-personaliza1/base3-color1-textura3-cuero.jpeg"
-        },
-        {
-          "material": "sintético",
-          "imagen": "/img/11-imagenes-personaliza1/base3-color1-textura3-sintetico.jpeg"
-        },
-        {
-          "material": "tela",
-          "imagen": "/img/11-imagenes-personaliza1/base3-color1-textura3-tela.jpeg"
-        },
-        {
-          "material": "nylon",
-          "imagen": "/img/11-imagenes-personaliza1/base3-color1-textura3-nylon.jpeg"
-        }
-      ]
+      "tipo": "correa",
+      "id": "correa-3",
+      "nombre": "Negro Liso",
+      "imagen": "/img/13-imagenes-personaliza3/04-correa-negro-liso.png"
     },
     {
-      "base": "base3",
-      "color": "color2",
-      "textura": "textura1",
-      "materiales": [
-        {
-          "material": "cuero",
-          "imagen": "/img/11-imagenes-personaliza1/base3-color2-textura1-cuero.jpeg"
-        },
-        {
-          "material": "sintético",
-          "imagen": "/img/11-imagenes-personaliza1/base3-color2-textura1-sintetico.jpeg"
-        },
-        {
-          "material": "tela",
-          "imagen": "/img/11-imagenes-personaliza1/base3-color2-textura1-tela.jpeg"
-        },
-        {
-          "material": "nylon",
-          "imagen": "/img/11-imagenes-personaliza1/base3-color2-textura1-nylon.jpeg"
-        }
-      ]
+      "tipo": "correa",
+      "id": "correa-4",
+      "nombre": "Rojo Liso",
+      "imagen": "/img/13-imagenes-personaliza3/04-correa-rojo-liso.png"
     },
     {
-      "base": "base3",
-      "color": "color2",
-      "textura": "textura2",
-      "materiales": [
-        {
-          "material": "cuero",
-          "imagen": "/img/11-imagenes-personaliza1/base3-color2-textura2-cuero.jpeg"
-        },
-        {
-          "material": "sintético",
-          "imagen": "/img/11-imagenes-personaliza1/base3-color2-textura2-sintetico.jpeg"
-        },
-        {
-          "material": "tela",
-          "imagen": "/img/11-imagenes-personaliza1/base3-color2-textura2-tela.jpeg"
-        },
-        {
-          "material": "nylon",
-          "imagen": "/img/11-imagenes-personaliza1/base3-color2-textura2-nylon.jpeg"
-        }
-      ]
+      "tipo": "correa",
+      "id": "correa-5",
+      "nombre": "Violeta Listo",
+      "imagen": "/img/13-imagenes-personaliza3/04-correa-violeta-listo.png"
     },
     {
-      "base": "base3",
-      "color": "color2",
-      "textura": "textura3",
-      "materiales": [
-        {
-          "material": "cuero",
-          "imagen": "/img/11-imagenes-personaliza1/base3-color2-textura3-cuero.jpeg"
-        },
-        {
-          "material": "sintético",
-          "imagen": "/img/11-imagenes-personaliza1/base3-color2-textura3-sintetico.jpeg"
-        },
-        {
-          "material": "tela",
-          "imagen": "/img/11-imagenes-personaliza1/base3-color2-textura3-tela.jpeg"
-        },
-        {
-          "material": "nylon",
-          "imagen": "/img/11-imagenes-personaliza1/base3-color2-textura3-nylon.jpeg"
-        }
-      ]
+      "tipo": "portamanijas",
+      "id": "portamanijas-1",
+      "nombre": "Azul Liso",
+      "imagen": "/img/13-imagenes-personaliza3/05-portamanijas-azul-liso.png"
     },
     {
-      "base": "base3",
-      "color": "color3",
-      "textura": "textura1",
-      "materiales": [
-        {
-          "material": "cuero",
-          "imagen": "/img/11-imagenes-personaliza1/base3-color3-textura1-cuero.jpeg"
-        },
-        {
-          "material": "sintético",
-          "imagen": "/img/11-imagenes-personaliza1/base3-color3-textura1-sintetico.jpeg"
-        },
-        {
-          "material": "tela",
-          "imagen": "/img/11-imagenes-personaliza1/base3-color3-textura1-tela.jpeg"
-        },
-        {
-          "material": "nylon",
-          "imagen": "/img/11-imagenes-personaliza1/base3-color3-textura1-nylon.jpeg"
-        }
-      ]
+      "tipo": "portamanijas",
+      "id": "portamanijas-2",
+      "nombre": "Blanco Liso",
+      "imagen": "/img/13-imagenes-personaliza3/05-portamanijas-blanco-liso.png"
     },
     {
-      "base": "base3",
-      "color": "color3",
-      "textura": "textura2",
-      "materiales": [
-        {
-          "material": "cuero",
-          "imagen": "/img/11-imagenes-personaliza1/base3-color3-textura2-cuero.jpeg"
-        },
-        {
-          "material": "sintético",
-          "imagen": "/img/11-imagenes-personaliza1/base3-color3-textura2-sintetico.jpeg"
-        },
-        {
-          "material": "tela",
-          "imagen": "/img/11-imagenes-personaliza1/base3-color3-textura2-tela.jpeg"
-        },
-        {
-          "material": "nylon",
-          "imagen": "/img/11-imagenes-personaliza1/base3-color3-textura2-nylon.jpeg"
-        }
-      ]
+      "tipo": "portamanijas",
+      "id": "portamanijas-3",
+      "nombre": "Rojo Liso",
+      "imagen": "/img/13-imagenes-personaliza3/05-portamanijas-rojo-liso.png"
     },
     {
-      "base": "base3",
-      "color": "color3",
-      "textura": "textura3",
-      "materiales": [
-        {
-          "material": "cuero",
-          "imagen": "/img/11-imagenes-personaliza1/base3-color3-textura3-cuero.jpeg"
-        },
-        {
-          "material": "sintético",
-          "imagen": "/img/11-imagenes-personaliza1/base3-color3-textura3-sintetico.jpeg"
-        },
-        {
-          "material": "tela",
-          "imagen": "/img/11-imagenes-personaliza1/base3-color3-textura3-tela.jpeg"
-        },
-        {
-          "material": "nylon",
-          "imagen": "/img/11-imagenes-personaliza1/base3-color3-textura3-nylon.jpeg"
-        }
-      ]
+      "tipo": "portamanijas",
+      "id": "portamanijas-4",
+      "nombre": "Violeta Liso",
+      "imagen": "/img/13-imagenes-personaliza3/05-portamanijas-violeta-liso.png"
     },
     {
-      "base": "base3",
-      "color": "color4",
-      "textura": "textura1",
-      "materiales": [
-        {
-          "material": "cuero",
-          "imagen": "/img/11-imagenes-personaliza1/base3-color4-textura1-cuero.jpeg"
-        },
-        {
-          "material": "sintético",
-          "imagen": "/img/11-imagenes-personaliza1/base3-color4-textura1-sintetico.jpeg"
-        },
-        {
-          "material": "tela",
-          "imagen": "/img/11-imagenes-personaliza1/base3-color4-textura1-tela.jpeg"
-        },
-        {
-          "material": "nylon",
-          "imagen": "/img/11-imagenes-personaliza1/base3-color4-textura1-nylon.jpeg"
-        }
-      ]
+      "tipo": "herrajes",
+      "id": "herrajes-1",
+      "nombre": "Dorado Bronce Natural",
+      "imagen": "/img/13-imagenes-personaliza3/06-herrajes-dorado-bronce-natural.png"
     },
     {
-      "base": "base3",
-      "color": "color4",
-      "textura": "textura2",
-      "materiales": [
-        {
-          "material": "cuero",
-          "imagen": "/img/11-imagenes-personaliza1/base3-color4-textura2-cuero.jpeg"
-        },
-        {
-          "material": "sintético",
-          "imagen": "/img/11-imagenes-personaliza1/base3-color4-textura2-sintetico.jpeg"
-        },
-        {
-          "material": "tela",
-          "imagen": "/img/11-imagenes-personaliza1/base3-color4-textura2-tela.jpeg"
-        },
-        {
-          "material": "nylon",
-          "imagen": "/img/11-imagenes-personaliza1/base3-color4-textura2-nylon.jpeg"
-        }
-      ]
-    },
-    {
-      "base": "base3",
-      "color": "color4",
-      "textura": "textura3",
-      "materiales": [
-        {
-          "material": "cuero",
-          "imagen": "/img/11-imagenes-personaliza1/base3-color4-textura3-cuero.jpeg"
-        },
-        {
-          "material": "sintético",
-          "imagen": "/img/11-imagenes-personaliza1/base3-color4-textura3-sintetico.jpeg"
-        },
-        {
-          "material": "tela",
-          "imagen": "/img/11-imagenes-personaliza1/base3-color4-textura3-tela.jpeg"
-        },
-        {
-          "material": "nylon",
-          "imagen": "/img/11-imagenes-personaliza1/base3-color4-textura3-nylon.jpeg"
-        }
-      ]
-    },
-
-
-    {
-    
-      "base": "base4",
-      "color": "color1",
-      "textura": "textura1",
-      "materiales": [
-        {
-          "material": "cuero",
-          "imagen": "/img/11-imagenes-personaliza1/base4-color1-textura1-cuero.jpeg"
-        },
-        {
-          "material": "sintético",
-          "imagen": "/img/11-imagenes-personaliza1/base4-color1-textura1-sintetico.jpeg"
-        },
-        {
-          "material": "tela",
-          "imagen": "/img/11-imagenes-personaliza1/base4-color1-textura1-tela.jpeg"
-        },
-        {
-          "material": "nylon",
-          "imagen": "/img/11-imagenes-personaliza1/base4-color1-textura1-nylon.jpeg"
-        }
-      ]
-    },
-    {
-      "base": "base4",
-      "color": "color1",
-      "textura": "textura2",
-      "materiales": [
-        {
-          "material": "cuero",
-          "imagen": "/img/11-imagenes-personaliza1/base4-color1-textura2-cuero.jpeg"
-        },
-        {
-          "material": "sintético",
-          "imagen": "/img/11-imagenes-personaliza1/base4-color1-textura2-sintetico.jpeg"
-        },
-        {
-          "material": "tela",
-          "imagen": "/img/11-imagenes-personaliza1/base4-color1-textura2-tela.jpeg"
-        },
-        {
-          "material": "nylon",
-          "imagen": "/img/11-imagenes-personaliza1/base4-color1-textura2-nylon.jpeg"
-        }
-      ]
-    },
-    {
-      "base": "base4",
-      "color": "color1",
-      "textura": "textura3",
-      "materiales": [
-        {
-          "material": "cuero",
-          "imagen": "/img/11-imagenes-personaliza1/base4-color1-textura3-cuero.jpeg"
-        },
-        {
-          "material": "sintético",
-          "imagen": "/img/11-imagenes-personaliza1/base4-color1-textura3-sintetico.jpeg"
-        },
-        {
-          "material": "tela",
-          "imagen": "/img/11-imagenes-personaliza1/base4-color1-textura3-tela.jpeg"
-        },
-        {
-          "material": "nylon",
-          "imagen": "/img/11-imagenes-personaliza1/base4-color1-textura3-nylon.jpeg"
-        }
-      ]
-    },
-    {
-      "base": "base4",
-      "color": "color2",
-      "textura": "textura1",
-      "materiales": [
-        {
-          "material": "cuero",
-          "imagen": "/img/11-imagenes-personaliza1/base4-color2-textura1-cuero.jpeg"
-        },
-        {
-          "material": "sintético",
-          "imagen": "/img/11-imagenes-personaliza1/base4-color2-textura1-sintetico.jpeg"
-        },
-        {
-          "material": "tela",
-          "imagen": "/img/11-imagenes-personaliza1/base4-color2-textura1-tela.jpeg"
-        },
-        {
-          "material": "nylon",
-          "imagen": "/img/11-imagenes-personaliza1/base4-color2-textura1-nylon.jpeg"
-        }
-      ]
-    },
-    {
-      "base": "base4",
-      "color": "color2",
-      "textura": "textura2",
-      "materiales": [
-        {
-          "material": "cuero",
-          "imagen": "/img/11-imagenes-personaliza1/base4-color2-textura2-cuero.jpeg"
-        },
-        {
-          "material": "sintético",
-          "imagen": "/img/11-imagenes-personaliza1/base4-color2-textura2-sintetico.jpeg"
-        },
-        {
-          "material": "tela",
-          "imagen": "/img/11-imagenes-personaliza1/base4-color2-textura2-tela.jpeg"
-        },
-        {
-          "material": "nylon",
-          "imagen": "/img/11-imagenes-personaliza1/base4-color2-textura2-nylon.jpeg"
-        }
-      ]
-    },
-    {
-      "base": "base4",
-      "color": "color2",
-      "textura": "textura3",
-      "materiales": [
-        {
-          "material": "cuero",
-          "imagen": "/img/11-imagenes-personaliza1/base4-color2-textura3-cuero.jpeg"
-        },
-        {
-          "material": "sintético",
-          "imagen": "/img/11-imagenes-personaliza1/base4-color2-textura3-sintetico.jpeg"
-        },
-        {
-          "material": "tela",
-          "imagen": "/img/11-imagenes-personaliza1/base4-color2-textura3-tela.jpeg"
-        },
-        {
-          "material": "nylon",
-          "imagen": "/img/11-imagenes-personaliza1/base4-color2-textura3-nylon.jpeg"
-        }
-      ]
-    },
-    {
-      "base": "base4",
-      "color": "color3",
-      "textura": "textura1",
-      "materiales": [
-        {
-          "material": "cuero",
-          "imagen": "/img/11-imagenes-personaliza1/base4-color3-textura1-cuero.jpeg"
-        },
-        {
-          "material": "sintético",
-          "imagen": "/img/11-imagenes-personaliza1/base4-color3-textura1-sintetico.jpeg"
-        },
-        {
-          "material": "tela",
-          "imagen": "/img/11-imagenes-personaliza1/base4-color3-textura1-tela.jpeg"
-        },
-        {
-          "material": "nylon",
-          "imagen": "/img/11-imagenes-personaliza1/base4-color3-textura1-nylon.jpeg"
-        }
-      ]
-    },
-    {
-      "base": "base4",
-      "color": "color3",
-      "textura": "textura2",
-      "materiales": [
-        {
-          "material": "cuero",
-          "imagen": "/img/11-imagenes-personaliza1/base4-color3-textura2-cuero.jpeg"
-        },
-        {
-          "material": "sintético",
-          "imagen": "/img/11-imagenes-personaliza1/base4-color3-textura2-sintetico.jpeg"
-        },
-        {
-          "material": "tela",
-          "imagen": "/img/11-imagenes-personaliza1/base4-color3-textura2-tela.jpeg"
-        },
-        {
-          "material": "nylon",
-          "imagen": "/img/11-imagenes-personaliza1/base4-color3-textura2-nylon.jpeg"
-        }
-      ]
-    },
-    {
-      "base": "base4",
-      "color": "color3",
-      "textura": "textura3",
-      "materiales": [
-        {
-          "material": "cuero",
-          "imagen": "/img/11-imagenes-personaliza1/base4-color3-textura3-cuero.jpeg"
-        },
-        {
-          "material": "sintético",
-          "imagen": "/img/11-imagenes-personaliza1/base4-color3-textura3-sintetico.jpeg"
-        },
-        {
-          "material": "tela",
-          "imagen": "/img/11-imagenes-personaliza1/base4-color3-textura3-tela.jpeg"
-        },
-        {
-          "material": "nylon",
-          "imagen": "/img/11-imagenes-personaliza1/base4-color3-textura3-nylon.jpeg"
-        }
-      ]
-    },
-    {
-      "base": "base4",
-      "color": "color4",
-      "textura": "textura1",
-      "materiales": [
-        {
-          "material": "cuero",
-          "imagen": "/img/11-imagenes-personaliza1/base4-color4-textura1-cuero.jpeg"
-        },
-        {
-          "material": "sintético",
-          "imagen": "/img/11-imagenes-personaliza1/base4-color4-textura1-sintetico.jpeg"
-        },
-        {
-          "material": "tela",
-          "imagen": "/img/11-imagenes-personaliza1/base4-color4-textura1-tela.jpeg"
-        },
-        {
-          "material": "nylon",
-          "imagen": "/img/11-imagenes-personaliza1/base4-color4-textura1-nylon.jpeg"
-        }
-      ]
-    },
-    {
-      "base": "base4",
-      "color": "color4",
-      "textura": "textura2",
-      "materiales": [
-        {
-          "material": "cuero",
-          "imagen": "/img/11-imagenes-personaliza1/base4-color4-textura2-cuero.jpeg"
-        },
-        {
-          "material": "sintético",
-          "imagen": "/img/11-imagenes-personaliza1/base4-color4-textura2-sintetico.jpeg"
-        },
-        {
-          "material": "tela",
-          "imagen": "/img/11-imagenes-personaliza1/base4-color4-textura2-tela.jpeg"
-        },
-        {
-          "material": "nylon",
-          "imagen": "/img/11-imagenes-personaliza1/base4-color4-textura2-nylon.jpeg"
-        }
-      ]
-    },
-    {
-      "base": "base4",
-      "color": "color4",
-      "textura": "textura3",
-      "materiales": [
-        {
-          "material": "cuero",
-          "imagen": "/img/11-imagenes-personaliza1/base4-color4-textura3-cuero.jpeg"
-        },
-        {
-          "material": "sintético",
-          "imagen": "/img/11-imagenes-personaliza1/base4-color4-textura3-sintetico.jpeg"
-        },
-        {
-          "material": "tela",
-          "imagen": "/img/11-imagenes-personaliza1/base4-color4-textura3-tela.jpeg"
-        },
-        {
-          "material": "nylon",
-          "imagen": "/img/11-imagenes-personaliza1/base4-color4-textura3-nylon.jpeg"
-        }
-      ]
-    },
-
-
-
-    {
-      "base": "base5",
-      "color": "color1",
-      "textura": "textura1",
-      "materiales": [
-        {
-          "material": "cuero",
-          "imagen": "/img/11-imagenes-personaliza1/base5-color1-textura1-cuero.jpeg"
-        },
-        {
-          "material": "sintético",
-          "imagen": "/img/11-imagenes-personaliza1/base5-color1-textura1-sintetico.jpeg"
-        },
-        {
-          "material": "tela",
-          "imagen": "/img/11-imagenes-personaliza1/base5-color1-textura1-tela.jpeg"
-        },
-        {
-          "material": "nylon",
-          "imagen": "/img/11-imagenes-personaliza1/base5-color1-textura1-nylon.jpeg"
-        }
-      ]
-    },
-    {
-      "base": "base5",
-      "color": "color1",
-      "textura": "textura2",
-      "materiales": [
-        {
-          "material": "cuero",
-          "imagen": "/img/11-imagenes-personaliza1/base5-color1-textura2-cuero.jpeg"
-        },
-        {
-          "material": "sintético",
-          "imagen": "/img/11-imagenes-personaliza1/base5-color1-textura2-sintetico.jpeg"
-        },
-        {
-          "material": "tela",
-          "imagen": "/img/11-imagenes-personaliza1/base5-color1-textura2-tela.jpeg"
-        },
-        {
-          "material": "nylon",
-          "imagen": "/img/11-imagenes-personaliza1/base5-color1-textura2-nylon.jpeg"
-        }
-      ]
-    },
-    {
-      "base": "base5",
-      "color": "color1",
-      "textura": "textura3",
-      "materiales": [
-        {
-          "material": "cuero",
-          "imagen": "/img/11-imagenes-personaliza1/base5-color1-textura3-cuero.jpeg"
-        },
-        {
-          "material": "sintético",
-          "imagen": "/img/11-imagenes-personaliza1/base5-color1-textura3-sintetico.jpeg"
-        },
-        {
-          "material": "tela",
-          "imagen": "/img/11-imagenes-personaliza1/base5-color1-textura3-tela.jpeg"
-        },
-        {
-          "material": "nylon",
-          "imagen": "/img/11-imagenes-personaliza1/base5-color1-textura3-nylon.jpeg"
-        }
-      ]
-    },
-    {
-      "base": "base5",
-      "color": "color2",
-      "textura": "textura1",
-      "materiales": [
-        {
-          "material": "cuero",
-          "imagen": "/img/11-imagenes-personaliza1/base5-color2-textura1-cuero.jpeg"
-        },
-        {
-          "material": "sintético",
-          "imagen": "/img/11-imagenes-personaliza1/base5-color2-textura1-sintetico.jpeg"
-        },
-        {
-          "material": "tela",
-          "imagen": "/img/11-imagenes-personaliza1/base5-color2-textura1-tela.jpeg"
-        },
-        {
-          "material": "nylon",
-          "imagen": "/img/11-imagenes-personaliza1/base5-color2-textura1-nylon.jpeg"
-        }
-      ]
-    },
-    {
-      "base": "base5",
-      "color": "color2",
-      "textura": "textura2",
-      "materiales": [
-        {
-          "material": "cuero",
-          "imagen": "/img/11-imagenes-personaliza1/base5-color2-textura2-cuero.jpeg"
-        },
-        {
-          "material": "sintético",
-          "imagen": "/img/11-imagenes-personaliza1/base5-color2-textura2-sintetico.jpeg"
-        },
-        {
-          "material": "tela",
-          "imagen": "/img/11-imagenes-personaliza1/base5-color2-textura2-tela.jpeg"
-        },
-        {
-          "material": "nylon",
-          "imagen": "/img/11-imagenes-personaliza1/base5-color2-textura2-nylon.jpeg"
-        }
-      ]
-    },
-    {
-      "base": "base5",
-      "color": "color2",
-      "textura": "textura3",
-      "materiales": [
-        {
-          "material": "cuero",
-          "imagen": "/img/11-imagenes-personaliza1/base5-color2-textura3-cuero.jpeg"
-        },
-        {
-          "material": "sintético",
-          "imagen": "/img/11-imagenes-personaliza1/base5-color2-textura3-sintetico.jpeg"
-        },
-        {
-          "material": "tela",
-          "imagen": "/img/11-imagenes-personaliza1/base5-color2-textura3-tela.jpeg"
-        },
-        {
-          "material": "nylon",
-          "imagen": "/img/11-imagenes-personaliza1/base5-color2-textura3-nylon.jpeg"
-        }
-      ]
-    },
-    {
-      "base": "base5",
-      "color": "color3",
-      "textura": "textura1",
-      "materiales": [
-        {
-          "material": "cuero",
-          "imagen": "/img/11-imagenes-personaliza1/base5-color3-textura1-cuero.jpeg"
-        },
-        {
-          "material": "sintético",
-          "imagen": "/img/11-imagenes-personaliza1/base5-color3-textura1-sintetico.jpeg"
-        },
-        {
-          "material": "tela",
-          "imagen": "/img/11-imagenes-personaliza1/base5-color3-textura1-tela.jpeg"
-        },
-        {
-          "material": "nylon",
-          "imagen": "/img/11-imagenes-personaliza1/base5-color3-textura1-nylon.jpeg"
-        }
-      ]
-    },
-    {
-      "base": "base5",
-      "color": "color3",
-      "textura": "textura2",
-      "materiales": [
-        {
-          "material": "cuero",
-          "imagen": "/img/11-imagenes-personaliza1/base5-color3-textura2-cuero.jpeg"
-        },
-        {
-          "material": "sintético",
-          "imagen": "/img/11-imagenes-personaliza1/base5-color3-textura2-sintetico.jpeg"
-        },
-        {
-          "material": "tela",
-          "imagen": "/img/11-imagenes-personaliza1/base5-color3-textura2-tela.jpeg"
-        },
-        {
-          "material": "nylon",
-          "imagen": "/img/11-imagenes-personaliza1/base5-color3-textura2-nylon.jpeg"
-        }
-      ]
-    },
-    {
-      "base": "base5",
-      "color": "color3",
-      "textura": "textura3",
-      "materiales": [
-        {
-          "material": "cuero",
-          "imagen": "/img/11-imagenes-personaliza1/base5-color3-textura3-cuero.jpeg"
-        },
-        {
-          "material": "sintético",
-          "imagen": "/img/11-imagenes-personaliza1/base5-color3-textura3-sintetico.jpeg"
-        },
-        {
-          "material": "tela",
-          "imagen": "/img/11-imagenes-personaliza1/base5-color3-textura3-tela.jpeg"
-        },
-        {
-          "material": "nylon",
-          "imagen": "/img/11-imagenes-personaliza1/base5-color3-textura3-nylon.jpeg"
-        }
-      ]
-    },
-    {
-      "base": "base5",
-      "color": "color4",
-      "textura": "textura1",
-      "materiales": [
-        {
-          "material": "cuero",
-          "imagen": "/img/11-imagenes-personaliza1/base5-color4-textura1-cuero.jpeg"
-        },
-        {
-          "material": "sintético",
-          "imagen": "/img/11-imagenes-personaliza1/base5-color4-textura1-sintetico.jpeg"
-        },
-        {
-          "material": "tela",
-          "imagen": "/img/11-imagenes-personaliza1/base5-color4-textura1-tela.jpeg"
-        },
-        {
-          "material": "nylon",
-          "imagen": "/img/11-imagenes-personaliza1/base5-color4-textura1-nylon.jpeg"
-        }
-      ]
-    },
-    {
-      "base": "base5",
-      "color": "color4",
-      "textura": "textura2",
-      "materiales": [
-        {
-          "material": "cuero",
-          "imagen": "/img/11-imagenes-personaliza1/base5-color4-textura2-cuero.jpeg"
-        },
-        {
-          "material": "sintético",
-          "imagen": "/img/11-imagenes-personaliza1/base5-color4-textura2-sintetico.jpeg"
-        },
-        {
-          "material": "tela",
-          "imagen": "/img/11-imagenes-personaliza1/base5-color4-textura2-tela.jpeg"
-        },
-        {
-          "material": "nylon",
-          "imagen": "/img/11-imagenes-personaliza1/base5-color4-textura2-nylon.jpeg"
-        }
-      ]
-    },
-    {
-      "base": "base5",
-      "color": "color4",
-      "textura": "textura3",
-      "materiales": [
-        {
-          "material": "cuero",
-          "imagen": "/img/11-imagenes-personaliza1/base5-color4-textura3-cuero.jpeg"
-        },
-        {
-          "material": "sintético",
-          "imagen": "/img/11-imagenes-personaliza1/base5-color4-textura3-sintetico.jpeg"
-        },
-        {
-          "material": "tela",
-          "imagen": "/img/11-imagenes-personaliza1/base5-color4-textura3-tela.jpeg"
-        },
-        {
-          "material": "nylon",
-          "imagen": "/img/11-imagenes-personaliza1/base5-color4-textura3-nylon.jpeg"
-        }
-      ]
+      "tipo": "herrajes",
+      "id": "herrajes-2",
+      "nombre": "Plateado Niquel",
+      "imagen": "/img/13-imagenes-personaliza3/06-herrajes-plateado-niquel.png"
     }
   ]
 }
-
