@@ -1,409 +1,149 @@
-
-
-
 {
   "componentes": {
-    "flap": {
-      "titulo": "Elige el material y color para el componente Flap de tu cartera.",
+    "solapa": {
+      "titulo": "Elige la SOLAPA de tu cartera.",
       "opciones": [
         {
-          "material": "Tumbled Leather",
-          "colores": [
-            {"nombre": "Negro", "imagen": "../public/img/13-imagenes-personaliza3/base1-color1-textura1-cuero.png"},
-            {"nombre": "Bone", "imagen": "url_a_la_imagen/bone.png"},
-            {"nombre": "Buff", "imagen": "url_a_la_imagen/buff.png"},
-            {"nombre": "Coral", "imagen": "url_a_la_imagen/coral.png"},
-            {"nombre": "Cornflower", "imagen": "url_a_la_imagen/cornflower.png"},
-            {"nombre": "Dark Olive", "imagen": "url_a_la_imagen/dark_olive.png"},
-            {"nombre": "Elderberry", "imagen": "url_a_la_imagen/elderberry.png"},
-            {"nombre": "Espresso", "imagen": "url_a_la_imagen/espresso.png"},
-            {"nombre": "Fog", "imagen": "url_a_la_imagen/fog.png"},
-            {"nombre": "Garnet", "imagen": "url_a_la_imagen/garnet.png"},
-            {"nombre": "Luggage", "imagen": "url_a_la_imagen/luggage.png"},
-            {"nombre": "Navy", "imagen": "url_a_la_imagen/navy.png"},
-            {"nombre": "Orchid", "imagen": "url_a_la_imagen/orchid.png"},
-            {"nombre": "Portobello", "imagen": "url_a_la_imagen/portobello.png"},
-            {"nombre": "Ruby", "imagen": "url_a_la_imagen/ruby.png"},
-            {"nombre": "Saddle", "imagen": "url_a_la_imagen/saddle.png"},
-            {"nombre": "Saffron", "imagen": "url_a_la_imagen/saffron.png"},
-            {"nombre": "Blanco", "imagen": "url_a_la_imagen/blanco.png"}
-          ]
+          "nombre": "Azul Serpiente",
+          "imagen": "/img/13-imagenes-personaliza3/deira-cartera-bombon/01-solapa-azul-serpiente.png"
         },
         {
-          "material": "Suede Leather",
-          "colores": [
-            {"nombre": "Negro", "imagen": "url_a_la_imagen/negro.png"},
-            {"nombre": "Caramel", "imagen": "url_a_la_imagen/caramel.png"},
-            {"nombre": "Espresso", "imagen": "url_a_la_imagen/espresso.png"},
-            {"nombre": "Navy", "imagen": "url_a_la_imagen/navy.png"},
-            {"nombre": "Rojo", "imagen": "url_a_la_imagen/rojo.png"},
-            {"nombre": "Slate", "imagen": "url_a_la_imagen/slate.png"}
-          ]
+          "nombre": "Blanco Liso",
+          "imagen": "/img/13-imagenes-personaliza3/deira-cartera-bombon/01-solapa-blanco-liso.png"
         },
         {
-          "material": "Nappa",
-          "colores": [
-            {"nombre": "Bleu Marine", "imagen": "url_a_la_imagen/bleu_marine.png"},
-            {"nombre": "Chameau", "imagen": "url_a_la_imagen/chameau.png"},
-            {"nombre": "Gris", "imagen": "url_a_la_imagen/gris.png"},
-            {"nombre": "Marron Fonce", "imagen": "url_a_la_imagen/marron_fonce.png"},
-            {"nombre": "Noir", "imagen": "url_a_la_imagen/noir.png"},
-            {"nombre": "Rouge", "imagen": "url_a_la_imagen/rouge.png"}
-          ]
+          "nombre": "Blanco Tramado",
+          "imagen": "/img/13-imagenes-personaliza3/deira-cartera-bombon/01-solapa-blanco-tramado.png"
         },
         {
-          "material": "Metallic Nappa",
-          "colores": [
-            {"nombre": "Anthracite", "imagen": "url_a_la_imagen/anthracite.png"},
-            {"nombre": "Gold", "imagen": "url_a_la_imagen/gold.png"}
-          ]
+          "nombre": "Negro Floather",
+          "imagen": "/img/13-imagenes-personaliza3/deira-cartera-bombon/01-solapa-negro-floather.png"
         },
         {
-          "material": "Hair Calf",
-          "colores": [
-            {"nombre": "Negro", "imagen": "url_a_la_imagen/negro.png"},
-            {"nombre": "Cherry", "imagen": "url_a_la_imagen/cherry.png"},
-            {"nombre": "Cognac", "imagen": "url_a_la_imagen/cognac.png"},
-            {"nombre": "Mali", "imagen": "url_a_la_imagen/mali.png"}
-          ]
+          "nombre": "Negro Lagarto Transfer",
+          "imagen": "/img/13-imagenes-personaliza3/deira-cartera-bombon/01-solapa-negro-lagarto-transfer.png"
         },
         {
-          "material": "Python",
-          "colores": [
-            {"nombre": "Anthracite", "imagen": "url_a_la_imagen/anthracite.png"},
-            {"nombre": "Negro", "imagen": "url_a_la_imagen/negro.png"},
-            {"nombre": "Champagne", "imagen": "url_a_la_imagen/champagne.png"},
-            {"nombre": "Citrus Multi", "imagen": "url_a_la_imagen/citrus_multi.png"},
-            {"nombre": "Dusk Blue", "imagen": "url_a_la_imagen/dusk_blue.png"},
-            {"nombre": "Marble", "imagen": "url_a_la_imagen/marble.png"},
-            {"nombre": "Natural", "imagen": "url_a_la_imagen/natural.png"},
-            {"nombre": "Truffle", "imagen": "url_a_la_imagen/truffle.png"},
-            {"nombre": "Blanco", "imagen": "url_a_la_imagen/blanco.png"}
-          ]
-        },
-        {
-          "material": "American Alligator",
-          "colores": [
-            {"nombre": "Negro", "imagen": "url_a_la_imagen/negro.png"},
-            {"nombre": "Marrón", "imagen": "url_a_la_imagen/marron.png"},
-            {"nombre": "Poppy", "imagen": "url_a_la_imagen/poppy.png"}
-          ]
+          "nombre": "Negro Serpiente",
+          "imagen": "/img/13-imagenes-personaliza3/deira-cartera-bombon/01-solapa-negro-serpiente.png"
         }
       ]
     },
-    "body": {
-      "titulo": "Elige el material y color para el componente Body de tu cartera.",
+    "cuerpo": {
+      "titulo": "Elige el CUERPO de tu cartera.",
       "opciones": [
         {
-          "material": "Tumbled Leather",
-          "colores": [
-            {"nombre": "Negro", "imagen": "url_a_la_imagen/negro.png"},
-            {"nombre": "Bone", "imagen": "url_a_la_imagen/bone.png"},
-            {"nombre": "Buff", "imagen": "url_a_la_imagen/buff.png"},
-            {"nombre": "Coral", "imagen": "url_a_la_imagen/coral.png"},
-            {"nombre": "Cornflower", "imagen": "url_a_la_imagen/cornflower.png"},
-            {"nombre": "Dark Olive", "imagen": "url_a_la_imagen/dark_olive.png"},
-            {"nombre": "Elderberry", "imagen": "url_a_la_imagen/elderberry.png"},
-            {"nombre": "Espresso", "imagen": "url_a_la_imagen/espresso.png"},
-            {"nombre": "Fog", "imagen": "url_a_la_imagen/fog.png"},
-            {"nombre": "Garnet", "imagen": "url_a_la_imagen/garnet.png"},
-            {"nombre": "Luggage", "imagen": "url_a_la_imagen/luggage.png"},
-            {"nombre": "Navy", "imagen": "url_a_la_imagen/navy.png"},
-            {"nombre": "Orchid", "imagen": "url_a_la_imagen/orchid.png"},
-            {"nombre": "Portobello", "imagen": "url_a_la_imagen/portobello.png"},
-            {"nombre": "Ruby", "imagen": "url_a_la_imagen/ruby.png"},
-            {"nombre": "Saddle", "imagen": "url_a_la_imagen/saddle.png"},
-            {"nombre": "Saffron", "imagen": "url_a_la_imagen/saffron.png"},
-            {"nombre": "Blanco", "imagen": "url_a_la_imagen/blanco.png"}
-          ]
+          "nombre": "Azul Serpiente",
+          "imagen": "/img/13-imagenes-personaliza3/deira-cartera-bombon/02-cuerpo-azul-serpiente.png"
         },
         {
-          "material": "Suede Leather",
-          "colores": [
-            {"nombre": "Negro", "imagen": "url_a_la_imagen/negro.png"},
-            {"nombre": "Caramel", "imagen": "url_a_la_imagen/caramel.png"},
-            {"nombre": "Espresso", "imagen": "url_a_la_imagen/espresso.png"},
-            {"nombre": "Navy", "imagen": "url_a_la_imagen/navy.png"},
-            {"nombre": "Rojo", "imagen": "url_a_la_imagen/rojo.png"},
-            {"nombre": "Slate", "imagen": "url_a_la_imagen/slate.png"}
-          ]
+          "nombre": "Blanco Liso",
+          "imagen": "/img/13-imagenes-personaliza3/deira-cartera-bombon/02-cuerpo-blanco-liso.png"
         },
         {
-          "material": "Nappa",
-          "colores": [
-            {"nombre": "Bleu Marine", "imagen": "url_a_la_imagen/bleu_marine.png"},
-            {"nombre": "Chameau", "imagen": "url_a_la_imagen/chameau.png"},
-            {"nombre": "Gris", "imagen": "url_a_la_imagen/gris.png"},
-            {"nombre": "Marron Fonce", "imagen": "url_a_la_imagen/marron_fonce.png"},
-            {"nombre": "Noir", "imagen": "url_a_la_imagen/noir.png"},
-            {"nombre": "Rouge", "imagen": "url_a_la_imagen/rouge.png"}
-          ]
+          "nombre": "Lila Senna Figure",
+          "imagen": "/img/13-imagenes-personaliza3/deira-cartera-bombon/02-cuerpo-lila-senna-figure.png"
         },
         {
-          "material": "Metallic Nappa",
-          "colores": [
-            {"nombre": "Anthracite", "imagen": "url_a_la_imagen/anthracite.png"},
-            {"nombre": "Gold", "imagen": "url_a_la_imagen/gold.png"}
-          ]
+          "nombre": "Negro Lagarto Transfer",
+          "imagen": "/img/13-imagenes-personaliza3/deira-cartera-bombon/02-cuerpo-negro-lagarto-transfer.png"
         },
         {
-          "material": "Hair Calf",
-          "colores": [
-            {"nombre": "Negro", "imagen": "url_a_la_imagen/negro.png"},
-            {"nombre": "Cherry", "imagen": "url_a_la_imagen/cherry.png"},
-            {"nombre": "Cognac", "imagen": "url_a_la_imagen/cognac.png"},
-            {"nombre": "Mali", "imagen": "url_a_la_imagen/mali.png"}
-          ]
+          "nombre": "Negro Listo",
+          "imagen": "/img/13-imagenes-personaliza3/deira-cartera-bombon/02-cuerpo-negro-listo.png"
         },
         {
-          "material": "Python",
-          "colores": [
-            {"nombre": "Anthracite", "imagen": "url_a_la_imagen/anthracite.png"},
-            {"nombre": "Negro", "imagen": "url_a_la_imagen/negro.png"},
-            {"nombre": "Champagne", "imagen": "url_a_la_imagen/champagne.png"},
-            {"nombre": "Citrus Multi", "imagen": "url_a_la_imagen/citrus_multi.png"},
-            {"nombre": "Dusk Blue", "imagen": "url_a_la_imagen/dusk_blue.png"},
-            {"nombre": "Marble", "imagen": "url_a_la_imagen/marble.png"},
-            {"nombre": "Natural", "imagen": "url_a_la_imagen/natural.png"},
-            {"nombre": "Truffle", "imagen": "url_a_la_imagen/truffle.png"},
-            {"nombre": "Blanco", "imagen": "url_a_la_imagen/blanco.png"}
-          ]
+          "nombre": "Rojo Liso",
+          "imagen": "/img/13-imagenes-personaliza3/deira-cartera-bombon/02-cuerpo-rojo-liso.png"
         },
         {
-          "material": "American Alligator",
-          "colores": [
-            {"nombre": "Negro", "imagen": "url_a_la_imagen/negro.png"},
-            {"nombre": "Marrón", "imagen": "url_a_la_imagen/marron.png"},
-            {"nombre": "Poppy", "imagen": "url_a_la_imagen/poppy.png"}
-          ]
+          "nombre": "Verde Liso",
+          "imagen": "/img/13-imagenes-personaliza3/deira-cartera-bombon/02-cuerpo-verde-liso.png"
         }
       ]
     },
-    "gusset": {
-      "titulo": "Elige el material y color para el componente Gusset de tu cartera.",
+    "fuelle": {
+      "titulo": "Elige el FUELLE de tu cartera.",
       "opciones": [
         {
-          "material": "Tumbled Leather",
-          "colores": [
-            {"nombre": "Negro", "imagen": "url_a_la_imagen/negro.png"},
-            {"nombre": "Bone", "imagen": "url_a_la_imagen/bone.png"},
-            {"nombre": "Buff", "imagen": "url_a_la_imagen/buff.png"},
-            {"nombre": "Coral", "imagen": "url_a_la_imagen/coral.png"},
-            {"nombre": "Cornflower", "imagen": "url_a_la_imagen/cornflower.png"},
-            {"nombre": "Dark Olive", "imagen": "url_a_la_imagen/dark_olive.png"},
-            {"nombre": "Elderberry", "imagen": "url_a_la_imagen/elderberry.png"},
-            {"nombre": "Espresso", "imagen": "url_a_la_imagen/espresso.png"},
-            {"nombre": "Fog", "imagen": "url_a_la_imagen/fog.png"},
-            {"nombre": "Garnet", "imagen": "url_a_la_imagen/garnet.png"},
-            {"nombre": "Luggage", "imagen": "url_a_la_imagen/luggage.png"},
-            {"nombre": "Navy", "imagen": "url_a_la_imagen/navy.png"},
-            {"nombre": "Orchid", "imagen": "url_a_la_imagen/orchid.png"},
-            {"nombre": "Portobello", "imagen": "url_a_la_imagen/portobello.png"},
-            {"nombre": "Ruby", "imagen": "url_a_la_imagen/ruby.png"},
-            {"nombre": "Saddle", "imagen": "url_a_la_imagen/saddle.png"},
-            {"nombre": "Saffron", "imagen": "url_a_la_imagen/saffron.png"},
-            {"nombre": "Blanco", "imagen": "url_a_la_imagen/blanco.png"}
-          ]
+          "nombre": "Azul Gamuzado",
+          "imagen": "/img/13-imagenes-personaliza3/deira-cartera-bombon/03-fuelle-azul-gamuzado.png"
         },
         {
-          "material": "Suede Leather",
-          "colores": [
-            {"nombre": "Negro", "imagen": "url_a_la_imagen/negro.png"},
-            {"nombre": "Caramel", "imagen": "url_a_la_imagen/caramel.png"},
-            {"nombre": "Espresso", "imagen": "url_a_la_imagen/espresso.png"},
-            {"nombre": "Navy", "imagen": "url_a_la_imagen/navy.png"},
-            {"nombre": "Rojo", "imagen": "url_a_la_imagen/rojo.png"},
-            {"nombre": "Slate", "imagen": "url_a_la_imagen/slate.png"}
-          ]
+          "nombre": "Negro Gamuzado",
+          "imagen": "/img/13-imagenes-personaliza3/deira-cartera-bombon/03-fuelle-negro-gamuzado.png"
         },
         {
-          "material": "Nappa",
-          "colores": [
-            {"nombre": "Bleu Marine", "imagen": "url_a_la_imagen/bleu_marine.png"},
-            {"nombre": "Chameau", "imagen": "url_a_la_imagen/chameau.png"},
-            {"nombre": "Gris", "imagen": "url_a_la_imagen/gris.png"},
-            {"nombre": "Marron Fonce", "imagen": "url_a_la_imagen/marron_fonce.png"},
-            {"nombre": "Noir", "imagen": "url_a_la_imagen/noir.png"},
-            {"nombre": "Rouge", "imagen": "url_a_la_imagen/rouge.png"}
-          ]
+          "nombre": "Rojo Gamuzado",
+          "imagen": "/img/13-imagenes-personaliza3/deira-cartera-bombon/03-fuelle-rojo-gamuzado.png"
         },
         {
-          "material": "Metallic Nappa",
-          "colores": [
-            {"nombre": "Anthracite", "imagen": "url_a_la_imagen/anthracite.png"},
-            {"nombre": "Gold", "imagen": "url_a_la_imagen/gold.png"}
-          ]
+          "nombre": "Verde Gamuzado",
+          "imagen": "/img/13-imagenes-personaliza3/deira-cartera-bombon/03-fuelle-verde-gamuzado.png"
         },
         {
-          "material": "Hair Calf",
-          "colores": [
-            {"nombre": "Negro", "imagen": "url_a_la_imagen/negro.png"},
-            {"nombre": "Cherry", "imagen": "url_a_la_imagen/cherry.png"},
-            {"nombre": "Cognac", "imagen": "url_a_la_imagen/cognac.png"},
-            {"nombre": "Mali", "imagen": "url_a_la_imagen/mali.png"}
-          ]
-        },
-        {
-          "material": "Python",
-          "colores": [
-            {"nombre": "Anthracite", "imagen": "url_a_la_imagen/anthracite.png"},
-            {"nombre": "Negro", "imagen": "url_a_la_imagen/negro.png"},
-            {"nombre": "Champagne", "imagen": "url_a_la_imagen/champagne.png"},
-            {"nombre": "Citrus Multi", "imagen": "url_a_la_imagen/citrus_multi.png"},
-            {"nombre": "Dusk Blue", "imagen": "url_a_la_imagen/dusk_blue.png"},
-            {"nombre": "Marble", "imagen": "url_a_la_imagen/marble.png"},
-            {"nombre": "Natural", "imagen": "url_a_la_imagen/natural.png"},
-            {"nombre": "Truffle", "imagen": "url_a_la_imagen/truffle.png"},
-            {"nombre": "Blanco", "imagen": "url_a_la_imagen/blanco.png"}
-          ]
-        },
-        {
-          "material": "American Alligator",
-          "colores": [
-            {"nombre": "Negro", "imagen": "url_a_la_imagen/negro.png"},
-            {"nombre": "Marrón", "imagen": "url_a_la_imagen/marron.png"},
-            {"nombre": "Poppy", "imagen": "url_a_la_imagen/poppy.png"}
-          ]
+          "nombre": "Violeta Gamuzado",
+          "imagen": "/img/13-imagenes-personaliza3/deira-cartera-bombon/03-fuelle-violeta-gamuzado.png"
         }
       ]
     },
-    "piping": {
-      "titulo": "Elige el material y color para el componente Piping de tu cartera.",
+    "correa": {
+      "titulo": "Elige la CORREA de tu cartera.",
       "opciones": [
         {
-          "material": "Tumbled Leather",
-          "colores": [
-            {"nombre": "Negro", "imagen": "url_a_la_imagen/negro.png"},
-            {"nombre": "Bone", "imagen": "url_a_la_imagen/bone.png"},
-            {"nombre": "Buff", "imagen": "url_a_la_imagen/buff.png"},
-            {"nombre": "Coral", "imagen": "url_a_la_imagen/coral.png"},
-            {"nombre": "Cornflower", "imagen": "url_a_la_imagen/cornflower.png"},
-            {"nombre": "Dark Olive", "imagen": "url_a_la_imagen/dark_olive.png"},
-            {"nombre": "Elderberry", "imagen": "url_a_la_imagen/elderberry.png"},
-            {"nombre": "Espresso", "imagen": "url_a_la_imagen/espresso.png"},
-            {"nombre": "Fog", "imagen": "url_a_la_imagen/fog.png"},
-            {"nombre": "Garnet", "imagen": "url_a_la_imagen/garnet.png"},
-            {"nombre": "Luggage", "imagen": "url_a_la_imagen/luggage.png"},
-            {"nombre": "Navy", "imagen": "url_a_la_imagen/navy.png"},
-            {"nombre": "Orchid", "imagen": "url_a_la_imagen/orchid.png"},
-            {"nombre": "Portobello", "imagen": "url_a_la_imagen/portobello.png"},
-            {"nombre": "Ruby", "imagen": "url_a_la_imagen/ruby.png"},
-            {"nombre": "Saddle", "imagen": "url_a_la_imagen/saddle.png"},
-            {"nombre": "Saffron", "imagen": "url_a_la_imagen/saffron.png"},
-            {"nombre": "Blanco", "imagen": "url_a_la_imagen/blanco.png"}
-          ]
+          "nombre": "Amarillo Liso",
+          "imagen": "/img/13-imagenes-personaliza3/deira-cartera-bombon/04-correa-amarillo-liso.png"
         },
         {
-          "material": "Nappa",
-          "colores": [
-            {"nombre": "Bleu Marine", "imagen": "url_a_la_imagen/bleu_marine.png"},
-            {"nombre": "Chameau", "imagen": "url_a_la_imagen/chameau.png"},
-            {"nombre": "Gris", "imagen": "url_a_la_imagen/gris.png"},
-            {"nombre": "Marron Fonce", "imagen": "url_a_la_imagen/marron_fonce.png"},
-            {"nombre": "Noir", "imagen": "url_a_la_imagen/noir.png"},
-            {"nombre": "Rouge", "imagen": "url_a_la_imagen/rouge.png"}
-          ]
+          "nombre": "Azul Liso",
+          "imagen": "/img/13-imagenes-personaliza3/deira-cartera-bombon/04-correa-azul-liso.png"
         },
         {
-          "material": "Metallic Nappa",
-          "colores": [
-            {"nombre": "Anthracite", "imagen": "url_a_la_imagen/anthracite.png"},
-            {"nombre": "Gold", "imagen": "url_a_la_imagen/gold.png"}
-          ]
+          "nombre": "Negro Liso",
+          "imagen": "/img/13-imagenes-personaliza3/deira-cartera-bombon/04-correa-negro-liso.png"
+        },
+        {
+          "nombre": "Rojo Liso",
+          "imagen": "/img/13-imagenes-personaliza3/deira-cartera-bombon/04-correa-rojo-liso.png"
+        },
+        {
+          "nombre": "Violeta Listo",
+          "imagen": "/img/13-imagenes-personaliza3/deira-cartera-bombon/04-correa-violeta-listo.png"
         }
       ]
     },
-    "strap": {
-      "titulo": "Elige una de las opciones a continuación.",
+    "portamanijas": {
+      "titulo": "Elige el PORTAMANIJAS de tu cartera.",
       "opciones": [
         {
-          "tipo": "Crossbody Strap",
-          "longitud": "22\" de caída",
-          "material": "Tumbled Leather",
-          "colores": [
-            {"nombre": "Negro", "imagen": "url_a_la_imagen/negro.png"},
-            {"nombre": "Bone", "imagen": "url_a_la_imagen/bone.png"},
-            {"nombre": "Buff", "imagen": "url_a_la_imagen/buff.png"},
-            {"nombre": "Coral", "imagen": "url_a_la_imagen/coral.png"},
-            {"nombre": "Cornflower", "imagen": "url_a_la_imagen/cornflower.png"},
-            {"nombre": "Dark Olive", "imagen": "url_a_la_imagen/dark_olive.png"},
-            {"nombre": "Elderberry", "imagen": "url_a_la_imagen/elderberry.png"},
-            {"nombre": "Espresso", "imagen": "url_a_la_imagen/espresso.png"},
-            {"nombre": "Fog", "imagen": "url_a_la_imagen/fog.png"},
-            {"nombre": "Garnet", "imagen": "url_a_la_imagen/garnet.png"},
-            {"nombre": "Luggage", "imagen": "url_a_la_imagen/luggage.png"},
-            {"nombre": "Navy", "imagen": "url_a_la_imagen/navy.png"},
-            {"nombre": "Orchid", "imagen": "url_a_la_imagen/orchid.png"},
-            {"nombre": "Portobello", "imagen": "url_a_la_imagen/portobello.png"},
-            {"nombre": "Ruby", "imagen": "url_a_la_imagen/ruby.png"},
-            {"nombre": "Saddle", "imagen": "url_a_la_imagen/saddle.png"},
-            {"nombre": "Saffron", "imagen": "url_a_la_imagen/saffron.png"},
-            {"nombre": "Blanco", "imagen": "url_a_la_imagen/blanco.png"}
-          ]
+          "nombre": "Azul Liso",
+          "imagen": "/img/13-imagenes-personaliza3/deira-cartera-bombon/05-portamanijas-azul-liso.png"
         },
         {
-          "tipo": "Shoulder Strap",
-          "longitud": "16\" de caída",
-          "material": "Nappa",
-          "colores": [
-            {"nombre": "Bleu Marine", "imagen": "url_a_la_imagen/bleu_marine.png"},
-            {"nombre": "Chameau", "imagen": "url_a_la_imagen/chameau.png"},
-            {"nombre": "Gris", "imagen": "url_a_la_imagen/gris.png"},
-            {"nombre": "Marron Fonce", "imagen": "url_a_la_imagen/marron_fonce.png"},
-            {"nombre": "Noir", "imagen": "url_a_la_imagen/noir.png"},
-            {"nombre": "Rouge", "imagen": "url_a_la_imagen/rouge.png"}
-          ]
+          "nombre": "Blanco Liso",
+          "imagen": "/img/13-imagenes-personaliza3/deira-cartera-bombon/05-portamanijas-blanco-liso.png"
         },
         {
-          "tipo": "Metallic Nappa",
-          "longitud": "255",
-          "colores": [
-            {"nombre": "Anthracite", "imagen": "url_a_la_imagen/anthracite.png"},
-            {"nombre": "Gold", "imagen": "url_a_la_imagen/gold.png"}
-          ]
+          "nombre": "Rojo",
+          "imagen": "/img/13-imagenes-personaliza3/deira-cartera-bombon/05-portamanijas-rojo.png"
+        },
+        {
+          "nombre": "Violeta Liso",
+          "imagen": "/img/13-imagenes-personaliza3/deira-cartera-bombon/05-portamanijas-violeta-liso.png"
         }
       ]
     },
-    "hardware": {
-      "titulo": "Elige el acabado del hardware para el componente de tu cartera.",
+    "herrajes": {
+      "titulo": "Elige el HERRAJE para tu cartera.",
       "opciones": [
         {
-          "tipo": "Rhodium",
-          "precio": "$55",
-          "acabados": ["Pulido", "Satinado"]
+          "nombre": "Dorado Bronce Natural",
+          "imagen": "/img/13-imagenes-personaliza3/deira-cartera-bombon/06-herrajes-dorado-bronce-natural.png"
         },
         {
-          "tipo": "Warm Gold",
-          "precio": "$60",
-          "acabados": ["Pulido", "Satinado"]
+          "nombre": "Plateado Níquel",
+          "imagen": "/img/13-imagenes-personaliza3/deira-cartera-bombon/06-herrajes-plateado-niquel.png"
         }
-      ]
-    },
-    "lining": {
-      "titulo": "Elige el material y color para el forro de tu cartera.",
-      "opciones": [
-        {
-          "material": "Suede Lining",
-          "colores": [
-            {"nombre": "Negro", "imagen": "url_a_la_imagen/negro.png"},
-            {"nombre": "Clementine", "imagen": "url_a_la_imagen/clementine.png"},
-            {"nombre": "Elderberry", "imagen": "url_a_la_imagen/elderberry.png"},
-            {"nombre": "Espresso", "imagen": "url_a_la_imagen/espresso.png"},
-            {"nombre": "Fawn", "imagen": "url_a_la_imagen/fawn.png"},
-            {"nombre": "Fuchsia", "imagen": "url_a_la_imagen/fuchsia.png"},
-            {"nombre": "Garnet", "imagen": "url_a_la_imagen/garnet.png"},
-            {"nombre": "Gray", "imagen": "url_a_la_imagen/gray.png"},
-            {"nombre": "Navy", "imagen": "url_a_la_imagen/navy.png"}
-          ]
-        }
-      ]
-    },
-    "personalizacion": {
-      "titulo": "Personalización: Agregado de texto en la cartera, iniciales, emojis, logos, etc.",
-      "campos": [
-        {"nombre": "Nombre", "placeholder": "Ingresa tu nombre"},
-        {"nombre": "Iniciales", "placeholder": "Ingresa tus iniciales"},
-        {"nombre": "Emojis", "placeholder": "Ingresa emojis"}
       ]
     }
   }

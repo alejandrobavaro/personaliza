@@ -2,12 +2,14 @@ import React, { useEffect, useState } from 'react';
 import "../assets/scss/_03-Componentes/_AplicaPersonaliza1.scss";
 
 const AplicaPersonaliza1 = () => {
-  const [solapa, setSolapa] = useState('solapa-negro-floather');
-  const [cuerpo, setCuerpo] = useState('cuerpo-azul-serpiente');
-  const [fuelle, setFuelle] = useState('fuelle-azul-gamuzado');
-  const [correa, setCorrea] = useState('correa-azul-liso');
-  const [portamanijas, setPortamanijas] = useState('portamanijas-azul-liso');
-  const [herrajes, setHerrajes] = useState('herrajes-dorado-bronce-natural');
+  const [seleccionados, setSeleccionados] = useState({
+    solapa: '01-solapa-negro-floather',
+    cuerpo: '02-cuerpo-azul-serpiente',
+    fuelle: '03-fuelle-azul-gamuzado',
+    correa: '04-correa-azul-liso',
+    portamanijas: '05-portamanijas-azul-liso',
+    herrajes: '06-herrajes-dorado-bronce-natural'
+  });
   const [bocetoSeleccionado, setBocetoSeleccionado] = useState('boceto-1');
   const [productosData, setProductosData] = useState([]);
 
@@ -24,35 +26,32 @@ const AplicaPersonaliza1 = () => {
     fetchData();
   }, []);
 
-  const imagenSeleccionada = productosData.find(producto => 
-    producto.solapa === solapa && producto.cuerpo === cuerpo && producto.fuelle === fuelle
-  )?.imagen;
-
-  const bocetoImagen = productosData.find(producto => 
+  const bocetoImagen = productosData.find(producto =>
     producto.tipo === 'boceto_inicial' && producto.id === bocetoSeleccionado
   )?.imagen;
 
-  const renderOption = (options, selected, setSelected) => {
-    return options.map(option => {
-      const [id, description] = option.split('|');
-      return (
-        <button
-          key={id}
-          className={`option-button ${selected === id ? 'selected' : ''}`}
-          onClick={() => setSelected(id)}
-        >
-          {description}
-        </button>
-      );
-    });
+  const renderOption = (tipo, selected, setSelected) => {
+    const options = productosData.filter(producto => producto.tipo === tipo);
+    return options.map(option => (
+      <button
+        key={option.id}
+        className={`option-button ${selected === option.id ? 'selected' : ''}`}
+        onClick={() => {
+          setSelected(option.id);
+          setSeleccionados(prev => ({ ...prev, [tipo]: option.id }));
+        }}
+      >
+        {option.descripcion}
+      </button>
+    ));
   };
 
   const renderBocetos = () => {
     return productosData
       .filter(producto => producto.tipo === 'boceto_inicial')
       .map(producto => (
-        <button 
-          key={producto.id} 
+        <button
+          key={producto.id}
           className={`boceto-button ${bocetoSeleccionado === producto.id ? 'selected' : ''}`}
           onClick={() => setBocetoSeleccionado(producto.id)}
         >
@@ -61,16 +60,21 @@ const AplicaPersonaliza1 = () => {
       ));
   };
 
+  const getImagenSeleccionada = (tipo) => {
+    const selectedProduct = productosData.find(producto => producto.id === seleccionados[tipo]);
+    return selectedProduct ? selectedProduct.imagen : null;
+  };
+
   const handleSaveDesign = () => {
-    const designOptions = [
-      `Boceto: ${bocetoSeleccionado}`,
-      `Solapa: ${solapa}`,
-      `Cuerpo: ${cuerpo}`,
-      `Fuelle: ${fuelle}`,
-      `Correa: ${correa}`,
-      `Portamanijas: ${portamanijas}`,
-      `Herrajes: ${herrajes}`
-    ].join('\n');
+    const designOptions = `
+      Boceto: ${bocetoSeleccionado}
+      Solapa: ${seleccionados.solapa}
+      Cuerpo: ${seleccionados.cuerpo}
+      Fuelle: ${seleccionados.fuelle}
+      Correa: ${seleccionados.correa}
+      Portamanijas: ${seleccionados.portamanijas}
+      Herrajes: ${seleccionados.herrajes}
+    `.trim();
 
     const blob = new Blob([designOptions], { type: 'text/plain' });
     const link = document.createElement('a');
@@ -89,22 +93,23 @@ const AplicaPersonaliza1 = () => {
             <h2>Vista Previa de la Cartera</h2>
             <hr />
             <div className="cartera">
-              <img
-                src={bocetoImagen}
-                alt="Boceto Inicial"
-                className="cartera-img"
-                style={{ position: 'absolute', zIndex: 1 }}
-              />
-              {imagenSeleccionada ? (
+              {bocetoImagen && (
                 <img
-                  src={imagenSeleccionada}
-                  alt="Cartera Personalizada"
+                  src={bocetoImagen}
+                  alt="Boceto Inicial"
                   className="cartera-img"
-                  style={{ position: 'absolute', zIndex: 2 }}
+                  style={{ position: 'absolute', zIndex: 1, width: '100%', height: 'auto' }}
                 />
-              ) : (
-                <p>No se encontró imagen para la selección actual</p>
               )}
+              {/* Renderizar las imágenes seleccionadas */}
+              {['solapa', 'cuerpo', 'fuelle', 'correa', 'portamanijas', 'herrajes'].map(tipo => (
+                <img
+                  key={tipo}
+                  src={getImagenSeleccionada(tipo)}
+                  alt={tipo}
+                  style={{ position: 'absolute', zIndex: 2, width: '100%', height: 'auto', pointerEvents: 'none' }} 
+                />
+              ))}
             </div>
           </div>
           <div className="boceto-inicial">
@@ -122,62 +127,27 @@ const AplicaPersonaliza1 = () => {
             <tbody>
               <tr>
                 <td><h5>Solapa</h5></td>
-                <td>{renderOption([
-                  '01-solapa-azul-serpiente|Solapa Azul Serpiente',
-                  '01-solapa-blanco-liso|Solapa Blanco Liso',
-                  '01-solapa-blanco-tramado|Solapa Blanco Tramado',
-                  '01-solapa-negro-floather|Solapa Negro Floather',
-                  '01-solapa-negro-lagarto-transfer|Solapa Negro Lagarto Transfer',
-                  '01-solapa-negro-serpiente|Solapa Negro Serpiente'
-                ], solapa, setSolapa)}</td>
+                <td>{renderOption('solapa', seleccionados.solapa, (id) => setSeleccionados(prev => ({ ...prev, solapa: id })))} </td>
               </tr>
               <tr>
                 <td><h5>Cuerpo</h5></td>
-                <td>{renderOption([
-                  '02-cuerpo-azul-serpiente|Cuerpo Azul Serpiente',
-                  '02-cuerpo-blanco-liso|Cuerpo Blanco Liso',
-                  '02-cuerpo-lila-senna-figure|Cuerpo Lila Senna Figure',
-                  '02-cuerpo-negro-lagarto-transfer|Cuerpo Negro Lagarto Transfer',
-                  '02-cuerpo-negro-listo|Cuerpo Negro Listo',
-                  '02-cuerpo-rojo-liso|Cuerpo Rojo Liso',
-                  '02-cuerpo-verde-liso|Cuerpo Verde Liso'
-                ], cuerpo, setCuerpo)}</td>
+                <td>{renderOption('cuerpo', seleccionados.cuerpo, (id) => setSeleccionados(prev => ({ ...prev, cuerpo: id })))} </td>
               </tr>
               <tr>
                 <td><h5>Fuelle</h5></td>
-                <td>{renderOption([
-                  '03-fuelle-azul-gamuzado|Fuelle Azul Gamuzado',
-                  '03-fuelle-negro-gamuzado|Fuelle Negro Gamuzado',
-                  '03-fuelle-rojo-gamuzado|Fuelle Rojo Gamuzado',
-                  '03-fuelle-verde-gamuzado|Fuelle Verde Gamuzado',
-                  '03-fuelle-violeta-gamuzado|Fuelle Violeta Gamuzado'
-                ], fuelle, setFuelle)}</td>
+                <td>{renderOption('fuelle', seleccionados.fuelle, (id) => setSeleccionados(prev => ({ ...prev, fuelle: id })))} </td>
               </tr>
               <tr>
                 <td><h5>Correa</h5></td>
-                <td>{renderOption([
-                  '04-correa-amarillo-liso|Correa Amarillo Liso',
-                  '04-correa-azul-liso|Correa Azul Liso',
-                  '04-correa-negro-liso|Correa Negro Liso',
-                  '04-correa-rojo-liso|Correa Rojo Liso',
-                  '04-correa-violeta-listo|Correa Violeta Listo'
-                ], correa, setCorrea)}</td>
+                <td>{renderOption('correa', seleccionados.correa, (id) => setSeleccionados(prev => ({ ...prev, correa: id })))} </td>
               </tr>
               <tr>
                 <td><h5>Portamanijas</h5></td>
-                <td>{renderOption([
-                  '05-portamanijas-azul-liso|Portamanijas Azul Liso',
-                  '05-portamanijas-blanco-liso|Portamanijas Blanco Liso',
-                  '05-portamanijas-rojo-liso|Portamanijas Rojo Liso',
-                  '05-portamanijas-violeta-liso|Portamanijas Violeta Liso'
-                ], portamanijas, setPortamanijas)}</td>
+                <td>{renderOption('portamanijas', seleccionados.portamanijas, (id) => setSeleccionados(prev => ({ ...prev, portamanijas: id })))} </td>
               </tr>
               <tr>
                 <td><h5>Herrajes</h5></td>
-                <td>{renderOption([
-                  '06-herrajes-dorado-bronce-natural|Herrajes Dorado Bronce Natural',
-                  '06-herrajes-plateado-niquel|Herrajes Plateado Niquel'
-                ], herrajes, setHerrajes)}</td>
+                <td>{renderOption('herrajes', seleccionados.herrajes, (id) => setSeleccionados(prev => ({ ...prev, herrajes: id })))} </td>
               </tr>
             </tbody>
           </table>

@@ -7,35 +7,32 @@
   .galeria-productos {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-    gap: 20px;
+    gap: 10px;
     margin-top: 20px;
   }
 
   .producto-card {
-    background-color: #1e1e1e;
+    background-color: #1e1e1eb4;
     padding: 15px;
     border-radius: 10px;
     text-align: center;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    box-shadow: 0 4px 80px rgba(0, 0, 0, 0.39);
     transition: transform 0.3s ease-in-out;
-
-    &:hover {
-      transform: scale(1.05);
-    }
 
     .producto-imagen {
       width: 100%;
       height: auto;
-      border-radius: 8px;
+      border-radius: 20px;
     }
 
     h3 {
+      font-size: large;
       margin: 10px 0;
       color: #f9f9f9;
     }
 
     p {
-      font-size: 14px;
+      font-size: medium;
       color: #bdbdbd;
     }
 

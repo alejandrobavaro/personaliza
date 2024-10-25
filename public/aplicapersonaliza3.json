@@ -5,20 +5,14 @@
   "productos": [
     {
       "id": 1,
-      "nombre": "Cartera 1 Personalizable",
-      "imagenUrl": "../public/img/13-imagenes-personaliza3/Bombon toda blanca con fondo.png",
-      "colores": ["#ff0000", "#00ff00", "#0000ff"],
-      "texturas": ["textura1.png", "textura2.png"],
-      "accesorios": ["accesorio1.png", "accesorio2.png"]
-    },
+      "nombre": "Cartera Deira Bombon Personalizable",
+      "imagenUrl": "/img/13-imagenes-personaliza3/deira-cartera-bombon/00-boceto-inicial-final-1.png"
+        },
     {
       "id": 2,
-      "nombre": "Cartera 2 Personalizable",
-      "imagenUrl": "../public/img/13-imagenes-personaliza3/Bombon toda blanca con fondo.png",
-      "colores": ["#ffffff", "#000000"],
-      "texturas": ["textura3.png", "textura4.png"],
-      "accesorios": ["accesorio3.png", "accesorio4.png"]
-    }
+      "nombre": "Gorra X Personalizable",
+      "imagenUrl": "/img/13-imagenes-personaliza3/deira-cartera-bolso-top/tienda5-c.png"
+       }
   ]
 }
 
