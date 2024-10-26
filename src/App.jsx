@@ -39,7 +39,7 @@ import Aplicar from "./componentes/Aplicar";
 import AplicaPersonaliza1 from "./componentes/AplicaPersonaliza1";
 import AplicaPersonaliza2 from "./componentes/AplicaPersonaliza2";
 import AplicaPersonaliza3 from "./componentes/AplicaPersonaliza3";
-import AplicaPersonaliza3GaleriaPersonalizable from './componentes/AplicaPersonaliza3GaleriaPersonalizable';
+import AplicaPersonaliza3ProductoPersonalizable from './componentes/AplicaPersonaliza3ProductoPersonalizable';
 //------------------------SERVICIO----------------------------//
 import Servicio from "./componentes/Servicio";
 
@@ -104,7 +104,7 @@ function App() {
               <Route path="/aplicar/1" element={<AplicaPersonaliza1 />} />
               <Route path="/aplicar/2" element={<AplicaPersonaliza2 />} />
               <Route path="/aplicar/3" element={<AplicaPersonaliza3 />} />
-              <Route path="/aplicar/3/:productoId" element={<AplicaPersonaliza3GaleriaPersonalizable />} />
+              <Route path="/aplicar/3/:productoId" element={<AplicaPersonaliza3ProductoPersonalizable />} />
               {/* Rutas para la tienda */}
               <Route path="/tienda" element={<Tienda 
                 setCart={setProductCart} 

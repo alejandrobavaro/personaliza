@@ -22,7 +22,7 @@ const AplicaPersonaliza3 = () => {
 
   return (
     <div className="aplica-personaliza3-container">
-      <h1 className="aplica-personaliza3-title">Galería de Productos Personalizados</h1>
+      <h1 className="aplica-personaliza3-title">Galería de Productos Personalizables</h1>
 
       <div className="galeria-productos">
         {productos.length > 0 ? (

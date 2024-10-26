@@ -1,268 +1,69 @@
 .aplica-personaliza1-container {
   padding: 20px;
-  background-color: #00000050;
-  border-radius: 30px;
-  max-width: 1200px;
-  margin: auto;
-  display: flex;
-  flex-direction: column;
+  background-color: #bbb7b777;
+  box-shadow: 0 4px 100px rgb(255, 255, 255);
+  border-radius: 20px;
+  text-align: center;
+  max-width: 600px;
+  margin: 0 auto;
 
-  .content-container {
-    display: flex;
-    justify-content: space-between;
-    align-items: flex-start;
+  &-title {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 15px;
+    color: #333;
+  }
 
-    @media (max-width: 1024px) {
-      flex-direction: column;
+  .offer-container {
+    background-color: #ffffff4b;
+    padding: 15px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+
+    h2 {
+      color: #ffffff;
+      font-size: x-large;
+      margin: 0;
+    }
+
+    p {
+      margin: 5px 0;
+      font-size: 16px;
+      color: #ff0000;
+    }
+
+    .countdown {
+      font-size: xx-large;
+      color: #d9534f;
+      font-weight: bold;
     }
   }
 
-  .left-section {
-    flex: 1.5;
-    margin-right: 20px;
+  .productos-lista {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+    justify-content: center;
 
-    @media (max-width: 1024px) {
-      margin-right: 0;
-      margin-bottom: 20px;
-    }
-
-    .visualizacion {
-      h2 {
-        text-align: center;
-        color: #ffffff;
-      }
-
-      .cartera {
-        position: relative;
-        width: 100%;
-        border: 1px solid #ffffff;
-        border-radius: 10px;
-        overflow: hidden;
-        margin-top: 20px;
-
-        .cartera-img {
-          width: 100%;
-          height: auto;
-          transition: transform 0.3s;
-
-          &:hover {
-            transform: scale(1.05);
-          }
-        }
-
-        .grabado {
-          position: absolute;
-          bottom: 10px;
-          left: 10px;
-          color: #ffffff;
-          font-size: 14px;
-          background-color: rgba(0, 0, 0, 0.5);
-          padding: 2px 5px;
-          border-radius: 5px;
-        }
-
-        .sticker {
-          position: absolute;
-          top: 10px;
-          left: 10px;
-          background-color: #ff0000;
-          padding: 5px;
-          border-radius: 50%;
-          color: #ffffff;
-        }
-      }
-    }
-
-    .vista-previa {
-      position: relative;
-      width: 100%; // Asegúrate de que esta propiedad esté definida
+    .producto-item {
+      background-color: #fff;
+      border-radius: 8px;
+      padding: 10px;
+      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+      width: 120px;
+      text-align: center;
 
       img {
-        position: absolute;
-        top: 0;
-        left: 0;
-        width: 100%; // Asegúrate de que esto se ajuste correctamente
-        height: auto;
-        max-width: 100%; // Asegúrate de que no exceda el contenedor
-      }
-    }
-
-    .boceto-inicial {
-      margin-top: 20px;
-
-      h2 {
-        text-align: center;
-        color: #ffffff;
-      }
-
-      .boceto-images {
-        display: flex;
-        justify-content: center;
-        flex-wrap: wrap;
-        margin-top: 10px;
-
-        .boceto-button {
-          border: none;
-          margin: 5px;
-          background-color: transparent;
-          cursor: pointer;
-          transition: transform 0.2s;
-
-          &:hover {
-            transform: scale(1.05);
-          }
-
-          &.selected {
-            outline: 2px solid #ff0000;
-          }
-
-          .boceto-img {
-            width: 100px;
-            height: auto;
-            border-radius: 10px;
-            border: 2px solid transparent;
-            transition: border-color 0.2s;
-
-            &:hover {
-              border-color: #ff0000;
-            }
-          }
-        }
-      }
-    }
-  }
-
-  .right-section {
-    flex: 1;
-
-    .options-table {
-      width: 100%;
-      table-layout: auto;
-      border-collapse: collapse;
-      margin-bottom: 0;
-
-      td {
-        padding: 2px;
-        color: #0700648c;
-        font-size: xx-small;
-        border: 1px solid #cccccc7a;
-
-        h5 {
-          margin: 0;
-          text-align: right;
-          color: #ffffff;
-          font-size: small;
-        }
-      }
-
-      .option-button {
-        background-color: #7575758a;
-        color: #ffffff;
-        border: none;
-        padding: 4px 8px;
-        font-weight: bolder;
-        margin: 2px;
-        border-radius: 5px;
-        cursor: pointer;
-        transition: background-color 0.3s;
-
-        &:hover {
-          background-color: #630000ab;
-        }
-
-        &.selected {
-          background-color: #880606b4;
-          color: #ffffff;
-        }
-      }
-    }
-
-    .save-share-buttons {
-      margin-top: 10px;
-
-      .save-button,
-      .share-button {
-        background-color: #ff00003d;
-        font-size: small;
-        color: #ffffff;
-        border: none;
-        padding: 0px 15px;
-        border-radius: 5px;
-        cursor: pointer;
-        margin-right: 10px;
-
-        &:hover {
-          background-color: #ff00009a;
-        }
-      }
-    }
-  }
-
-  @media (max-width: 768px) {
-    padding: 10px;
-
-    .content-container {
-      flex-direction: column;
-    }
-
-    .left-section,
-    .right-section {
-      width: 100%;
-      margin-right: 0;
-    }
-
-    .visualizacion {
-      .cartera {
         width: 100%;
-        margin: 0 auto;
-      }
-    }
-
-    .options-table {
-      td {
-        padding: 4px;
-        font-size: x-small;
-
-        h5 {
-          font-size: x-small;
-        }
+        height: auto;
+        border-radius: 5px;
       }
 
-      .option-button {
-        padding: 3px 6px;
-        font-size: x-small;
+      p {
+        font-size: 14px;
+        color: #000000;
+        margin-top: 8px;
       }
-    }
-
-    .save-share-buttons {
-      .save-button,
-      .share-button {
-        font-size: x-small;
-        padding: 0px 10px;
-      }
-    }
-  }
-}
-
-.cartera {
-  position: relative;
-  width: 100%;
-  border: 1px solid #ffffff;
-  border-radius: 10px;
-  overflow: hidden;
-  margin-top: 20px;
-
-  img {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: auto;
-    max-width: 100%;
-    transition: transform 0.3s;
-
-    &:hover {
-      transform: scale(1.05);
     }
   }
 }
